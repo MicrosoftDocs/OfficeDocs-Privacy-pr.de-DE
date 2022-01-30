@@ -1,0 +1,68 @@
+### YamlMime:Hub
+title: "Microsoft Deutschland GmbHz.\_H. Dominik Stockem – Datenschutzbeauftragter"
+summary: 'Microsoft-Dokumentationen und Ressourcen, die Sie für die ersten Schritte bezüglich Datenschutz in Ihrem Unternehmen oder Ihrer Organisation benötigen.'
+brand: m365
+metadata:
+  title: "Microsoft Deutschland GmbHz.\_H. Dominik Stockem – Datenschutzbeauftragter"
+  description: 'Microsoft-Dokumentationen und Ressourcen, die Sie für die ersten Schritte bezüglich Datenschutz in Ihrem Unternehmen oder Ihrer Organisation benötigen.'
+  services: service
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection:
+    - M365-security-compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/15/2021
+  titleSuffix: Microsoft Privacy
+highlightedContent:
+  items:
+    - title: 'Erfahren Sie, wie Microsoft den Datenschutz seiner Kunden sicherstellt'
+      itemType: learn
+      url: 'https://privacy.microsoft.com/'
+    - title: Informationen zu Microsoft 365-Datenschutzstandards
+      itemType: learn
+      url: /learn/modules/audit-privacy/
+    - title: 'Informationen zu Datenschutz, Datenschutzbestimmungen und Datenverarbeitung'
+      itemType: learn
+      url: /learn/modules/intro-to-data-protection-privacy/
+    - title: Erste Schritte bezüglich Datenschutz in Microsoft Cloud Services
+      itemType: get-started
+      url: 'https://www.microsoft.com/trust-center/privacy'
+productDirectory:
+  title: Microsoft Priva
+  summary: 'Beginnen Sie mit Priva, um Ihre Organisation dabei zu unterstützen, personenbezogene Daten in Microsoft 365 zu schützen und einen datenschutzfreundlichen Arbeitsplatz zu schaffen.'
+  items:
+    - title: Informationen zu Priva
+      imageSrc: /office/media/icons/task-list-planning-blue.svg
+      summary: Priva bietet Organisationen Tools zum proaktiven Identifizieren und Schützen vor Datenschutzrisiken und zum Verwalten der Speicherung und Bewegung personenbezogener Daten.
+      url: /privacy/priva/priva-overview
+    - title: Erste Schritte mit Priva
+      imageSrc: /office/media/icons/list-123-blue.svg
+      summary: 'Wenn Sie bereit sind, Microsoft Priva zur Unterstützung bei der Identifizierung und Minderung von Datenschutzrisiken zu nutzen, folgen Sie diesen Schritten, um die Voraussetzungen zu schaffen und mit der Erkundung von Datenschutzerkenntnissen zu beginnen.'
+      url: /privacy/priva/priva-setup
+    - title: Verwalten von Risiken mit dem Datenschutz-Risikomanagement
+      imageSrc: /office/media/icons/tasks-blue.svg
+      summary: 'Priva gibt Ihnen die Möglichkeit, Richtlinien zu erstellen, die Datenschutzrisiken in Ihrer Microsoft 365-Umgebung identifizieren und eine einfache Korrektur ermöglichen.'
+      url: /privacy/priva/risk-management-policies
+    - title: Anfragen zu Rechten betroffener Personen verwalten
+      imageSrc: /office/media/icons/process-flow-blue.svg
+      summary: 'Priva Anfragen zu Betroffenenrechten unterstützt Sie bei der Bearbeitung von Anfragen zu personenbezogenen Daten durch Workflow, Automatisierung und Zusammenarbeit.'
+      url: /privacy/priva/subject-rights-requests
+additionalContent:
+  sections:
+    - title: Weitere Informationen zum Datenschutz in Microsoft-Diensten
+      summary: 'Wenn Sie noch nicht mit Datenschutz vertraut sind und sich fragen, wo Sie mit Microsoft-Diensten beginnen sollten, finden Sie in diesem Abschnitt Links zu den wichtigsten Datenschutzbereichen für jeden Dienst.'
+      items:
+        - title: Microsoft Azure
+          summary: 'Erfahren Sie, wie der Datenschutz und die Vertraulichkeit der Daten, die Sie in Azure-Diensten speichern und verarbeiten, geschützt und nur in einer Weise verwendet werden, die Ihren Erwartungen entspricht.'
+          url: 'https://azure.microsoft.com/overview/trusted-cloud/privacy/'
+        - title: Dynamics 365
+          summary: 'Microsoft Dynamics 365 ist bestrebt, Kunden bei der Erfüllung ihrer Anforderungen in Bezug auf Datenschutz, personenbezogene Daten und Datenschutz-Grundverordnung (DSGVO) zu unterstützen.'
+          url: /dynamics365/get-started/gdpr/
+        - title: Microsoft 365 Apps for Enterprise
+          summary: 'Microsoft ist bestrebt, Ihnen die Informationen und Kontrollen zur Verfügung zu stellen, die Sie benötigen, um Entscheidungen darüber zu treffen, wie Ihre Daten bei der Verwendung von Microsoft 365 Apps for Enterprise erfasst und verwendet werden.'
+          url: /deployoffice/privacy/overview-privacy-controls
+        - title: Microsoft Windows
+          summary: 'Erfahren Sie, wie Sie Datenschutz-Grundverordnung (DSGVO-Anforderungen) erfüllen, indem Sie Windows-Diagnosedaten in Ihrer Organisation anzeigen und konfigurieren.'
+          url: /windows/privacy/
