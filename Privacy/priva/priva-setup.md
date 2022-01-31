@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: Erfahren Sie, wie Sie Microsoft Priva für Ihre Organisation einrichten, Rollen und Berechtigungen festlegen und wichtige Einstellungen konfigurieren.
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248968"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280247"
 ---
 # <a name="get-started-with-priva"></a>Erste Schritte mit Priva
 
-Wenn Sie bereit sind, Microsoft Priva zu verwenden, um Unterstützung bei der Identifizierung und Minderung von Datenschutzrisiken zu erhalten, führen Sie diese Schritte aus, um die Voraussetzungen einzurichten und mit den Datenschutzerkenntnissen zu beginnen.
+Wenn Sie bereit sind, Microsoft Priva zur Unterstützung bei der Identifizierung und Minderung von Datenschutzrisiken zu nutzen, folgen Sie diesen Schritten, um die Voraussetzungen zu schaffen und mit der Erkundung von Datenschutzerkenntnissen zu beginnen.
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>Schritt 1: Bestätigen von Abonnements und Lizenzierung
 
@@ -37,7 +37,7 @@ Priva ist im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/
 
 Priva bietet Lizenzierungsoptionen für zwei verschiedene Lösungen: Priva Privacy Risk Management und Priva Subject Rights Requests. Diese können einzeln oder zusammen erworben werden. Beim Abrufen von Lizenzen für Antragstellerberechtigungsanforderungen können Sie die entsprechende Lizenzierungsstufe für die Anzahl der Anforderungen auswählen, die Sie behandeln müssen. Sie können jederzeit zusätzliche Anforderungen erwerben.
 
-Ausführliche Informationen zur Lizenzierung finden Sie unter: [Microsoft 365-Lizenzierungsrichtlinien für Sicherheit und Compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management).
+Ausführliche Informationen zur Lizenzierung finden Sie unter: [Microsoft 365-Lizenzierungsrichtlinien für Sicherheit und Compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva).
 
 > [!Note]
 > Priva steht nicht für Kunden von US Government Community (GCC) Moderate, GCC High oder Department of Defense (DoD) zur Verfügung.
@@ -64,7 +64,7 @@ Weitere Informationen zu Rollengruppen und zum Gewähren von Zugriff finden Sie 
 
 Nachdem Sie sich bei Priva angemeldet haben, wird die **Übersichtsseite** angezeigt. Diese Seite bietet dynamische Einblicke darüber, wie sich personenbezogene Daten in Ihrer Microsoft 365 Umgebung weiterentwickeln, um Probleme schnell zu erkennen, Risikoindikatoren zu identifizieren und Maßnahmen zur Behebung von Problemen zu ergreifen. Ihre Übersicht sollte innerhalb der ersten 24 Stunden nach der Registrierung mit ersten Erkenntnissen aufgefüllt werden. Während Sie Priva weiterhin verwenden, wird die Übersichtsseite aktualisiert, um weiterhin aktuelle Informationen bereitzustellen.
 
-Für weitere Einblicke in Ihre Daten im Laufe der Zeit bietet Ihre **Datenprofilseite** mehr Visualisierungen und Analysen und bietet Ihnen eine ganzheitliche Ansicht der Daten Ihrer Organisation nach geografischem Standort und nach Microsoft 365 Standort.
+Für weitere Einblicke in Ihre Daten im Laufe der Zeit bietet Ihre **Datenprofilseite** mehr Visualisierungen und Analysen und bietet Ihnen einen ganzheitlichen Überblick über die Daten Ihrer Organisation nach geografischem Standort und nach Microsoft 365 Standort.
 
 Weitere Informationen zu diesen Seiten finden Sie unter ["Suchen und Visualisieren personenbezogener Daten" in Priva](priva-data-profile.md).
 
