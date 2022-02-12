@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Priva-Einstellungen
+title: Priva-Einstellungen konfigurieren
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die globalen Einstellungsoptionen für Microsoft Priva.
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248965"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542823"
 ---
-# <a name="configure-priva-settings"></a>Konfigurieren von Priva-Einstellungen
+# <a name="configure-priva-settings"></a>Priva-Einstellungen konfigurieren
 
 Sie können Einstellungen für Microsoft Priva verwalten, indem Sie das Zahnradsymbol in der oberen rechten Ecke des Bildschirms auswählen. Mit den hier aufgeführten Optionen können Sie allgemeine Einstellungen festlegen und wichtige Eigenschaften anpassen. Diese Seite enthält eine Übersicht über die wichtigsten Einstellungen Kategorien.
 
@@ -38,15 +38,15 @@ Richtlinien im Datenschutzrisikomanagement ermöglichen es Ihnen, Parameter für
 
 ## <a name="teams-collaboration"></a>Zusammenarbeit in Teams  
 
-Integrieren Sie Microsoft Teams Funktionen in Priva-Anträge auf Rechte betroffener Personen, um die Zusammenarbeit mit Projektbeteiligten zu verbessern. Jedes Mal, wenn eine Antragstellerberechtigungsanforderung erstellt wird, wird in Teams ein zugeordnetes Team erstellt. Benutzer können einem Team über die Registerkarte "Mitarbeiter" der Anforderung hinzugefügt werden. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden [Sie unter "Informationen zu Anforderungen für Priva-Rechte"](subject-rights-requests.md).
+Integrieren Sie Microsoft Teams Funktionen in Priva-Anträge auf Rechte von Antragstellern, um die Zusammenarbeit mit Projektbeteiligten zu verbessern. Jedes Mal, wenn eine Antragstellerberechtigungsanforderung erstellt wird, wird in Teams ein zugeordnetes Team erstellt. Benutzer können einem Team über die Registerkarte "Mitarbeiter" der Anforderung hinzugefügt werden. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden [Sie unter "Informationen zu Anforderungen für Priva-Rechte"](subject-rights-requests.md).
 
 ## <a name="data-matching"></a>Datenabgleich  
 
-Verwenden Sie diesen Abschnitt, um Datenschemas hochzuladen, die Attribute Ihrer betroffenen Personen beschreiben, wodurch die richtige betroffene Person bei der Suche nach personenbezogenen Daten in Ihrer Microsoft 365 Umgebung identifiziert wird. Schemas und Regelpakete werden im XML-Format erstellt und hochgeladen. Unter **"Hochladen personenbezogener Daten**" können Sie auch personenbezogene Daten übermitteln, die einem bereitgestellten Schema entsprechen. Sie können Eine eigene Datei erstellen und hochladen oder persönliche Daten aus Azure hochladen. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden [Sie unter "Informationen zu Anforderungen für Priva-Rechte"](subject-rights-requests.md).
+Verwenden Sie diesen Abschnitt, um Datenschemas hochzuladen, die Attribute Ihrer betroffenen Personen beschreiben, die bei der Identifizierung der richtigen betroffenen Person bei der Suche nach personenbezogenen Daten in Ihrer Microsoft 365 Umgebung helfen. Schemas und Regelpakete werden im XML-Format erstellt und hochgeladen. Unter **"Hochladen personenbezogener Daten**" können Sie auch personenbezogene Daten übermitteln, die einem bereitgestellten Schema entsprechen. Sie können Eine eigene Datei erstellen und hochladen oder persönliche Daten aus Azure hochladen. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden [Sie unter "Informationen zu Anforderungen für Priva-Rechte"](subject-rights-requests.md).
 
 ## <a name="data-retention-periods"></a>Datenaufbewahrungszeiträume
 
-Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die Sie generiert haben, nachdem die Anforderung geschlossen wurde. Dies kann auf 30 oder 90 Tage festgelegt werden. Überprüfen Sie, ob diese Datenaufbewahrungszeiträume Ihren Richtlinien und gesetzlichen Verpflichtungen entsprechen. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden [Sie unter "Informationen zu Anforderungen für Priva-Rechte"](subject-rights-requests.md).
+Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die nach dem Schließen der Anforderung generiert wurden. Dies kann auf 30 oder 90 Tage festgelegt werden und gilt für alle von Ihnen erstellten Antragstellerrechteanforderungen. Es wird empfohlen, dass Sie überprüfen, ob Ihre Datenaufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen. Erfahren Sie mehr über [das Festlegen der Datenaufbewahrung für Anträge betroffener Personen](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Tags für die Datenüberprüfung
 

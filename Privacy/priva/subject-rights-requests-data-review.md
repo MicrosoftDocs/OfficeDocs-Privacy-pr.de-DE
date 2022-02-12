@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie von Microsoft Priva gesammelte Daten zu Anträgen von Antragstellerrechten überprüfen und an der Erledigung der Anforderung zusammenarbeiten.
-ms.openlocfilehash: cac4064a1e0dc2860d061748793a91c0b86e0896
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249043"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542843"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anforderung zu Betreffrechten
 
@@ -46,12 +46,31 @@ Anträge auf Antragstellerrechte durchlaufen mehrere Phasen. Einige werden autom
 
 Da Anforderungen möglicherweise im Laufe der Zeit oder von mehreren Mitwirkenden bearbeitet werden müssen, bietet Priva kontinuierliche Updates zum Status und Anleitungen zu den nächsten schritten. Diese Updates können auf der Übersichtsseite der Anforderung für Antragstellerrechte angezeigt werden.
 
-1. **Datenvorkalkulation**: Nachdem eine Anforderung erstellt wurde, identifiziert Priva Elemente, die potenzielle Übereinstimmungen mit Ihrer betroffenen Person enthalten, und macht Notizen zu ihren Speicherorten in Microsoft 365. Wenn die Datenvorkalkulation abgeschlossen ist, werden Sie automatisch weiterkommen, um **Daten abzurufen**, es sei denn, es liegen Fehler vor oder Ihre Anforderung ist so eingestellt, dass sie hier angehalten wird, um die Überprüfung durch den Administrator durchzuführen.
-   - Ihre Anforderung kann so festgelegt werden, dass in dieser Phase eine Administratorüberprüfung erforderlich ist. Wenn Ihr Administrator feststellt, dass die ersten Ergebnisse Ihrer Suchabfrage zufriedenstellend aussehen, können Sie mit dem Abrufen von Daten fortfahren. Wenn Sie vor dem Fortfahren Änderungen vornehmen möchten, können Sie ihre Suchabfrage zuerst bearbeiten. Weitere Informationen finden Sie in Schritt 2. Sie können Ihre Suchabfrage nicht mehr bearbeiten, nachdem Sie die Phase zum Abrufen von Daten initiiert haben.
-   - Wenn Ihre Suchabfrage eine Schätzung großer Daten zurückgibt, d. h., sie liegt oberhalb des empfohlenen Schwellenwerts für die Dateigröße oder -anzahl von Priva, können Sie versuchen, die Suche zu überarbeiten, um den Bereich zu verfeinern. Beachten Sie, dass Dateien, die einem übereinstimmenden Element zugeordnet sind (z. B. Dateianlagen in einer E-Mail), auf Ihre Gesamtsumme angerechnet werden können. Für Daten, die den Höchstwert für große Daten überschreiten, ist eine Suchrevision erforderlich, um fortzufahren.
-1. **Abrufen von Daten**: Diese Phase gibt an, dass Priva gerade dabei ist, Ihre Daten abzurufen. Nach Abschluss des Vorgangs wird automatisch eine **Überprüfung der Daten durchgeführt**.
-1. **Überprüfen von Daten**: In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte **"Gesammelte Daten** " überprüfen und alle anwendbaren Aufgaben wie Redaction, Anwenden von Tags und Hinzufügen von Notizen ausführen. Wenn Sie mit der Rezension fertig sind, wählen Sie " **Rezension abschließen**" aus.
-1. **Berichte generieren**: Ihre Berichte werden in dieser Phase generiert. Wenn Sie fertig sind, finden Sie diese auf der Registerkarte " **Berichte** ". Ihre fertig gestellten Dateien können zur endgültigen Überprüfung und Übermittlung an die betroffene Person exportiert werden, die den Antrag gestellt hat.
+#### <a name="data-estimate"></a>Datenvoranschlag
+Nachdem Sie eine Anforderung erstellt haben, beginnt Priva sofort mit der Suche nach potenziellen Übereinstimmungen mit der betroffenen Person in Ihrer Microsoft 365 Umgebung. Nachdem wir alle Elemente identifiziert haben, von denen wir glauben, dass sie Ihren Kriterien entsprechen, wird die Schätzung auf der Übersichtsseite **der** Anforderung auf der **Datenvorkalkulationskarte** angezeigt. Die Datenmenge innerhalb des Umfangs Ihrer Suche wirkt sich auf die Zeitspanne aus, die zum Abschließen der Schätzung benötigt wird.
+
+Ihre Anforderung wechselt automatisch zur nächsten Phase des Datenabrufs, in der alle Inhaltselemente gesammelt werden, damit Ihre Beteiligten an ihrer Datenüberprüfung zusammenarbeiten können. In einigen Fällen unterbrechen wir jedoch die Datenvorkalkulation, bevor wir zum Abruf wechseln, und benachrichtigen Sie über die nächsten Schritte, die Sie ausführen müssen, bevor Sie fortfahren.
+
+Sie können auch festlegen, dass die Datenvorkalkulationsphase automatisch angehalten wird, wenn Sie zum ersten Mal einen Antrag auf Antragstellerrechte erstellen. Wählen Sie während des Erstellungsprozesses die Option **"Erste Schätzung abrufen** " während des **Schritts "Sucheinstellungen** " aus. Überprüfen Sie Details zum Schritt mit den [Sucheinstellungen](subject-rights-requests-create.md#define-search-settings).
+
+#### <a name="pause-in-data-estimate-for-large-search-results"></a>Anhalten der Datenvorkalkulation für große Suchergebnisse
+
+Priva wird feststellen, ob Ihre Daten schätzungsweise eine große Menge von zu überprüfenden Elementen zurückgibt (über 10.000 Elemente). Die Schätzung wird angehalten, sodass Sie eine Vorschau der Ergebnisse anzeigen und entscheiden können, ob [Die Suchabfrage](subject-rights-requests-create.md#refine-your-search) für spezifischere Speicherorte oder Bedingungen bearbeitet oder die identifizierten Elemente weiterhin abgerufen werden sollen.  Wir zeigen Ihnen auf dem Bildschirm die Anzahl der Elemente und das Datenvolumen, die ihrer Suche entsprechen. Sie haben eine oder beide der folgenden Optionen in einer Meldungsleiste am oberen Rand des Bildschirms:
+
+- Eine Schaltfläche " **Suchabfrage bearbeiten** " führt Sie direkt in die Sucheinstellungen der Anforderung, um strengere Parameter festzulegen und eine neue Schätzung zu generieren.
+- Solange Ihre Suchabfrage nicht mehr als 300.000 Elemente enthält, wird auch eine Option zum **Abrufen von Daten** angezeigt. Auf diese Weise können Sie auswählen, dass Sie Ihre Suche nicht bearbeiten und die Daten weiterhin sammeln möchten.
+
+#### <a name="retrieve-data"></a>Abrufen von Daten
+Die Datenabrufphase ist der Zeitpunkt, an dem alle Dateien, E-Mails, Chats, Bilder und anderen Inhaltselemente, die die personenbezogenen Daten der betroffenen Person enthalten, abgerufen und in einem Azure Blob Storage-Container zur Überprüfung zusammengestellt werden. Der Datenabruf kann je nach Datenmenge einige Minuten oder deutlich länger dauern. Wenn diese Phase abgeschlossen ist, wird die Anforderung automatisch zur nächsten Phase der **Überprüfungsdaten** verschoben.
+
+#### <a name="review-data"></a>Überprüfen von Daten
+ In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte **"Gesammelte Daten** " überprüfen und alle anwendbaren Aufgaben wie Redaction, Anwenden von Tags und Hinzufügen von Notizen ausführen. Wenn Sie mit der Rezension fertig sind, wählen Sie " **Rezension abschließen**" aus.
+
+#### <a name="generate-reports"></a>Generieren von Berichten
+Ihre Berichte werden in dieser Phase generiert. Wenn Sie fertig sind, finden Sie diese auf der Registerkarte " **Berichte** ". Ihre fertig gestellten Dateien können zur endgültigen Überprüfung und Übermittlung an die betroffene Person exportiert werden, die den Antrag gestellt hat.
+
+#### <a name="close-the-request"></a>Schließen der Anforderung
+Eine geschlossene Anforderung gibt an, dass alle Arbeiten abgeschlossen wurden, um diese Anforderung für Die Rechte des Betreffs zu erfüllen. Alle gesammelten Daten und Berichte werden gemäß Ihren [Einstellungen für die Datenaufbewahrung](priva-settings.md#data-retention-periods) aufbewahrt.
 
 ## <a name="step-2-optional-view-and-edit-search-queries"></a>Schritt 2 (optional): Anzeigen und Bearbeiten von Suchabfragen
 
@@ -59,7 +78,7 @@ Um detaillierte Informationen zur Datensuche hinter einer Anforderung für Betre
 
 Hier haben Sie die Möglichkeit, **eine Vorschau der Suchergebnisse** anzuzeigen, um zu sehen, welcher Inhaltstyp für diese Abfrage zurückgegeben wird. Wenn Sie die Eigenschaften dieser Suche ändern möchten und die Phase "Daten abrufen" noch nicht begonnen haben, können Sie die **Suchabfrageoption** bearbeiten verwenden.
 
-Der Assistent zum Bearbeiten von Suchabfragen bietet die Möglichkeit, Eigenschaften für die Identifizierung betroffener Personen, Ihre Suchfilter und -bedingungen sowie die Speicherorte, an denen nach Daten gesucht werden soll (einschließlich Exchange, SharePoint, OneDrive und/oder Teams) zu ändern oder hinzuzufügen. Verwenden Sie diese Optionen, um den gewünschten Grad an Spezifität zu erreichen. Sie können die endgültige Version Der neuen Abfrage überprüfen, bevor Sie auf **"Speichern**" drücken.
+Mit dem geführten Bearbeitungsabfrageprozess können Sie Eigenschaften für die Identifizierung betroffener Personen, Ihre Suchfilter und -bedingungen sowie die Speicherorte ändern oder hinzufügen, an denen nach Daten gesucht werden soll (einschließlich Exchange, SharePoint, OneDrive und/oder Teams). Verwenden Sie diese Optionen, um den gewünschten Grad an Spezifität zu erreichen. Sie können die endgültige Version Der neuen Abfrage überprüfen, bevor Sie auf **"Speichern**" drücken.
 
 Wenn Sie die Bearbeitung der Suchabfrage abgeschlossen haben, wird eine neue Suche ausgeführt, um Ihre vorherigen Suchergebnisse zu ersetzen. Dadurch wird Ihr Status im Abschnitt **"Fortschritt** " auf den ersten Schritt, **die Datenvorkalkulation**, zurückgesetzt. Die neue Suche kann bis zu 60 Minuten dauern. Sobald dies abgeschlossen ist, werden auf der Detailseite der Anforderung aktualisierte Ergebnisse angezeigt.
 
@@ -76,17 +95,17 @@ In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte *
 
 ### <a name="collaborate-on-data-review"></a>Zusammenarbeit bei der Datenüberprüfung
 
-Priva unterstützt die Zusammenarbeit über Microsoft Teams, damit Ihre Gruppe an Anträgen von Antragstellerrechten zusammenarbeiten kann. Wenn Sie eine neue Anforderung erstellen, wird automatisch ein Teams Kanal erstellt und ihrer Anforderung standardmäßig zugeordnet. Hier können Sie die Anforderung besprechen und Eingaben und Beiträge sicher teilen. Um an der Unterhaltung teilzunehmen, öffnen Sie Ihre Anforderung, und verwenden Sie die Option **"Mit Mitarbeitern chatten** ". Dies öffnet Microsoft Teams und platziert Sie im Kanal "Allgemein" für die Teamwebsite Ihrer Antragstellerrechte.
+Priva unterstützt die Zusammenarbeit über Microsoft Teams, damit Ihre Gruppe bei Anträgen auf Rechte von Antragstellern zusammenarbeiten kann. Wenn Sie eine neue Anforderung erstellen, wird automatisch ein Teams Kanal erstellt und ihrer Anforderung standardmäßig zugeordnet. Hier können Sie die Anforderung besprechen und Eingaben und Beiträge sicher teilen. Um an der Unterhaltung teilzunehmen, öffnen Sie Ihre Anforderung, und verwenden Sie die Option **"Mit Mitarbeitern chatten** ". Dadurch werden Microsoft Teams geöffnet und Sie in den Kanal "Allgemein" für die Teamwebsite Ihrer Antragstellerrechte-Anforderung platziert.
 
 Um die Liste der aktiven Mitarbeiter zu überprüfen, die Ihre Teamwebsite anzeigen und dazu beitragen können, öffnen Sie in Ihrer Anfrage zu den Betreffrechten die Registerkarte **"Mitarbeiter** ". Um weitere Benutzer hinzuzufügen, die an dieser Anforderung zusammenarbeiten sollen, wählen Sie die Option zum **Hinzufügen eines Mitarbeiters** aus.
 
 Um das Standardverhalten des Generierens von Teams Websites beim Erstellen einer Anforderung für Betreffrechte zu ändern, wechseln **Sie zu Einstellungen** in der oberen Navigationsleiste, und wählen Sie **Teams Zusammenarbeit** aus, um die Einstellung zu ändern.
 
-Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für ein Betreffrecht verwenden, um Personen über Teams oder E-Mail einzugeben oder den Link auf die Seite in Priva zu kopieren. Mit der Freigabe über Teams können Sie eine vorhandene Teams Website und einen Kanal auswählen, die für Ihr Konto verfügbar sind, wo sie einen Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitstellen.
+Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für das Betreffsrecht verwenden, um Personen über Teams oder E-Mail in eine Schleife einzuschleiern oder den Link auf die Seite in Priva zu kopieren. Die Freigabe über Teams ermöglicht es Ihnen, eine vorhandene Teams Website und einen Kanal auszuwählen, die für Ihr Konto verfügbar sind. Dort wird ein Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitgestellt.
 
 ## <a name="step-4-close-the-request"></a>Schritt 4: Schließen der Anforderung
 
-Wenn Sie alle erforderlichen Aktionen ausgeführt haben, um Ihre Anforderung zu Den Betreffrechten zu lösen, wählen Sie **"Anforderung schließen**" aus. Dadurch wird der endgültige Bericht erstellt, der verschlüsselt und auf der **Registerkarte "Berichte"** zur Verfügung gestellt wird. Der Abschluss kann je nach Anzahl der Dateien in der Anforderung eine Weile dauern.
+Wenn Sie alle erforderlichen Aktionen ausgeführt haben, um Ihre Anforderung zu Den Betreffrechten zu lösen, wählen Sie **"Anforderung schließen**" aus. Dadurch wird der Finalbericht erstellt, der auf der **Registerkarte "Berichte"** zu finden ist. Der Abschluss kann je nach Anzahl der Dateien in der Anforderung eine Weile dauern.
 
 ## <a name="next-steps"></a>Nächste Schritte
 Weitere Informationen zum Arbeiten mit Berichten und zum Abschließen von Anträgen auf Antragstellerrechte finden Sie unter ["Erstellen von Berichten und Erfüllen einer Anforderung zu Betreffrechten"](subject-rights-requests-reports.md).
