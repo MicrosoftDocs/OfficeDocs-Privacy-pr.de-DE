@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie von Microsoft Priva gesammelte Daten zu Anträgen von Antragstellerrechten überprüfen und an der Erledigung der Anforderung zusammenarbeiten.
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542843"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768429"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anforderung zu Betreffrechten
 
@@ -29,7 +29,7 @@ Nachdem Sie in Microsoft Priva eine Anforderung zu Betreffrechten ([weitere Info
 
 ## <a name="step-1-review-request-details-and-monitor-progress"></a>Schritt 1: Überprüfen von Anforderungsdetails und Überwachen des Fortschritts
 
-Um die ersten Ergebnisse Ihrer Suche anzuzeigen, wechseln Sie zum Priva-Bereich des [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und öffnen **Sie Antragstellerrechteanforderungen**. Eine Liste aller offenen Antragstellerberechtigungsanforderungen finden Sie auf dieser Hauptseite.
+Um die ersten Ergebnisse Ihrer Suche anzuzeigen, wechseln Sie zum Priva-Bereich des [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und öffnen **Sie Anträge auf Antragstellerrechte**. Eine Liste aller offenen Antragstellerberechtigungsanforderungen finden Sie auf dieser Hauptseite.
 
 Wählen Sie Ihre Anforderung in der Liste aus, um die Anforderungsdetails anzuzeigen. Hier erfahren Sie mehr über die Eigenschaften der Anforderung, die Suchergebnisse und den Status der Anforderung. Diese Seite wird zu Ihrem Hub, um an der Verwaltung der gefundenen Dateien, dem Erstellen von Berichten und Exporten und dem Abschließen der Anforderung zu arbeiten und zusammenzuarbeiten.
 
@@ -47,9 +47,9 @@ Anträge auf Antragstellerrechte durchlaufen mehrere Phasen. Einige werden autom
 Da Anforderungen möglicherweise im Laufe der Zeit oder von mehreren Mitwirkenden bearbeitet werden müssen, bietet Priva kontinuierliche Updates zum Status und Anleitungen zu den nächsten schritten. Diese Updates können auf der Übersichtsseite der Anforderung für Antragstellerrechte angezeigt werden.
 
 #### <a name="data-estimate"></a>Datenvoranschlag
-Nachdem Sie eine Anforderung erstellt haben, beginnt Priva sofort mit der Suche nach potenziellen Übereinstimmungen mit der betroffenen Person in Ihrer Microsoft 365 Umgebung. Nachdem wir alle Elemente identifiziert haben, von denen wir glauben, dass sie Ihren Kriterien entsprechen, wird die Schätzung auf der Übersichtsseite **der** Anforderung auf der **Datenvorkalkulationskarte** angezeigt. Die Datenmenge innerhalb des Umfangs Ihrer Suche wirkt sich auf die Zeitspanne aus, die zum Abschließen der Schätzung benötigt wird.
+Nachdem Sie eine Anforderung erstellt haben, beginnt Priva sofort mit der Suche nach potenziellen Übereinstimmungen mit der betroffenen Person in Ihrer Microsoft 365 Umgebung. Nachdem wir alle Elemente identifiziert haben, von denen wir glauben, dass sie Ihren Kriterien entsprechen, wird die Schätzung auf der Übersichtsseite **der** Anforderung auf der **Datenvorkalkulationskarte** angezeigt. Die Datenmenge innerhalb des Umfangs Ihrer Suche wirkt sich auf die Dauer aus, die zum Abschließen der Schätzung benötigt wird.
 
-Ihre Anforderung wechselt automatisch zur nächsten Phase des Datenabrufs, in der alle Inhaltselemente gesammelt werden, damit Ihre Beteiligten an ihrer Datenüberprüfung zusammenarbeiten können. In einigen Fällen unterbrechen wir jedoch die Datenvorkalkulation, bevor wir zum Abruf wechseln, und benachrichtigen Sie über die nächsten Schritte, die Sie ausführen müssen, bevor Sie fortfahren.
+Ihre Anforderung wechselt automatisch zur nächsten Phase des Datenabrufs, in der alle Inhaltselemente gesammelt werden, damit die Beteiligten an der Datenüberprüfung zusammenarbeiten können. In einigen Fällen unterbrechen wir die Datenvorkalkulation, bevor wir zum Abruf wechseln, und benachrichtigen Sie über die nächsten Schritte, die sie ausführen müssen, bevor Sie fortfahren.
 
 Sie können auch festlegen, dass die Datenvorkalkulationsphase automatisch angehalten wird, wenn Sie zum ersten Mal einen Antrag auf Antragstellerrechte erstellen. Wählen Sie während des Erstellungsprozesses die Option **"Erste Schätzung abrufen** " während des **Schritts "Sucheinstellungen** " aus. Überprüfen Sie Details zum Schritt mit den [Sucheinstellungen](subject-rights-requests-create.md#define-search-settings).
 
@@ -101,7 +101,7 @@ Um die Liste der aktiven Mitarbeiter zu überprüfen, die Ihre Teamwebsite anzei
 
 Um das Standardverhalten des Generierens von Teams Websites beim Erstellen einer Anforderung für Betreffrechte zu ändern, wechseln **Sie zu Einstellungen** in der oberen Navigationsleiste, und wählen Sie **Teams Zusammenarbeit** aus, um die Einstellung zu ändern.
 
-Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für das Betreffsrecht verwenden, um Personen über Teams oder E-Mail in eine Schleife einzuschleiern oder den Link auf die Seite in Priva zu kopieren. Die Freigabe über Teams ermöglicht es Ihnen, eine vorhandene Teams Website und einen Kanal auszuwählen, die für Ihr Konto verfügbar sind. Dort wird ein Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitgestellt.
+Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für das Betreffsrecht verwenden, um Personen über Teams oder E-Mail in eine Schleife einzuschleiern oder den Link auf die Seite in Priva zu kopieren. Mithilfe der Freigabe über Teams können Sie eine vorhandene Teams Website und einen Kanal auswählen, die für Ihr Konto verfügbar sind. Dort wird ein Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitgestellt.
 
 ## <a name="step-4-close-the-request"></a>Schritt 4: Schließen der Anforderung
 

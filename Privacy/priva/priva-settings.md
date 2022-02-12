@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die globalen Einstellungsoptionen für Microsoft Priva.
-ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: a621102db2a421cbda0c8d7298c30cede102f13e
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542823"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768439"
 ---
 # <a name="configure-priva-settings"></a>Priva-Einstellungen konfigurieren
 
@@ -46,7 +46,7 @@ Verwenden Sie diesen Abschnitt, um Datenschemas hochzuladen, die Attribute Ihrer
 
 ## <a name="data-retention-periods"></a>Datenaufbewahrungszeiträume
 
-Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die nach dem Schließen der Anforderung generiert wurden. Dies kann auf 30 oder 90 Tage festgelegt werden und gilt für alle von Ihnen erstellten Antragstellerrechteanforderungen. Es wird empfohlen, dass Sie überprüfen, ob Ihre Datenaufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen. Erfahren Sie mehr über [das Festlegen der Datenaufbewahrung für Anträge betroffener Personen](subject-rights-requests-reports.md#manage-data-retention).
+Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die nach dem Schließen der Anforderung generiert wurden. Dies kann auf 30 oder 90 Tage festgelegt werden und gilt für alle von Ihnen erstellten Antragstellerrechteanforderungen. Wir empfehlen, zu überprüfen, ob Ihre Datenaufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen. Erfahren Sie mehr über [das Festlegen der Datenaufbewahrung für Anträge betroffener Personen](subject-rights-requests-reports.md#manage-data-retention).
 
 ## <a name="data-review-tags"></a>Tags für die Datenüberprüfung
 
