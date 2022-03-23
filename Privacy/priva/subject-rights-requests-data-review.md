@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie von Microsoft Priva gesammelte Daten zu Anträgen von Antragstellerrechten überprüfen und an der Erledigung der Anforderung zusammenarbeiten.
-ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
-ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
+ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
+ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "62768429"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746771"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anforderung zu Betreffrechten
 
@@ -29,7 +29,7 @@ Nachdem Sie in Microsoft Priva eine Anforderung zu Betreffrechten ([weitere Info
 
 ## <a name="step-1-review-request-details-and-monitor-progress"></a>Schritt 1: Überprüfen von Anforderungsdetails und Überwachen des Fortschritts
 
-Um die ersten Ergebnisse Ihrer Suche anzuzeigen, wechseln Sie zum Priva-Bereich des [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und öffnen **Sie Anträge auf Antragstellerrechte**. Eine Liste aller offenen Antragstellerberechtigungsanforderungen finden Sie auf dieser Hauptseite.
+Um die ersten Ergebnisse Ihrer Suche anzuzeigen, wechseln Sie zum Priva-Bereich des [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und öffnen **Sie Antragstellerrechteanforderungen**. Eine Liste aller offenen Antragstellerberechtigungsanforderungen finden Sie auf dieser Hauptseite.
 
 Wählen Sie Ihre Anforderung in der Liste aus, um die Anforderungsdetails anzuzeigen. Hier erfahren Sie mehr über die Eigenschaften der Anforderung, die Suchergebnisse und den Status der Anforderung. Diese Seite wird zu Ihrem Hub, um an der Verwaltung der gefundenen Dateien, dem Erstellen von Berichten und Exporten und dem Abschließen der Anforderung zu arbeiten und zusammenzuarbeiten.
 
@@ -42,9 +42,9 @@ Zu den Kacheln auf der Seite mit den Anforderungsdetails gehören:
 
 ### <a name="understand-progress-stages"></a>Grundlegendes zu Statusphasen
 
-Anträge auf Antragstellerrechte durchlaufen mehrere Phasen. Einige werden automatisch während der Datenauswertung von Priva ausgeführt, und andere gehen weiter, wenn Antragstellerrechte Administratoren und Mitwirkende auffordern, wichtige Schritte wie das Überprüfen, Auswählen und Bearbeiten von Dateien auszuführen.
+Anträge auf Antragstellerrechte durchlaufen mehrere Phasen. Einige Zustände werden automatisch ausgeführt, und andere Phasen werden nach vorne ausgeführt, wenn Administratoren und Mitwirkende administratoren und Mitwirkende auffordern, wichtige Schritte wie das Überprüfen von Dateien auszuführen.
 
-Da Anforderungen möglicherweise im Laufe der Zeit oder von mehreren Mitwirkenden bearbeitet werden müssen, bietet Priva kontinuierliche Updates zum Status und Anleitungen zu den nächsten schritten. Diese Updates können auf der Übersichtsseite der Anforderung für Antragstellerrechte angezeigt werden.
+Da Anforderungen möglicherweise im Laufe der Zeit oder von mehreren Mitwirkenden bearbeitet werden müssen, bietet Priva kontinuierliche Updates zum Status und Anleitungen zu den nächsten schritten. Diese Updates können auf der Registerkarte **"Übersicht** " auf der Detailseite einer Anforderung für Betreffrechte angezeigt werden.
 
 #### <a name="data-estimate"></a>Datenvoranschlag
 Nachdem Sie eine Anforderung erstellt haben, beginnt Priva sofort mit der Suche nach potenziellen Übereinstimmungen mit der betroffenen Person in Ihrer Microsoft 365 Umgebung. Nachdem wir alle Elemente identifiziert haben, von denen wir glauben, dass sie Ihren Kriterien entsprechen, wird die Schätzung auf der Übersichtsseite **der** Anforderung auf der **Datenvorkalkulationskarte** angezeigt. Die Datenmenge innerhalb des Umfangs Ihrer Suche wirkt sich auf die Dauer aus, die zum Abschließen der Schätzung benötigt wird.
@@ -55,7 +55,7 @@ Sie können auch festlegen, dass die Datenvorkalkulationsphase automatisch angeh
 
 #### <a name="pause-in-data-estimate-for-large-search-results"></a>Anhalten der Datenvorkalkulation für große Suchergebnisse
 
-Priva wird feststellen, ob Ihre Daten schätzungsweise eine große Menge von zu überprüfenden Elementen zurückgibt (über 10.000 Elemente). Die Schätzung wird angehalten, sodass Sie eine Vorschau der Ergebnisse anzeigen und entscheiden können, ob [Die Suchabfrage](subject-rights-requests-create.md#refine-your-search) für spezifischere Speicherorte oder Bedingungen bearbeitet oder die identifizierten Elemente weiterhin abgerufen werden sollen.  Wir zeigen Ihnen auf dem Bildschirm die Anzahl der Elemente und das Datenvolumen, die ihrer Suche entsprechen. Sie haben eine oder beide der folgenden Optionen in einer Meldungsleiste am oberen Rand des Bildschirms:
+Priva wird feststellen, ob Ihre Daten schätzungsweise eine große Anzahl von zu überprüfenden Elementen zurückgibt (über 10.000 Elemente). Die Schätzung wird angehalten, sodass Sie eine Vorschau der Ergebnisse anzeigen und entscheiden können, ob [Die Suchabfrage](subject-rights-requests-create.md#refine-your-search) für spezifischere Speicherorte oder Bedingungen bearbeitet oder die identifizierten Elemente weiterhin abgerufen werden sollen.  Wir zeigen Ihnen auf dem Bildschirm die Anzahl der Elemente und das Datenvolumen, die ihrer Suche entsprechen. Sie haben eine oder beide der folgenden Optionen in einer Meldungsleiste am oberen Rand des Bildschirms:
 
 - Eine Schaltfläche " **Suchabfrage bearbeiten** " führt Sie direkt in die Sucheinstellungen der Anforderung, um strengere Parameter festzulegen und eine neue Schätzung zu generieren.
 - Solange Ihre Suchabfrage nicht mehr als 300.000 Elemente enthält, wird auch eine Option zum **Abrufen von Daten** angezeigt. Auf diese Weise können Sie auswählen, dass Sie Ihre Suche nicht bearbeiten und die Daten weiterhin sammeln möchten.
@@ -84,24 +84,66 @@ Wenn Sie die Bearbeitung der Suchabfrage abgeschlossen haben, wird eine neue Suc
 
 ## <a name="step-3-review-data"></a>Schritt 3: Überprüfen von Daten
 
-In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte **"Gesammelte Daten** " überprüfen. Zu den wesentlichen Aufgaben gehören:
+In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte **"Gesammelte Daten**" überprüfen. Ein Teams Kanal wird automatisch eingerichtet, um die Inhaltsüberprüfung durch alle Beteiligten zu vereinfachen. Weitere Informationen finden Sie [unter "Zusammenarbeit bei der Datenüberprüfung](#collaborate-on-data-review) ". Die wesentlichen Aufgaben für den Datenüberprüfungsschritt werden unten beschrieben.
 
-1. Überprüfen Sie die Liste der identifizierten Elemente, und wählen Sie aus, ob jede Datei in Ihre Zusammenfassungen und/oder Exporte aufgenommen werden soll. Wenn Sie keine gemeldete Übereinstimmung einschließen müssen, wählen Sie die Option "Ausschließen" aus. Wenn der Inhalt ein falsch positives Ergebnis zu sein scheint, können Sie "Keine Übereinstimmung" auswählen, um die Datei aus Ihren Endgültigen Berichten auszuschließen und das Element als etwas zu kennzeichnen, das von der Anforderung nicht angenommen werden sollte. Um den Status eines Elements festzulegen, verwenden Sie das Aktionsmenü (vertikale Ellipsen) neben seinem Namen, und wählen Sie die gewünschte Auswahl aus. Wenn Sie dazu aufgefordert werden, fügen Sie einen Hinweis für einen internen Verweis hinzu, um Ihre Entscheidung zu erläutern. Notizen sind erforderlich, wenn Dateien ausgeschlossen werden.
-1. Verwenden Sie die Option **"Tags anwenden** ", um Elemente zu identifizieren, die Aufmerksamkeit erfordern. Die verfügbaren Tags umfassen vom System bereitgestellte Optionen, z. B. das Markieren eines Elements für die Nachverfolgung, und können benutzerdefinierte Tags enthalten, wie unter globalen Einstellungen definiert.
-1. Verwenden Sie **Anmerkungen** , um Inlinemarkups zu erstellen oder Daten in einer ausgewählten Datei zu bearbeiten. Wenn Sie z. B. eine Datei für eine Person einschließen müssen, die auch die persönlichen Informationen anderer enthält, können Sie die **Bereichsrotaktion** (unter der Zeichnungsschaltfläche in der Befehlsleiste) verwenden, um alle Informationen zu schwarz zu machen, die sich nicht auf die Person beziehen, die die Anforderung gestellt hat. Wenn Ihre Bearbeitungen abgeschlossen sind, wählen Sie **"Einschließen** " aus, um der Anforderung die bearbeitete Datei hinzuzufügen. Annotation erstellt eine Kopie der Datei, sodass nichts in der Originaldatei geändert wird und an ihrem ursprünglichen Speicherort verbleibt. Die Kopie wird in Ihrem Azure-Blob gespeichert.
-1. Um Notizen zu einem Element zu überprüfen, wählen Sie es aus, und wechseln Sie zur Registerkarte **"Dateinotizen** ". Sie können auch die Option **"Dateinotiz hinzufügen** " verwenden, um einen neuen Kommentar zu erstellen. Wenn Sie Notizen auf gesamter Fallebene überprüfen oder hinzufügen möchten, wechseln Sie zur Hauptregisterkarte **"Notizen** " oben, und verwenden **Sie "Fallnotiz hinzufügen"**. Diese Hinweise sind für Benutzer sichtbar, die an der Anforderung arbeiten, werden jedoch nicht in den  Finalbericht aufgenommen oder anderweitig für die betroffene Person freigegeben.
-1. Wenn alle Elemente überprüft und ihre Status festgelegt wurden, wählen Sie **"Überprüfung abschließen**" aus. Dadurch wird ein Flyoverbereich geöffnet, in dem Sie eine Zusammenfassung der Daten überprüfen und alle relevanten Notizen hinzufügen können. Diese Hinweise dienen der internen Datensatzführung und werden nicht für die betroffene Person freigegeben.
-1. Wählen Sie "Überprüfung abschließen" erneut aus, um fortzufahren. Zusammenfassungen Ihrer Entscheidungen werden später auf der Registerkarte " **Berichte** " bereitgestellt.
+#### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Markieren von Elementen als "Einschließen" oder "Ausschließen" und Hinzufügen von Notizen
+
+Überprüfen Sie die Liste der identifizierten Elemente, um festzustellen, ob sich die personenbezogenen Daten der betroffenen Person in jedem Element befinden. Wenn das Element die Informationen der betroffenen Person enthält und als Teil des Löschberichts zur betroffenen Person gehört, markieren Sie das Element als **"Einschließen** ", indem Sie oben in der Liste der Elemente in der Befehlsleiste " **Einschließen** " auswählen. Sie können auch die blaue Schaltfläche **"Einschließen** " im Inhaltsprüfungsbereich rechts neben der Liste der Elemente auswählen. Wenn Sie **"Einschließen"** auswählen, wird ein Flyoutbereich mit einer Option zum Hinzufügen von Notizen angezeigt. Wenn Sie fertig sind, wählen Sie **"Übermitteln** " aus, um den Rezensionsstatus des Elements als **"Einschließen**" zu speichern.
+
+Wenn Sie kein Element als Teil der Anforderung einschließen müssen, wählen Sie " **Ausschließen"** auf der Befehlsleiste oder die Schaltfläche " **Ausschließen** " im Inhaltsprüfungsbereich aus. Das Ausschließen eines Elements bedeutet, dass es für die Anforderung von Betreffrechten nicht relevant ist und das Element nicht in die [endgültigen Berichte einbezogen wird, die für die betroffene Person generiert werden](subject-rights-requests-reports.md).
+
+> [!NOTE]
+> Wenn Sie ein Element **Ausschließen** markieren, müssen Sie eine Notiz als Begründung dafür hinzufügen, warum sie sich nicht auf die Anforderung von Betreffrechten bezieht. Notizen dienen internen Zwecken und sind nicht in  Fertigberichten enthalten.
+
+Wenn der Inhalt ein falsch positives Ergebnis zu sein scheint, wählen Sie **keine Übereinstimmung** aus, um die Datei aus Ihren endgültigen Berichten auszuschließen, und kennzeichnen Sie das Element als etwas, das bei der Suche nicht erkannt worden sein sollte. Wählen Sie im Flyoutbereich " **Als nicht übereinstimmend markieren** " die Option **"Bestätigen** " aus, um uns mitzuteilen, dass das Element nicht ihren Suchkriterien entspricht.
+
+#### <a name="apply-tags"></a>Apply tags
+
+Tags können verwendet werden, um Elemente zu identifizieren, die weitere Aufmerksamkeit erfordern. Priva bietet drei Standardtags – **Nachverfolgung**, **Löschung** und **Aktualisierung** –, für die Sie eine Beschreibung festlegen können. Priva bietet auch zwei benutzerdefinierte Tags, die Sie benennen und beschreiben können.
+
+Wenn Sie beispielsweise während der Datenüberprüfung feststellen, dass ein Inhaltselement nicht von Ihrer Organisation aufbewahrt werden muss, können Sie das **Tag "Löschen"** anwenden und dann eine Liste aller markierten Dateien exportieren, damit Sie die identifizierten Elemente löschen können, wenn Sie mit der Anforderung fertig sind.
+
+Die fünf Tags, die Sie in [Einstellungen](priva-settings.md#data-review-tags) festlegen und verwalten, gelten für alle Ihre Antragstellerrechteanforderungen.
+
+**So fügen Sie Tags hinzu oder entfernen sie:**
+
+- Wählen Sie das Element aus der Liste auf der Registerkarte **"Daten gesammelt** " der Anforderung aus.
+- Wählen Sie im Elementvorschaubereich rechts neben der Liste die Schaltfläche " **Tags anwenden"** in der unteren Zeile aus. Sie können auch die drei Punkte rechts neben dem Elementnamen und die Option **"Tags anwenden** " auswählen.
+- Ein Flyoutbereich wird mit der Liste der Tags angezeigt. Aktivieren Sie das Kontrollkästchen neben einem der Tags, die Sie auf das Element anwenden möchten. Wenn Sie das Kontrollkästchen deaktivieren, wird das Tag entfernt.
+- Wenn Sie mit Ihrer Auswahl zufrieden sind, wählen Sie **Speichern** aus, wodurch Ihre Tagauswahl gespeichert und der Flyoutbereich geschlossen wird.
+
+**So fügen Sie benutzerdefinierte Tags hinzu oder aktualisieren Tagbeschreibungen:**
+- Wählen Sie auf der Seite "Antragstellerrechteanforderungen **" in** der oberen rechten Ecke des Bildschirms Einstellungen aus, um zu Ihren Priva-Einstellungen zu gelangen.
+- Wechseln Sie zur Seite " **Datenüberprüfungstags** ", und wählen Sie das Tag aus, um eine Beschreibung und für die benutzerdefinierten Tags einen Namen einzugeben. Weitere Informationen zu [Tag-Einstellungen](priva-settings.md#data-review-tags).
+
+**So exportieren Sie eine Liste der markierten Elemente:**
+- Wechseln Sie zu der Seite **"Daten, die gesammelt werden** " in einer Anforderung zu Den Rechten des Betreffs.
+- Wählen Sie oberhalb der Liste der Elemente das Abwärtspfeilsymbol mit der Meldung " **Exportieren** " aus, wenn Sie darauf zeigen.
+- Eine Excel Datei wird heruntergeladen. Öffnen Sie die Datei, wenn der Download abgeschlossen ist.
+
+Die heruntergeladene Excel-Datei zeigt die Eigenschaften für alle Elemente an, die von der Suche nach der Anforderung erfasst werden. Suchen Sie die Spalte **"Tags** ", um die Elemente nach Tag zu identifizieren und zu sortieren.
+
+#### <a name="use-the-annotate-command-to-redact-text"></a>Verwenden des Befehls "Kommentieren" zum Bearbeiten von Text
+Verwenden Sie **Anmerkungen** , um Inlinemarkups zu erstellen oder Daten in einer ausgewählten Datei zu bearbeiten. Wenn Sie z. B. eine Datei für eine Person einschließen müssen, die auch die persönlichen Informationen anderer enthält, können Sie die **Bereichsrotaktion** (unter der Zeichnungsschaltfläche in der Befehlsleiste) verwenden, um alle Informationen zu schwarz zu machen, die sich nicht auf die Person beziehen, die die Anforderung gestellt hat. Wenn Ihre Bearbeitungen abgeschlossen sind, wählen Sie **"Einschließen** " aus, um der Anforderung die bearbeitete Datei hinzuzufügen. Annotation erstellt eine Kopie der Datei, sodass nichts in der Originaldatei geändert wird und an ihrem ursprünglichen Speicherort verbleibt. Die Kopie wird in Ihrem Azure-Blob gespeichert.
+
+#### <a name="enter-notes-about-a-file"></a>Eingeben von Notizen zu einer Datei
+Um Notizen zu einem Element hinzuzufügen oder zu überprüfen, wählen Sie das Element aus der Zeile aus, und wechseln Sie zur Registerkarte **"Dateinotizen** " im Inhaltsprüfungsbereich auf der rechten Seite. Sie können auch die Option **"Dateinotiz hinzufügen** " verwenden, um einen neuen Kommentar zu erstellen. Wenn Sie Notizen auf gesamter Fallebene überprüfen oder hinzufügen möchten, wechseln Sie zur Hauptregisterkarte **"Notizen** " oben, und verwenden **Sie "Fallnotiz hinzufügen"**. Diese Hinweise sind für Benutzer sichtbar, die an der Anforderung arbeiten, werden jedoch nicht in den  Finalbericht aufgenommen oder anderweitig für die betroffene Person freigegeben.
+
+#### <a name="complete-the-review"></a>Abschließen der Überprüfung
+
+Wenn alle Elemente überprüft wurden und Sie ihren Status als **"Einschließen**", " **Ausschließen"** oder **"Keine Übereinstimmung** " festgelegt haben, ist es an der Zeit, den Prüfschritt zu schließen, indem Sie die Schaltfläche "  **Vollständige Rezension** " in der oberen rechten Ecke der Anforderung auswählen. Ein Flyoutbereich zeigt eine Zusammenfassung der Daten an und fügt alle zugehörigen Notizen hinzu. Diese Hinweise dienen der internen Datensatzführung und werden nicht für die betroffene Person freigegeben.
+
+Wählen Sie im Flyoutbereich " **Rezension abschließen** " aus, um den Überprüfungsschritt abzuschließen. Zusammenfassungen Ihrer Entscheidungen werden später auf der Registerkarte " **Berichte** " bereitgestellt.
 
 ### <a name="collaborate-on-data-review"></a>Zusammenarbeit bei der Datenüberprüfung
 
-Priva unterstützt die Zusammenarbeit über Microsoft Teams, damit Ihre Gruppe bei Anträgen auf Rechte von Antragstellern zusammenarbeiten kann. Wenn Sie eine neue Anforderung erstellen, wird automatisch ein Teams Kanal erstellt und ihrer Anforderung standardmäßig zugeordnet. Hier können Sie die Anforderung besprechen und Eingaben und Beiträge sicher teilen. Um an der Unterhaltung teilzunehmen, öffnen Sie Ihre Anforderung, und verwenden Sie die Option **"Mit Mitarbeitern chatten** ". Dadurch werden Microsoft Teams geöffnet und Sie in den Kanal "Allgemein" für die Teamwebsite Ihrer Antragstellerrechte-Anforderung platziert.
+Priva unterstützt die Zusammenarbeit über Microsoft Teams, damit Ihre Gruppe bei Anträgen auf Rechte von Antragstellern zusammenarbeiten kann. Wenn Sie eine neue Anforderung erstellen, wird automatisch ein Teams Kanal erstellt und ihrer Anforderung standardmäßig zugeordnet. Hier können Sie die Anforderung besprechen und Eingaben und Beiträge sicher teilen. Um an der Unterhaltung teilzunehmen, öffnen Sie Ihre Anforderung, und verwenden Sie die Option **"Mit Mitarbeitern chatten** ". Dies öffnet Microsoft Teams und platziert Sie im Kanal "Allgemein" für die Teamwebsite Ihrer Antragstellerrechte.
 
 Um die Liste der aktiven Mitarbeiter zu überprüfen, die Ihre Teamwebsite anzeigen und dazu beitragen können, öffnen Sie in Ihrer Anfrage zu den Betreffrechten die Registerkarte **"Mitarbeiter** ". Um weitere Benutzer hinzuzufügen, die an dieser Anforderung zusammenarbeiten sollen, wählen Sie die Option zum **Hinzufügen eines Mitarbeiters** aus.
 
 Um das Standardverhalten des Generierens von Teams Websites beim Erstellen einer Anforderung für Betreffrechte zu ändern, wechseln **Sie zu Einstellungen** in der oberen Navigationsleiste, und wählen Sie **Teams Zusammenarbeit** aus, um die Einstellung zu ändern.
 
-Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für das Betreffsrecht verwenden, um Personen über Teams oder E-Mail in eine Schleife einzuschleiern oder den Link auf die Seite in Priva zu kopieren. Mithilfe der Freigabe über Teams können Sie eine vorhandene Teams Website und einen Kanal auswählen, die für Ihr Konto verfügbar sind. Dort wird ein Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitgestellt.
+Sie können auch die Option **"Freigeben"** in der oberen rechten Ecke innerhalb einer Anforderung für ein Betreffrecht verwenden, um Personen über Teams oder E-Mail einzugeben oder den Link auf die Seite in Priva zu kopieren. Mithilfe der Freigabe über Teams können Sie eine vorhandene Teams Website und einen Kanal auswählen, die für Ihr Konto verfügbar sind. Dort wird ein Link zu diesem Fall zusammen mit allen von Ihnen bereitgestellten Nachrichten bereitgestellt.
 
 ## <a name="step-4-close-the-request"></a>Schritt 4: Schließen der Anforderung
 

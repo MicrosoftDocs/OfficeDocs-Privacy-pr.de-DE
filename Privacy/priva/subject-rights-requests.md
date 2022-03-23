@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Die Lösung für Anträge betroffener Personen in Microsoft Priva hilft Ihnen bei der Suche nach personenbezogenen Daten und der Zusammenarbeit bei der Überprüfung von Inhalten und dem Erstellen von Berichten.
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249072"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758444"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Informationen zu Anforderungen für Priva-Rechte
 
@@ -31,13 +31,11 @@ Microsoft Priva kann Ihnen bei der Bearbeitung dieser Anfragen über die Lösung
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Wie Priva die Erfüllung von Antragstellerrechten unterstützt
 
-Der Anforderungszyklus für Betreffrechte beginnt mit der Anforderung einer Person an Ihre Organisation. Nach Erhalt können Sie die Funktionen von Priva verwenden, um diese Daten zu erfassen, zusammenzuarbeiten, zu überprüfen und Berichte zu erstellen. Sie können dann die betroffene Person über Ihre Ergebnisse informieren und alle anderen Maßnahmen ergreifen, die außerhalb von Priva erforderlich sind, um den Antrag zu erfüllen, z. B. das Löschen von Daten. Um Ihre Workflows auf dem Weg zu verwalten und zu automatisieren, können Sie auch die integrierten Power Automate Vorlagen von Priva nutzen.
-
-![Workflow für Antragstellerberechtigungsanforderungen.](../media/priva-srr-cycle.png)
+Der Anforderungszyklus für Betreffrechte beginnt mit der Anforderung einer Person an Ihre Organisation. Nach Erhalt können Sie die Funktionen von Priva verwenden, um diese Daten zu erfassen, zusammenzuarbeiten, zu überprüfen und Berichte zu erstellen. Sie können dann die betroffene Person über Ihre Ergebnisse informieren und alle anderen Maßnahmen ergreifen, die außerhalb von Priva erforderlich sind, um den Antrag zu erfüllen, z. B. das Löschen von Daten. Um Ihre Workflows auf dem Weg zu verwalten und zu automatisieren, können Sie auch integrierte Power Automate Vorlagen verwenden.
 
 ### <a name="create-requests-and-collect-data"></a>Erstellen von Anforderungen und Sammeln von Daten
 
-Priva bietet leistungsstarke Suchoptionen zum Suchen von Daten im Zusammenhang mit Ihrer betroffenen Person in den Inhalten, die Ihre Organisation in Microsoft 365 speichert. Es hilft Ihnen auch, Elemente zu priorisieren, die Sie innerhalb der Daten überprüfen möchten, die Sie für diese Anforderungen sammeln. Priva ist sich der Microsoft Information Protection Vertraulichkeitsbezeichnungen bewusst, die inhalte angeben, die potenziell vertraulich sind und eine besondere Überprüfung erfordern können, und kennzeichnet Elemente mit diesen Bezeichnungen. Darüber hinaus kann Priva Elemente erkennen und kennzeichnen, die die Daten mehrerer Personen enthalten können, wobei Sie möglicherweise Inhalte bearbeiten müssen, bevor sie der betroffenen Person zur Verfügung stehen.
+Priva bietet leistungsstarke Suchoptionen zum Suchen von Daten im Zusammenhang mit Ihrer betroffenen Person in den Inhalten, die Ihre Organisation in Microsoft 365 speichert. Es hilft Ihnen auch, Elemente zu priorisieren, die Sie innerhalb der Daten überprüfen möchten, die Sie für diese Anforderungen sammeln. Priva ist sich der Microsoft Information Protection Vertraulichkeitsbezeichnungen bewusst, die auf potenziell vertrauliche Inhalte hinweisen und eine besondere Überprüfung erfordern können, und kennzeichnet Elemente mit diesen Bezeichnungen. Darüber hinaus kann Priva Elemente erkennen und kennzeichnen, die die Daten mehrerer Personen enthalten können, wobei Sie möglicherweise Inhalte bearbeiten müssen, bevor sie der betroffenen Person zur Verfügung stehen.
 
 Weitere Informationen finden Sie unter ["Erstellen einer Anforderung für Antragstellerrechte"](subject-rights-requests-create.md).
 
