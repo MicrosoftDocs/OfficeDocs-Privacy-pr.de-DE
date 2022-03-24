@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Microsoft Priva-Testversion, sehen Sie sich die empfohlenen Aktionen während Ihres Testzeitraums an, und überprüfen Sie die Links zu wichtigen Dokumentationen.
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248974"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765508"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Test-Playbook: Microsoft Priva
 
@@ -38,7 +38,7 @@ Anhand von Microsoft-Empfehlungen erfahren Sie, wie Priva Ihnen dabei helfen kan
 
 Starten Sie Ihre Testversion, indem Sie die Voraussetzungen einrichten. Beachten Sie, dass Priva aus zwei wichtigen Lösungen besteht: Priva Privacy Risk Management und Priva Subject Rights Requests, die separat ausprobiert und erworben werden können. Lizenz- und Einkaufsdetails finden Sie auf [Microsoft.com](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp).
 
-### <a name="privacy-risk-management"></a>Datenschutzrisikomanagement
+### <a name="privacy-risk-management"></a>Datenschutz-Risikomanagement
 
 Mit der Lösung für das **Datenschutzrisikomanagement** können Sie erkunden, wie Sie die personenbezogenen Daten Ihrer Organisation schützen und einen datenschutzsicheren Arbeitsplatz schaffen können.
 
@@ -47,7 +47,7 @@ Mit der Lösung für das **Datenschutzrisikomanagement** können Sie erkunden, w
 - Befähigen von Information Workern, intelligente Entscheidungen zum Umgang mit diesen Daten zu treffen
 - Ermöglichen Sie Es Benutzern, Daten effektiv zu verwalten und Schritte zur Einhaltung der sich entwickelnden Datenschutzbestimmungen zu ergreifen.
 
-### <a name="subject-rights-requests"></a>Anträge auf Rechte betroffener Personen
+### <a name="subject-rights-requests"></a>Anfragen zu Rechten betroffener Personen
 
 Mit der Lösung **für Anträge betroffener Personen** erfahren Sie, wie Sie Anfragen von der ursprünglichen Anforderung bis zur Erstellung von Berichten behandeln.
 
@@ -122,7 +122,7 @@ Das Datenschutzrisikomanagement kann Inhaltsbesitzer direkt über Übereinstimmu
 1. [Beheben von Problemen durch E-Mail-Benachrichtigungen](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [Senden von Benachrichtigungen in Teams](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>Weitere Informationen zu Anträgen auf Rechte betroffener Personen
+## <a name="learn-about-subject-rights-requests"></a>Erfahren Sie mehr über Anfragen zu Rechten betroffener Personen.
 
 In Übereinstimmung mit bestimmten Datenschutzbestimmungen auf der ganzen Welt können Einzelpersonen (oder betroffene Personen) Anträge zur Überprüfung oder Verwaltung der personenbezogenen Daten über sich selbst stellen, die Unternehmen gesammelt haben. Diese Anfragen werden manchmal auch als Anträge betroffener Personen (Data Subject Requests, DSRs), Zugriffsanfragen betroffener Personen (Data Subject Access Requests, DSARs) oder Anfragen zu Verbraucherrechten bezeichnet. Priva-Antragstellerrechteanforderungen können Ihnen bei der Bearbeitung dieser Anfragen helfen.
 
@@ -152,7 +152,7 @@ Mit dem Datenabgleich können Organisationen Priva ermöglichen, betroffene Pers
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>Daten überprüfen und in Bezug auf Anfragen zu Rechten betroffener Personen zusammenarbeiten
 
-Nachdem Sie eine Anforderung für Betreffrechte erstellt haben, verwendet Priva Ihre Eingaben zu Ihrem Betreff, um in der Microsoft 365 Umgebung Ihrer Organisation nach Übereinstimmungen zu suchen. Sobald diese Daten kompiliert wurden, können Sie die Ergebnisse überprüfen, Entscheidungen darüber treffen, was einbezogen werden soll, und Informationen nach Bedarf bearbeiten.
+Nachdem Sie eine Anforderung zu Betreffrechten erstellt haben, verwendet Priva Ihre Eingaben zu Ihrem Betreff, um nach Übereinstimmungen in der Microsoft 365 Umgebung Ihrer Organisation zu suchen. Sobald diese Daten kompiliert wurden, können Sie die Ergebnisse überprüfen, Entscheidungen darüber treffen, was einbezogen werden soll, und Informationen nach Bedarf bearbeiten.
 
 1. [Überprüfen von Anforderungsdetails und Überwachen des Fortschritts](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
 1. [Anzeigen und Bearbeiten von Suchabfragen](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (optional)
@@ -163,9 +163,9 @@ Nachdem Sie eine Anforderung für Betreffrechte erstellt haben, verwendet Priva 
 
 Nach Abschluss der Datenüberprüfung für eine Anforderung von Betreffrechten können Sie die Erfüllung anfordern.
 
-1. [Vorbereiten von Abschlussberichten für die betroffene Person](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [Vorbereiten von Abschlussberichten für die betroffene Person](subject-rights-requests-reports.md)
 1. [Integration in Partnerlösungen](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [Verwalten der Datenaufbewahrung](subject-rights-requests-reports.md#manage-data-retention)
+1. [Verwalten der Datenaufbewahrung](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>Anfrageaufgaben zu Rechten betroffener Personen automatisieren
 

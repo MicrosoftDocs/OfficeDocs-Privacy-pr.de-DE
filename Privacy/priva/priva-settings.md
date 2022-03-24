@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die globalen Einstellungsoptionen für Microsoft Priva.
-ms.openlocfilehash: 49a6f2112e584ef72bcc0f0433b09a21ccac194c
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746778"
+ms.locfileid: "63758424"
 ---
 # <a name="configure-priva-settings"></a>Priva-Einstellungen konfigurieren
 
@@ -64,7 +64,3 @@ Führen Sie die folgenden Schritte aus, um Tagnamen und Beschreibungen zu bearbe
 Tag-Einstellungen gelten für alle Antragstellerberechtigungsanforderungen.
 
 Erfahren Sie mehr über [das Anwenden von Tags bei der Überprüfung von Daten für eine Anforderung zu Betreffrechten](subject-rights-requests-data-review.md#apply-tags).
-
-Besuchen Sie **in Einstellungen** **Datenüberprüfungstags**, um Ihre Tags zu überprüfen und zu verwalten.
- 
-Diese Tags können verwendet werden, um Inhalte anzugeben, die weitere Aufmerksamkeit erfordern, z. B. Inhalte, die möglicherweise manuell gelöscht werden müssen. In diesem Abschnitt der Einstellungen können Sie die Namen und Beschreibungen für benutzerdefinierte Tags bearbeiten. Sie können auch Tagbeschreibungen für die integrierten Tags bearbeiten, die vom System bereitgestellt werden. Namen für Systemtags können nicht geändert werden. Weitere Informationen zu Anträgen auf Rechte von Antragstellern finden Sie unter ["Überprüfen von Daten für einen Antrag auf Rechte von Betroffenen"](subject-rights-requests-data-review.md#step-3-review-data).

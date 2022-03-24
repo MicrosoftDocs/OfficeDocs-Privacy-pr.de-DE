@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie von Microsoft Priva gesammelte Daten zu Anträgen von Antragstellerrechten überprüfen und an der Erledigung der Anforderung zusammenarbeiten.
-ms.openlocfilehash: 5a72208894ff699675dcde230a7413b20c0b0a1e
-ms.sourcegitcommit: a9ad5185174a9e8a7eea7583d257e8535c96a2ed
+ms.openlocfilehash: 7e9222a67d2f7b7e81141d1ec9a65688800f436e
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63746771"
+ms.locfileid: "63758434"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anforderung zu Betreffrechten
 
@@ -88,14 +88,14 @@ In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte *
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Markieren von Elementen als "Einschließen" oder "Ausschließen" und Hinzufügen von Notizen
 
-Überprüfen Sie die Liste der identifizierten Elemente, um festzustellen, ob sich die personenbezogenen Daten der betroffenen Person in jedem Element befinden. Wenn das Element die Informationen der betroffenen Person enthält und als Teil des Löschberichts zur betroffenen Person gehört, markieren Sie das Element als **"Einschließen** ", indem Sie oben in der Liste der Elemente in der Befehlsleiste " **Einschließen** " auswählen. Sie können auch die blaue Schaltfläche **"Einschließen** " im Inhaltsprüfungsbereich rechts neben der Liste der Elemente auswählen. Wenn Sie **"Einschließen"** auswählen, wird ein Flyoutbereich mit einer Option zum Hinzufügen von Notizen angezeigt. Wenn Sie fertig sind, wählen Sie **"Übermitteln** " aus, um den Rezensionsstatus des Elements als **"Einschließen**" zu speichern.
+Überprüfen Sie die Liste der identifizierten Elemente, die von Ihrer Suche zurückgegeben werden. Wenn Sie entscheiden, dass das Element als Teil des endgültigen Berichts an die betroffene Person aufgenommen werden soll, wählen Sie " **Einschließen** " in der Befehlsleiste oben in der Liste der Elemente aus. Sie können auch die blaue Schaltfläche **"Einschließen** " im Inhaltsprüfungsbereich rechts neben der Liste der Elemente auswählen. Wenn Sie **"Einschließen"** auswählen, wird ein Flyoutbereich mit einer Option zum Hinzufügen von Notizen angezeigt. Wenn Sie fertig sind, wählen Sie **"Übermitteln** " aus, um den Rezensionsstatus des Elements als **"Einschließen**" zu speichern.
 
-Wenn Sie kein Element als Teil der Anforderung einschließen müssen, wählen Sie " **Ausschließen"** auf der Befehlsleiste oder die Schaltfläche " **Ausschließen** " im Inhaltsprüfungsbereich aus. Das Ausschließen eines Elements bedeutet, dass es für die Anforderung von Betreffrechten nicht relevant ist und das Element nicht in die [endgültigen Berichte einbezogen wird, die für die betroffene Person generiert werden](subject-rights-requests-reports.md).
+Wenn das Element nicht als Teil der Anforderung gehört, wählen Sie " **Ausschließen** " in der Befehlsleiste oder die Schaltfläche " **Ausschließen"** im Inhaltsprüfungsbereich aus. Das Ausschließen eines Elements bedeutet, dass es nicht in die [endgültigen Berichte einbezogen wird, die für die betroffene Person generiert werden](subject-rights-requests-reports.md).
 
 > [!NOTE]
-> Wenn Sie ein Element **Ausschließen** markieren, müssen Sie eine Notiz als Begründung dafür hinzufügen, warum sie sich nicht auf die Anforderung von Betreffrechten bezieht. Notizen dienen internen Zwecken und sind nicht in  Fertigberichten enthalten.
+> Wenn Sie ein Element als **"Ausschließen**" markieren, müssen Sie eine Notiz als Begründung hinzufügen, warum sie sich nicht auf die Anforderung von Betreffrechten bezieht. Notizen dienen internen Zwecken und sind nicht in  Fertigberichten enthalten.
 
-Wenn der Inhalt ein falsch positives Ergebnis zu sein scheint, wählen Sie **keine Übereinstimmung** aus, um die Datei aus Ihren endgültigen Berichten auszuschließen, und kennzeichnen Sie das Element als etwas, das bei der Suche nicht erkannt worden sein sollte. Wählen Sie im Flyoutbereich " **Als nicht übereinstimmend markieren** " die Option **"Bestätigen** " aus, um uns mitzuteilen, dass das Element nicht ihren Suchkriterien entspricht.
+Wenn der Inhalt als falsch positiv erscheint, wählen Sie **"Keine Übereinstimmung** " aus, und wählen Sie im Flyoutbereich " **Bestätigen**" aus. Diese Aktion schließt die Datei aus Ihren  Finalberichten aus und kennzeichnet das Element als etwas, das bei der Suche nicht erkannt worden sein sollte.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -103,14 +103,14 @@ Tags können verwendet werden, um Elemente zu identifizieren, die weitere Aufmer
 
 Wenn Sie beispielsweise während der Datenüberprüfung feststellen, dass ein Inhaltselement nicht von Ihrer Organisation aufbewahrt werden muss, können Sie das **Tag "Löschen"** anwenden und dann eine Liste aller markierten Dateien exportieren, damit Sie die identifizierten Elemente löschen können, wenn Sie mit der Anforderung fertig sind.
 
-Die fünf Tags, die Sie in [Einstellungen](priva-settings.md#data-review-tags) festlegen und verwalten, gelten für alle Ihre Antragstellerrechteanforderungen.
+Die fünf Tags, die Sie in **Einstellungen** verwalten, gelten für alle Ihre Antragstellerrechteanforderungen.
 
 **So fügen Sie Tags hinzu oder entfernen sie:**
 
 - Wählen Sie das Element aus der Liste auf der Registerkarte **"Daten gesammelt** " der Anforderung aus.
 - Wählen Sie im Elementvorschaubereich rechts neben der Liste die Schaltfläche " **Tags anwenden"** in der unteren Zeile aus. Sie können auch die drei Punkte rechts neben dem Elementnamen und die Option **"Tags anwenden** " auswählen.
 - Ein Flyoutbereich wird mit der Liste der Tags angezeigt. Aktivieren Sie das Kontrollkästchen neben einem der Tags, die Sie auf das Element anwenden möchten. Wenn Sie das Kontrollkästchen deaktivieren, wird das Tag entfernt.
-- Wenn Sie mit Ihrer Auswahl zufrieden sind, wählen Sie **Speichern** aus, wodurch Ihre Tagauswahl gespeichert und der Flyoutbereich geschlossen wird.
+- Wenn Sie fertig sind, wählen Sie **Speichern** aus, wodurch Ihre Tagauswahl gespeichert und der Flyoutbereich geschlossen wird.
 
 **So fügen Sie benutzerdefinierte Tags hinzu oder aktualisieren Tagbeschreibungen:**
 - Wählen Sie auf der Seite "Antragstellerrechteanforderungen **" in** der oberen rechten Ecke des Bildschirms Einstellungen aus, um zu Ihren Priva-Einstellungen zu gelangen.
@@ -118,13 +118,11 @@ Die fünf Tags, die Sie in [Einstellungen](priva-settings.md#data-review-tags) f
 
 **So exportieren Sie eine Liste der markierten Elemente:**
 - Wechseln Sie zu der Seite **"Daten, die gesammelt werden** " in einer Anforderung zu Den Rechten des Betreffs.
-- Wählen Sie oberhalb der Liste der Elemente das Abwärtspfeilsymbol mit der Meldung " **Exportieren** " aus, wenn Sie darauf zeigen.
-- Eine Excel Datei wird heruntergeladen. Öffnen Sie die Datei, wenn der Download abgeschlossen ist.
-
-Die heruntergeladene Excel-Datei zeigt die Eigenschaften für alle Elemente an, die von der Suche nach der Anforderung erfasst werden. Suchen Sie die Spalte **"Tags** ", um die Elemente nach Tag zu identifizieren und zu sortieren.
+- Wählen Sie oberhalb der Liste der Elemente das Nach-unten-Pfeilsymbol mit der Meldung **"Exportieren** " aus, wenn Sie darauf zeigen.
+- Eine Excel Datei wird heruntergeladen, die die Eigenschaften für alle Elemente anzeigt, die von der Suche nach der Anforderung erfasst werden. Suchen Sie die Spalte **"Tags** ", um die Elemente nach Tag zu identifizieren und zu sortieren.
 
 #### <a name="use-the-annotate-command-to-redact-text"></a>Verwenden des Befehls "Kommentieren" zum Bearbeiten von Text
-Verwenden Sie **Anmerkungen** , um Inlinemarkups zu erstellen oder Daten in einer ausgewählten Datei zu bearbeiten. Wenn Sie z. B. eine Datei für eine Person einschließen müssen, die auch die persönlichen Informationen anderer enthält, können Sie die **Bereichsrotaktion** (unter der Zeichnungsschaltfläche in der Befehlsleiste) verwenden, um alle Informationen zu schwarz zu machen, die sich nicht auf die Person beziehen, die die Anforderung gestellt hat. Wenn Ihre Bearbeitungen abgeschlossen sind, wählen Sie **"Einschließen** " aus, um der Anforderung die bearbeitete Datei hinzuzufügen. Annotation erstellt eine Kopie der Datei, sodass nichts in der Originaldatei geändert wird und an ihrem ursprünglichen Speicherort verbleibt. Die Kopie wird in Ihrem Azure-Blob gespeichert.
+Mit dem Befehl **"Kommentieren** " im Inhaltsprüfungsbereich können Sie Inlinemarkups erstellen und Daten innerhalb eines Inhaltselements bearbeiten. Wenn Sie beispielsweise eine Datei für eine Person einschließen müssen, die auch die persönlichen Informationen einer anderen betroffenen Person enthält, können Sie die **Bereichsrotaktion** unter der Schaltfläche "Zeichnen" in der Befehlsleiste verwenden, um alle Informationen zu schwarz zu machen, die sich nicht auf die Person beziehen, die den Antrag gestellt hat. Wenn Ihre Bearbeitungen abgeschlossen sind, wählen Sie **"Einschließen** " aus, um der Anforderung die bearbeitete Datei hinzuzufügen. Annotation erstellt eine Kopie der Datei, die in Ihrem Azure-Blob gespeichert ist. Die ursprüngliche Datei bleibt unverändert und wird an ihrem ursprünglichen Speicherort gespeichert.
 
 #### <a name="enter-notes-about-a-file"></a>Eingeben von Notizen zu einer Datei
 Um Notizen zu einem Element hinzuzufügen oder zu überprüfen, wählen Sie das Element aus der Zeile aus, und wechseln Sie zur Registerkarte **"Dateinotizen** " im Inhaltsprüfungsbereich auf der rechten Seite. Sie können auch die Option **"Dateinotiz hinzufügen** " verwenden, um einen neuen Kommentar zu erstellen. Wenn Sie Notizen auf gesamter Fallebene überprüfen oder hinzufügen möchten, wechseln Sie zur Hauptregisterkarte **"Notizen** " oben, und verwenden **Sie "Fallnotiz hinzufügen"**. Diese Hinweise sind für Benutzer sichtbar, die an der Anforderung arbeiten, werden jedoch nicht in den  Finalbericht aufgenommen oder anderweitig für die betroffene Person freigegeben.
