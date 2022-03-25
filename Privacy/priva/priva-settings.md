@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die globalen Einstellungsoptionen für Microsoft Priva.
-ms.openlocfilehash: 1cbb508d8c1dd98dfa846595d81e8aaeecdbaeb4
-ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
+ms.openlocfilehash: d1e19ffc587f346c5ca1b414a772649342cdccaa
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63758424"
+ms.locfileid: "63765488"
 ---
 # <a name="configure-priva-settings"></a>Priva-Einstellungen konfigurieren
 
@@ -46,7 +46,7 @@ Verwenden Sie diesen Abschnitt, um Datenschemas hochzuladen, die Attribute Ihrer
 
 ## <a name="data-retention-periods"></a>Datenaufbewahrungszeiträume
 
-Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die nach dem Schließen der Anforderung generiert wurden. Dies kann auf 30 oder 90 Tage festgelegt werden und gilt für alle von Ihnen erstellten Antragstellerrechteanforderungen. Wir empfehlen, zu überprüfen, ob Ihre Datenaufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen. Erfahren Sie mehr über [das Festlegen der Datenaufbewahrung für Anträge betroffener Personen](subject-rights-requests-reports.md#manage-data-retention).
+Diese Einstellung bezieht sich auf Priva-Antragstellerrechteanforderungen. Damit können Sie steuern, wie lange Sie gesammelte Daten und Berichte aufbewahren möchten, die nach dem Schließen der Anforderung generiert wurden. Dies kann auf 30 oder 90 Tage festgelegt werden und gilt für alle von Ihnen erstellten Antragstellerrechteanforderungen. Wir empfehlen, zu überprüfen, ob Ihre Datenaufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen. Erfahren Sie mehr über [die Datenaufbewahrung für Anträge betroffener Personen](subject-rights-requests-reports.md#retention-periods-for-reports-and-data).
 
 ## <a name="data-review-tags"></a>Tags für die Datenüberprüfung
 
