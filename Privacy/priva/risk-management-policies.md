@@ -15,19 +15,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie Datenschutzrichtlinien für den Umgang mit personenbezogenen Daten Ihrer Organisation in Microsoft 365 erstellen und anpassen.
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Erfahren Sie, wie Sie Datenschutzrichtlinien für die Verarbeitung der personenbezogenen Daten Ihrer Organisation in Microsoft 365 erstellen und anpassen.
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249031"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586448"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Erstellen von Richtlinien im Datenschutzrisikomanagement
 
 Sie können neue Richtlinien im Datenschutzrisikomanagement erstellen, um Risikoszenarien zu behandeln, die für Ihre Organisation wichtig sind. Verwenden Sie für einen Schnellstart die Standardvorlagen, um neue Richtlinien für Datenüberlagerungen, Datenübertragungen, Datenminimierung und -szenarien zu erstellen. Sie können auch Ihre eigenen Richtlinien anpassen, indem Sie eine dieser Vorlagen als Ausgangspunkt verwenden.
 
-Beim Erstellen oder Bearbeiten von Richtlinien können Sie E-Mail-Benachrichtigungen oder, sofern verfügbar, Richtlinientipps für Teams konfigurieren, um Richtlinienüberstimmungen auf Ihre Benutzer zur Behebung aufmerksam zu machen.
+Beim Erstellen oder Bearbeiten von Richtlinien können Sie E-Mail-Benachrichtigungen oder, sofern verfügbar, Richtlinientipps für Teams konfigurieren, um Richtlinienübersprechungen für die Behebung auf Ihre Benutzer aufmerksam zu machen.
 
 ## <a name="create-a-policy-from-a-template"></a>Erstellen einer Richtlinie anhand einer Vorlage
 
@@ -90,7 +90,7 @@ Beachten Sie, dass die allgemeine Fähigkeit des Datenschutzrisikomanagements zu
 
 Richtlinien zur Datenminimierung konzentrieren sich auf das Alter Ihrer Inhalte und deren Dauer seit der letzten Änderung. Die Überwachung auf personenbezogene Daten, die noch in älteren, nicht verwendeten Inhalten aufbewahrt werden, kann Ihnen helfen, Ihre gespeicherten Daten besser zu verwalten und Risiken zu verringern. Diese Einstellung wird auf dem Bildschirm **"Bedingungen"** behandelt.
 
-Standardmäßig suchen Richtlinien zur Datenminimierung nach Inhalten, die personenbezogene Daten enthalten, die vor mindestens 60 Tagen erstellt oder zuletzt geändert wurden. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie aus anderen vordefinierten Zeitrahmen auswählen.
+Standardmäßig suchen Richtlinien zur Datenminimierung nach Inhalten, die personenbezogene Daten enthalten, die vor mindestens 30 Tagen erstellt oder zuletzt geändert wurden. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie aus anderen vordefinierten Zeitrahmen auswählen.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>Informationen zu Einstellungen für Datenübertragungsrichtlinien
 

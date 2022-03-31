@@ -1,5 +1,5 @@
 ---
-title: Informationen zu Microsoft Priva
+title: Weitere Informationen zu Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva hilft Organisationen bei der Auswertung der in Microsoft 365 gespeicherten personenbezogenen Daten, hilft ihnen bei der Identifizierung und Behebung von Datenschutzrisiken und hilft ihnen bei der umfassenden Verwaltung von Anträgen auf Rechte von Betroffenen.
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248977"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586458"
 ---
-# <a name="learn-about-microsoft-priva"></a>Informationen zu Microsoft Priva
+# <a name="learn-about-microsoft-priva"></a>Weitere Informationen zu Microsoft Priva
 
 Der Datenschutz ist heute für Organisationen und Verbraucher von höchster Ebene, und die Bedenken hinsichtlich des Umgangs mit privaten Daten nehmen ständig zu. Bestimmungen und Gesetze wie die Datenschutz-Grundverordnung (DSGVO) der Europäischen Union und der California Consumer Privacy Act (CCPA) wirken sich auf Menschen auf der ganzen Welt aus und legen Regeln für die Speicherung personenbezogener Daten durch Organisationen fest und gewähren Personen Rechte zum Verwalten von personenbezogenen Daten, die von einer Organisation gesammelt werden.
 
@@ -98,21 +98,50 @@ Priva wertet die Daten Ihrer Organisation aus, die in den folgenden Microsoft 36
 - Exchange Online
 - SharePoint Online
 - OneDrive for Business
-- Microsoft Teams
+- Microsoft Teams
 
 Priva wertet nur Daten in der Microsoft 365 Umgebung Ihrer Organisation aus. Es greift nicht auf personenbezogene Daten zu, die nicht Teil der Microsoft 365 Umgebung der Organisation sind. Beispielsweise greift sie nicht auf das persönliche Microsoft 365 Konto eines Benutzers zu.
 
+## <a name="priva-availability"></a>Priva-Verfügbarkeit
+
+Microsoft Priva wurde weltweit eingeführt. Je nachdem, wo eine Organisation ihren Mandanten bereitgestellt hat, ist Priva möglicherweise nicht vollständig verfügbar. Die folgende Liste beschreibt die Verfügbarkeit von Priva basierend auf dem Ort, an dem eine Organisation ihren Mandanten bereitgestellt hat. Wenn Priva nicht für Sie verfügbar ist, werden **Priva Privacy Risk Management**- und **Priva Subject Rights Requests** nicht in der linken Navigationsleiste des Microsoft 365 Compliance Center angezeigt. Wir werden diese Liste weiterhin aktualisieren, da Priva an allen geografischen Standorten zugänglich ist.
+
+Besuchen Sie [Microsoft 365 Multi-Geo,](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo) um mehr über die Bereitstellung von Daten in geografischen Regionen und Ländern zu erfahren.
+
+**Verfügbar**
+
+- Australien
+- Brasilien
+- Kanada
+- Frankreich
+- Deutschland
+- Indien
+- Japan
+- Vereinigtes Königreich
+- USA (Hinweis: nicht verfügbar für Kunden von US Government Community (GCC) Moderate, GCC High oder Department of Defense (DoD).)
+
+**Noch nicht verfügbar**
+
+- Norwegen
+- Polen
+- Katar
+- Singapur
+- Südafrika
+- Südkorea
+- Spanien
+- Schweden
+- Schweiz
+- Vereinigte Arabische Emirate
+
 ## <a name="more-resources"></a>Weitere Ressourcen
 
-Um eine Videovorschau von Priva zu sehen, sehen Sie sich [ai-basiertes Datenschutzmanagement für Microsoft 365](https://www.youtube.com/watch?v=6OLky1biPIQ) von Microsoft Mechanics auf YouTube an.
+Sehen Sie sich ein 13-minütiges Video an, in dem [die Microsoft Priva-Features](https://www.youtube.com/watch?v=6OLky1biPIQ) von Microsoft Mechanics auf YouTube erläutert werden.
 
-Weitere Informationen dazu, wie Microsoft mit dem Datenschutz umgeht und Ihre Daten schützt, finden Sie unter:
-
-- [Microsoft Deutschland GmbHz. H. Dominik Stockem – Datenschutzbeauftragter](/privacy)
+Weitere Informationen dazu, wie Microsoft mit dem Datenschutz umgeht und Ihre Daten schützt, finden Sie unter [Microsoft Privacy](/privacy).
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Informationen zu den ersten Schritten mit Priva finden [Sie unter "Erste Schritte mit Priva"](priva-setup.md).
+Informationen zur Verwendung von Priva finden Sie [unter Erste Schritte mit Priva](priva-setup.md).
 
 ## <a name="legal-disclaimer"></a>Haftungsausschluss
 
