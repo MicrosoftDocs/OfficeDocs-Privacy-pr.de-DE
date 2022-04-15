@@ -15,105 +15,105 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie Datenschutzrichtlinien für die Verarbeitung der personenbezogenen Daten Ihrer Organisation in Microsoft 365 erstellen und anpassen.
-ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
-ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
+description: Erfahren Sie, wie Sie Datenschutzrichtlinien für den Umgang mit den personenbezogenen Daten Ihrer Organisation in Microsoft 365 erstellen und anpassen.
+ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
+ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586448"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64865774"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Erstellen von Richtlinien im Datenschutzrisikomanagement
 
-Sie können neue Richtlinien im Datenschutzrisikomanagement erstellen, um Risikoszenarien zu behandeln, die für Ihre Organisation wichtig sind. Verwenden Sie für einen Schnellstart die Standardvorlagen, um neue Richtlinien für Datenüberlagerungen, Datenübertragungen, Datenminimierung und -szenarien zu erstellen. Sie können auch Ihre eigenen Richtlinien anpassen, indem Sie eine dieser Vorlagen als Ausgangspunkt verwenden.
+Sie können neue Richtlinien im Datenschutzrisikomanagement erstellen, um Risikoszenarien zu behandeln, die für Ihre Organisation wichtig sind. Verwenden Sie für einen Schnellstart die Standardvorlagen, um neue Richtlinien für Datenüberbelichtung, Datenübertragungen sowie Datenminimierung und Szenarien zu erstellen. Sie können auch Ihre eigenen Richtlinien anpassen, indem Sie eine dieser Vorlagen als Ausgangspunkt verwenden.
 
-Beim Erstellen oder Bearbeiten von Richtlinien können Sie E-Mail-Benachrichtigungen oder, sofern verfügbar, Richtlinientipps für Teams konfigurieren, um Richtlinienübersprechungen für die Behebung auf Ihre Benutzer aufmerksam zu machen.
+Beim Erstellen oder Bearbeiten von Richtlinien können Sie E-Mail-Benachrichtigungen konfigurieren oder, sofern verfügbar, Richtlinientipps für Teams, um Ihre Benutzer auf Richtlinienübereinstimmungen zur Behebung aufmerksam zu machen.
 
-## <a name="create-a-policy-from-a-template"></a>Erstellen einer Richtlinie anhand einer Vorlage
+## <a name="create-a-policy-from-a-template"></a>Erstellen einer Richtlinie aus einer Vorlage
 
 Führen Sie die folgenden Schritte aus, um eine Richtlinie mithilfe einer der Standardvorlagen zu erstellen.
 
-1. Wechseln [Sie im Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva-Datenschutzrisikomanagement", und wählen Sie **"Richtlinien**" aus.
+1. Wechseln Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien"** aus.
 1. Wählen Sie **Richtlinie erstellen** aus.
 1. Wählen Sie den gewünschten Vorlagentyp aus. Dadurch wird ein Flyoutbereich mit Informationen zur Vorlage geöffnet.
-1. Wählen Sie zum Überprüfen der Standardeinstellungen der Vorlage, einschließlich Datentypen, Datenspeicherorten und bedingungen, die Richtlinienüberstimmungen auslösen, die **Einstellungen anzeigen** aus.
-     - Hier haben Sie die Möglichkeit, **"Einstellungen bearbeiten"** auszuwählen, um Änderungen vorzunehmen. Dadurch gelangen Sie zum Assistenten zum Anpassen von Einstellungen.
-1. Wenn Sie bereit sind, die Standardeinstellungen zu verwenden, geben Sie Ihrer Richtlinie einen beschreibenden Namen, und wählen Sie **"Richtlinie erstellen" aus.**
+1. Um die Standardeinstellungen der Vorlage zu überprüfen, einschließlich Datentypen, Datenspeicherorten und bedingungen, die Richtlinienübereinstimmungen auslösen, wählen Sie **"Ansichtseinstellungen"** aus.
+     - Sie haben hier die Möglichkeit, **"Einstellungen bearbeiten"** auszuwählen, um Änderungen vorzunehmen. Dadurch gelangen Sie zum Assistenten zum Anpassen von Einstellungen.
+1. Wenn Sie bereit sind, die Standardeinstellungen zu verwenden, geben Sie Ihrer Richtlinie einen aussagekräftigen Namen, und wählen Sie **"Richtlinie erstellen" aus.**
 
-Wenn Sie eine Richtlinie direkt aus einer Vorlage erstellen, werden viele Einstellungen automatisch für Sie ausgewählt. Es wird auch standardmäßig im Testmodus gestartet, was bedeutet, dass keine Warnungen oder Benachrichtigungen generiert werden. Wenn Sie bereit sind, Ihre Richtlinie vollständig zu aktivieren, nachdem Sie sie im Testmodus ausgeführt und die Ergebnisse der Richtlinie überprüft haben, können Sie sie in Ihrer Richtlinienliste finden und die Richtlinie bearbeiten, um sie einzuschalten.
+Wenn Sie eine Richtlinie direkt aus einer Vorlage erstellen, werden automatisch viele Einstellungen für Sie ausgewählt. Es wird auch standardmäßig im Testmodus gestartet, was bedeutet, dass keine Warnungen oder Benachrichtigungen generiert werden. Wenn Sie bereit sind, Ihre Richtlinie vollständig zu aktivieren, nachdem Sie sie im Testmodus ausgeführt und die Ergebnisse der Richtlinie überprüft haben, können Sie sie in Ihrer Richtlinienliste finden und die Richtlinie bearbeiten, um sie einzuschalten.
 
 ## <a name="create-a-custom-policy"></a>Erstellen einer benutzerdefinierten Richtlinie
 
-Um die Einstellungen einer Richtlinie präzise zu steuern, können Sie eine angepasste Richtlinie mithilfe einer der vorhandenen Vorlagen als Basislinie erstellen. Priva bietet einen Assistenten, der Sie durch diese Schritte führt.
+Um die Einstellungen einer Richtlinie präzise zu steuern, können Sie eine angepasste Richtlinie mithilfe einer der vorhandenen Vorlagen als Basisplan erstellen. Priva bietet einen Assistenten, der Sie durch diese Schritte führt.
 
-Alle Richtlinientypen folgen diesem grundlegenden Ablauf. Bestimmte Einstellungen und Optionen ändern sich je nach der gewählten Richtlinie.
+Alle Richtlinientypen folgen diesem grundlegenden Fluss. Bestimmte Einstellungen und Optionen ändern sich je nach ausgewählter Richtlinie.
 
-1. Wechseln [Sie im Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva-Datenschutzrisikomanagement", und wählen Sie **"Richtlinien**" aus.
+1. Wechseln Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien"** aus.
 1. Wählen Sie **Richtlinie erstellen** aus.
-1. Wählen Sie die **Option "Benutzerdefiniert"** aus, um mit der Verwendung des Assistenten zu beginnen.
-1. Wählen Sie den Basisvorlagentyp aus: **Datenüberlastung,** **Datenübertragung** oder **Datenminimierung**. Jede option gibt Ihnen bestimmte Optionen während der Richtlinienerstellung.
-1. Benennen und beschreiben Sie Ihre Richtlinie. Es wird empfohlen, klare, beschreibende Namen zu verwenden, um Ihre Richtlinien zu identifizieren, da diese Namen später in Warnungen zu Richtlinienüberstimmungen angezeigt werden.
+1. Wählen Sie die Option **"Benutzerdefiniert** " aus, um mit der Verwendung des Assistenten zu beginnen.
+1. Wählen Sie ihren Basisvorlagentyp aus: **Datenüberbelichtung,** **Datenübertragungen** oder **Datenminimierung**. Jede dieser Optionen gibt Ihnen während der Richtlinienerstellung bestimmte Optionen.
+1. Benennen und beschreiben Sie Ihre Richtlinie. Es wird empfohlen, klare, beschreibende Namen zu verwenden, um Ihre Richtlinien zu identifizieren, da diese Namen später in Warnungen zu Richtlinienübereinstimmungen angezeigt werden.
 1. Fahren Sie mit dem Assistenten fort, und wählen Sie die gewünschten Einstellungen aus. Die folgenden Optionen stehen zur Verfügung:
-    - **Zu überwachende Daten**: Wählen Sie den Typ der personenbezogenen Daten aus, die Ihre Richtlinie überwacht.
+    - **Zu überwachenden Daten**: Wählen Sie den Typ der personenbezogenen Daten aus, die Ihre Richtlinie überwacht.
     - **Benutzer und Gruppen**: Wenden Sie Ihre Richtlinie auf alle Benutzer oder ausgewählten Benutzer an.
     - **Speicherorte**: Wenden Sie Ihre Richtlinie auf ausgewählte Bereiche in Microsoft 365 an.
-    - **Bedingungen**: Legen Sie die Bedingungen für Ihre Richtlinie fest. Diese Optionen variieren je nach Ihrem Richtlinientyp.
-    - **Ergebnisse**: Definieren Sie die Ergebnisse, wenn eine Richtlinienübersprechung gefunden wird, z. B. Benutzerbenachrichtigungen.
-    - **Warnungen**: Festlegen der Häufigkeit von Warnungen an Administratoren, wenn eine Richtlinienüberstimmung gefunden wird.
-    - **Modus**: Wählen Sie aus, ob Die Richtlinie zuerst im Testmodus ausgeführt werden soll.
-1. Wenn alle Einstellungen abgeschlossen sind, überprüfen Sie Ihre Auswahl, nehmen Sie alle gewünschten Änderungen vor, und wählen Sie dann **"Absenden"** aus, um die Richtlinie zu erstellen.
+    - **Bedingungen**: Legen Sie die Bedingungen für Ihre Richtlinie fest. Diese Optionen variieren je nach Richtlinientyp.
+    - **Ergebnisse**: Definieren Sie die Ergebnisse, wenn eine Richtlinienübereinstimmung gefunden wird, z. B. Benutzerbenachrichtigungen.
+    - **Warnungen**: Entscheiden Sie die Häufigkeit von Warnungen für Administratoren, wenn eine Richtlinienübereinstimmung gefunden wird.
+    - **Modus**: Wählen Sie aus, ob Ihre Richtlinie zuerst im Testmodus ausgeführt werden soll.
+1. Wenn alle Einstellungen abgeschlossen sind, überprüfen Sie Ihre Auswahl, nehmen Sie alle gewünschten Änderungen vor, und wählen Sie dann **"Absenden** " aus, um die Richtlinie zu erstellen.
 
-## <a name="learn-about-key-settings-for-all-policies"></a>Erfahren Sie mehr über die wichtigsten Einstellungen für alle Richtlinien
+## <a name="learn-about-key-settings-for-all-policies"></a>Informationen zu den wichtigsten Einstellungen für alle Richtlinien
 
-### <a name="choose-data-to-monitor"></a>Zu überwachende Daten auswählen
+### <a name="choose-data-to-monitor"></a>Daten auswählen, die überwacht werden sollen
 
 Beim Bearbeiten oder Einrichten einer beliebigen Art von benutzerdefinierter Richtlinie werden Sie aufgefordert, auszuwählen, welche Datentypen Ihre Richtlinie überwachen soll. Folgende Optionen stehen zur Verfügung:
 
-- **Klassifizierungsgruppen**: Eine durchsuchbare Liste von Datensätzen basierend auf wichtigen Datenschutzbestimmungen, z. B. DSGVO oder HIPAA. Zeigen Sie Details zu einer beliebigen Gruppe an, um zu sehen, welche Arten von vertraulichen Informationen behandelt werden. Wählen Sie eine oder mehrere dieser Gruppen aus, um sie wie besehen zu verwenden.
-- **Einzelne Typen vertraulicher Informationen**: Indem Sie bestimmte Typen vertraulicher Informationen selbst auswählen, z. B. Sozialversicherungsnummern oder Führerscheininformationen, können Sie Ihre eigene Gruppe oder Gruppen von Daten anpassen, nach denen Sie suchen sollten. Mit diesem Assistenten können Sie aus der vollständigen Liste der Typen vertraulicher Informationen im Datenschutzrisikomanagement auswählen. Jeder Informationstyp hat seine eigenen Eigenschaften. Verwenden Sie die Infoschaltfläche neben einer dieser Schaltflächen, um Details und Hinweise zu den empfohlenen Einstellungen zu erhalten. Wenn Sie mehrere Gruppen erstellen, können Sie mit dem Assistenten boolesche Operatoren anwenden, um diese zu verknüpfen und deren Reihenfolge der Vorgänge zu definieren.
+- **Klassifizierungsgruppen**: Eine durchsuchbare Liste von Datensätzen basierend auf wichtigen Datenschutzbestimmungen, z. B. DSGVO oder HIPAA. Zeigen Sie Details einer Gruppe an, um zu sehen, welche Typen vertraulicher Informationen behandelt werden. Wählen Sie einen oder mehrere dieser Sätze aus, um sie in der vorliegenden Weise zu verwenden.
+- **Einzelne Typen vertraulicher Informationen**: Indem Sie bestimmte Typen vertraulicher Informationen selbst auswählen, z. B. Sozialversicherungsnummern oder Führerscheininformationen, können Sie Ihre eigene Gruppe oder Gruppen von Daten anpassen, nach der Sie suchen können. Mit diesem Assistenten können Sie aus der vollständigen Liste vertraulicher Informationstypen innerhalb des Datenschutzrisikomanagements auswählen. Jeder Informationstyp verfügt über eigene Eigenschaften. Verwenden Sie die Schaltfläche "Info" neben einer dieser Einstellungen, um Details und Hinweise zu empfohlenen Einstellungen zu erhalten. Wenn Sie mehr als eine Gruppe erstellen, können Sie mit dem Assistenten boolesche Operatoren anwenden, um sie in Beziehung zu setzen und deren Reihenfolge der Vorgänge zu definieren.
 
-Wenn Sie aus den vorhandenen Klassifizierungsgruppen auswählen, können Sie nicht auch einzelne Typen auswählen oder eigene Gruppen erstellen. Wählen Sie aus Gründen der Flexibilität individuelle Typen vertraulicher Informationen aus. Um die gängigsten Standards zu verwenden, wählen Sie aus den Klassifizierungsgruppen aus.
+Wenn Sie aus den vorhandenen Klassifizierungsgruppen auswählen, können Sie nicht auch einzelne Typen auswählen oder eigene Gruppen erstellen. Um die größtmögliche Flexibilität zu bieten, wählen Sie einzelne Typen vertraulicher Informationen aus. Um die gängigsten Standards zu verwenden, wählen Sie aus den Klassifizierungsgruppen aus.
 
 ### <a name="set-user-email-notifications"></a>Festlegen von Benutzer-E-Mail-Benachrichtigungen
 
-Mit [E-Mail-Benachrichtigungen](risk-management-notifications.md) können Sie Benachrichtigungen über Richtlinienüberstimmungen direkt an Ihre Inhaltsbesitzer senden. Diese E-Mails fassen zusammen, welche Daten überprüft werden müssen und welche Maßnahmen ergriffen werden müssen, z. B. privates Erstellen von Dokumenten, Aufbewahren von Dateien, Melden falsch positiver Übereinstimmungen und Hinzufügen von Notizen für zukünftige Verweise. Diese E-Mails enthalten auch Links für Schulungsempfänger zum Umgang mit diesen Fällen. Die Bereitstellung dieser Links ist erforderlich und sollte auf Ihre eigene interne Dokumentation zu Prozessen und bewährten Methoden verweisen.
+Mit [E-Mail-Benachrichtigungen](risk-management-notifications.md) können Sie Benachrichtigungen zu Richtlinienübereinstimmungen direkt an Ihre Inhaltsbesitzer senden. Diese E-Mails fassen zusammen, welche Daten überprüft werden müssen, und mögliche Aktionen, wie z. B. das Privatemachen von Dokumenten, das Speichern der Dateien, das Melden falsch positiver Übereinstimmungen und das Hinzufügen von Notizen für zukünftige Verweise. Diese E-Mails enthalten auch Links für Schulungsempfänger zur Behandlung dieser Fälle. Die Bereitstellung dieser Links ist erforderlich und sollte auf Ihre eigene interne Dokumentation zu Prozessen und bewährten Methoden verweisen.
 
-Benachrichtigungen können für einzelne Richtlinien während der Erstellung einer benutzerdefinierten Richtlinie oder beim Bearbeiten einer Richtlinie aktiviert werden. Legen Sie Ihre Einstellungen im Abschnitt **"Ergebnisse"** fest.
+Benachrichtigungen können für einzelne Richtlinien während der Erstellung benutzerdefinierter Richtlinien oder beim Bearbeiten einer Richtlinie aktiviert werden. Legen Sie Ihre Einstellungen im Abschnitt **"Ergebnisse" fest** .
 
-Erforderliche Einstellungen umfassen die Häufigkeit Ihrer Benachrichtigungen und Ihren Link zu Datenschutzschulungen.
+Zu den erforderlichen Einstellungen gehören die Häufigkeit Ihrer Benachrichtigungen und Ihr Link zu Datenschutzschulungen.
 
-Optionale Einstellungen umfassen bestimmte anpassbare Felder für Ihre E-Mails. Wählen Sie die Option **"Vorschau" und "Benachrichtigungs-E-Mail bearbeiten** " aus, um einen Flyoutbereich zu öffnen, in dem eine Beispielbenachrichtigung angezeigt wird. Hier können Sie die Betreffzeile der E-Mail, den Kopf- und Textkörper sowie den Anzeigenamen und die URL für Ihre Datenschutzschulung bearbeiten.
+Optionale Einstellungen umfassen bestimmte anpassbare Felder für Ihre E-Mails. Wählen Sie die **Option "Vorschau und Benachrichtigungs-E-Mail bearbeiten** " aus, um einen Flyoutbereich zu öffnen, in dem eine Beispielbenachrichtigung angezeigt wird. Hier können Sie die Betreffzeile der E-Mail, die Kopfzeile und den Textkörper sowie den Anzeigenamen und die URL für Ihre Datenschutzschulung bearbeiten.
 
-Beachten Sie, dass die allgemeine Fähigkeit des Datenschutzrisikomanagements zum Senden von E-Mail-Benachrichtigungen in **Einstellungen** gesteuert wird. Diese Anwendung ist standardmäßig aktiviert. Wenn Sie diese Einstellung deaktivieren, werden alle E-Mails beendet, auch wenn Benachrichtigungen auf einer einzelnen Richtlinienebene konfiguriert wurden.
+Beachten Sie, dass die Allgemeine Fähigkeit des Datenschutzrisikomanagements zum Senden von E-Mail-Benachrichtigungen in **Einstellungen** gesteuert wird. Diese Anwendung ist standardmäßig aktiviert. Wenn Sie diese Einstellung deaktivieren, werden alle E-Mails beendet, auch wenn Benachrichtigungen auf einer einzelnen Richtlinienebene konfiguriert wurden.
 
-## <a name="learn-about-settings-for-data-minimization-policies"></a>Informationen zu Einstellungen für Richtlinien zur Datenminimierung
+## <a name="learn-about-settings-for-data-minimization-policies"></a>Informationen zu Einstellungen für Datenminimierungsrichtlinien
 
-Richtlinien zur Datenminimierung konzentrieren sich auf das Alter Ihrer Inhalte und deren Dauer seit der letzten Änderung. Die Überwachung auf personenbezogene Daten, die noch in älteren, nicht verwendeten Inhalten aufbewahrt werden, kann Ihnen helfen, Ihre gespeicherten Daten besser zu verwalten und Risiken zu verringern. Diese Einstellung wird auf dem Bildschirm **"Bedingungen"** behandelt.
+Richtlinien für die Datenminimierung konzentrieren sich auf das Alter Ihrer Inhalte und auf die Dauer, seit sie zuletzt geändert wurde. Die Überwachung auf personenbezogene Daten, die in älteren, ungenutzten Inhalten noch aufbewahrt werden, kann Ihnen helfen, Ihre gespeicherten Daten besser zu verwalten und Risiken zu reduzieren. Diese Einstellung wird auf dem Bildschirm **"Bedingungen"** behandelt.
 
-Standardmäßig suchen Richtlinien zur Datenminimierung nach Inhalten, die personenbezogene Daten enthalten, die vor mindestens 30 Tagen erstellt oder zuletzt geändert wurden. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie aus anderen vordefinierten Zeitrahmen auswählen.
+Standardmäßig suchen Richtlinien zur Datenminimierung nach Inhalten, die personenbezogene Daten enthalten, die vor mindestens 30 Tagen erstellt oder zuletzt geändert wurden. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie aus anderen voreingestellten Zeitrahmen auswählen.
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>Informationen zu Einstellungen für Datenübertragungsrichtlinien
 
-Richtlinien für die Datenübertragung ermöglichen es Ihnen, Daten zu überwachen, die zwischen bestimmten Regionen der Welt oder zwischen verschiedenen Abteilungen Ihrer Organisation übertragen werden. Auf dem Bildschirm **"Bedingungen"** können Sie auswählen, nach welchen Arten von Übertragungen das Datenschutzrisikomanagement suchen sollte.
+Mithilfe von Datenübertragungsrichtlinien können Sie die Übertragung personenbezogener Daten außerhalb Ihrer Organisation sowie interne Übertragungen zwischen verschiedenen Abteilungen oder Ländern oder Regionen überwachen. Auf dem Bildschirm **"Bedingungen"** können Sie auswählen, nach welchen Arten von Übertragungen das Datenschutzrisikomanagement suchen soll.
 
-Standardmäßig suchen Datenübertragungsrichtlinien nach Übertragungen zwischen Nordamerika und anderen Regionen. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie den Übertragungstyp auswählen und dann eine Auswahl für die Regionen oder Abteilungen von Absender und Empfänger treffen.
+Standardmäßig erkennen Datenübertragungsrichtlinien, wann personenbezogene Daten innerhalb Ihrer Organisation an einen Empfänger oder Standort außerhalb Ihrer Organisation übertragen oder für sie freigegeben werden. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie den Übertragungstyp auswählen und dann die Auswahl für die Absender- und Empfängerbereiche oder -abteilungen treffen.
 
-Richtlinien für die Datenübertragung unterstützen auch die Bereitstellung von Richtlinientipps und Empfehlungen für Ihre Benutzer in Teams, damit sie über bewährte Methoden für den Umgang mit Daten auf dem Laufenden bleiben können. Dies kann auf dem **Ergebnisbildschirm** umgeschaltet werden.
+Richtlinien für die Datenübertragung unterstützen auch die Bereitstellung von Richtlinientipps und Empfehlungen für Ihre Benutzer in Teams, damit sie über bewährte Methoden für den Umgang mit Daten informiert bleiben können. Dies kann **auf dem** Ergebnisbildschirm umgeschaltet werden.
 
-## <a name="learn-about-settings-for-data-overexposure-policies"></a>Informationen zu Einstellungen für Datenüberlastungsrichtlinien
+## <a name="learn-about-settings-for-data-overexposure-policies"></a>Informationen zu Einstellungen für Datenüberbelichtungsrichtlinien
 
-Ihre Organisation kann Inhalte auf verschiedenen Zugriffsebenen speichern, darunter Bereiche, die öffentlich zugänglich sind, und andere, die eingeschränkt sind. Auf dem Bildschirm **"Bedingungen** " können Sie festlegen, dass das Datenschutzrisikomanagement nach einer potenziellen Datenüberlastung für Inhalte sucht, die auf einer der folgenden Zugriffsebenen gespeichert sind:
+In Ihrer Organisation können Inhalte auf verschiedenen Zugriffsebenen gespeichert werden, darunter Bereiche, auf die öffentlich zugegriffen werden kann, und andere, die eingeschränkt sind. Auf dem Bildschirm **"Bedingungen"** können Sie festlegen, dass das Datenschutzrisikomanagement nach potenziellen Datenüberbelichtung für Inhalte sucht, die auf einer der folgenden Zugriffsebenen gespeichert sind:
 
-- **Öffentlich**: Jeder Benutzer mit einem Link kann diesen Inhalt anzeigen.
+- **Öffentlich**: Jeder Mit einem Link kann diesen Inhalt anzeigen.
 - **Extern**: Bestimmte Personen außerhalb der Organisation haben Zugriff.
 - **Intern**: Benutzer in Ihrer Organisation haben Zugriff.
 
-Standardmäßig bewerten Datenüberbelichtungsrichtlinien alle drei Zugriffsebenen. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie alle oder eine dieser Ebenen auswählen.
+Standardmäßig werten Datenüberbelichtungsrichtlinien alle drei Zugriffsebenen aus. Beim Bearbeiten oder Erstellen einer benutzerdefinierten Richtlinie können Sie alle oder eine dieser Ebenen auswählen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Weitere Informationen dazu, wie Sie Ihre Richtlinien verwalten und Änderungen vornehmen, nachdem sie erstellt wurden, finden Sie unter [Verwalten von Richtlinien](risk-management-policies-manage.md).
+Weitere Informationen dazu, wie Sie Ihre Richtlinien verwalten und Änderungen vornehmen, nachdem sie erstellt wurden, finden [Sie unter Verwalten von Richtlinien](risk-management-policies-manage.md).
 
-## <a name="legal-disclaimer"></a>Haftungsausschluss
+## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
 
-[Haftungsausschluss für Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva Rechtlicher Haftungsausschluss](priva-disclaimer.md)
