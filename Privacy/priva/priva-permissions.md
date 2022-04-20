@@ -16,61 +16,61 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie Microsoft Priva-Berechtigungen einrichten und Rollengruppen Benutzer zuweisen.
-ms.openlocfilehash: bcc2e108f10e427e55034621f2f8b5c40e6d9184
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Erfahren Sie, wie Sie Microsoft Priva-Berechtigungen einrichten und Benutzer Rollengruppen zuweisen.
+ms.openlocfilehash: 14ae1b1b9ee1f1ccc8d3a1914f0d7308a8467f23
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248971"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930616"
 ---
 # <a name="set-user-permissions-and-assign-roles-in-microsoft-priva"></a>Festlegen von Benutzerberechtigungen und Zuweisen von Rollen in Microsoft Priva
 
-Um Mitgliedern Ihrer Organisation Berechtigungen für die Verwendung von Microsoft Priva zu erteilen, weisen Sie sie den entsprechenden Rollengruppen im Microsoft 365 Compliance Center zu.
+Um Mitgliedern Ihrer Organisation Berechtigungen zur Verwendung von Microsoft Priva zu erteilen, weisen Sie sie den entsprechenden Rollengruppen im Microsoft Purview Compliance-Portal zu.
 
 > [!NOTE]
-> Die meisten Priva-Rollen sind derzeit als "Datenschutzverwaltung" festgelegt. Eine vollständige Liste finden Sie unten. Priva-spezifische Rollen werden in Azure Active Directory nicht angezeigt.
+> Die meisten Priva-Rollen werden derzeit als "Datenschutzverwaltung" bezeichnet. Eine vollständige Liste finden Sie unten. Priva-spezifische Rollen werden in Azure Active Directory nicht angezeigt.
 
 ## <a name="sign-in-and-set-permissions"></a>Anmelden und Festlegen von Berechtigungen
 
-1. Wechseln Sie zum [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und wählen Sie im linken Navigationsbereich **"Berechtigungen"** aus.  
-2. Wählen Sie im **Dropdownmenü des Compliance Centers** **die Option "Rollen"** aus. Die vollständige Liste der Rollengruppen wird angezeigt.
+1. Wechseln Sie zum [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) , und wählen Sie im linken Navigationsbereich **"Berechtigungen** " aus.  
+2. Wählen Sie im **Compliance Center-Dropdown** die Option **"Rollen" aus**. Die vollständige Liste der Rollengruppen wird angezeigt.
 3. Suchen Sie die Rollengruppe, der Sie einen oder mehrere Benutzer hinzufügen möchten, und aktivieren Sie das Kontrollkästchen links neben dem Gruppennamen.
-4. Wählen Sie im Flyoutbereich für diese Gruppe unter der Kopfzeile "Mitglieder" die Option **"Bearbeiten****"** aus.  
+4. Wählen Sie im Flyoutbereich für diese Gruppe unter der Kopfzeile "**Mitglieder**" die Option **"Bearbeiten"** aus.  
 5. Wählen Sie **"Mitglieder auswählen" aus**. Ein weiteres Flyoutfenster wird angezeigt.
-6. Wählen Sie **+Hinzufügen aus** , um einen oder mehrere Benutzer auszuwählen, die der Gruppe hinzugefügt werden sollen.  
-7. Aktivieren Sie das Kontrollkästchen neben den Namen, die Sie hinzufügen möchten, und klicken Sie dann unten auf die Schaltfläche " **Hinzufügen** ".  
+6. Wählen Sie **+Hinzufügen** aus, um einen oder mehrere Benutzer auszuwählen, die der Gruppe hinzugefügt werden sollen.  
+7. Aktivieren Sie das Kontrollkästchen neben den Namen, die Sie hinzufügen möchten, und wählen Sie dann unten die Schaltfläche **"Hinzufügen** " aus.  
 8. Wenn Sie mit dem Zuweisen von Benutzern fertig sind, wählen Sie **"Fertig**", dann **"Speichern"** und dann **"Schließen**" aus.
 
 ## <a name="learn-more-about-role-groups-and-roles"></a>Weitere Informationen zu Rollengruppen und Rollen
 
-Je nach Struktur Ihres Teams haben Sie die Möglichkeit, bestimmten Rollengruppen Benutzer zuzuweisen, um unterschiedliche Priva-Features zu verwalten. Mitglieder sollten Rollengruppen zugewiesen werden, je nachdem, welche Aufgaben sie ausführen müssen und welche Ebene des Dateizugriffs geeignet ist. Jede Rollengruppe enthält eine oder mehrere Rollen. Diese Rollen können sich auf bestimmte Priva-Aufgaben oder Schlüsselfunktionen beziehen, die für die Mitglieder dieser Gruppe aktiviert oder eingeschränkt sind. Unterschiedliche Benutzer verfügen daher möglicherweise über unterschiedliche Ebenen der Sichtbarkeit und des Zugriffs auf bestimmte Priva-Features.
+Abhängig von der Struktur Ihres Teams haben Sie Optionen, um Benutzern bestimmte Rollengruppen zuzuweisen, um verschiedene Gruppen von Priva-Features zu verwalten. Mitglieder sollten Rollengruppen zugewiesen werden, je nachdem, welche Aufgaben sie ausführen müssen und welche Ebene des Dateizugriffs geeignet ist. Jede Rollengruppe enthält eine oder mehrere Rollen. Diese Rollen können sich auf bestimmte Priva-Aufgaben oder Schlüsselfunktionen beziehen, die für die Mitglieder dieser Gruppe aktiviert oder eingeschränkt sind. Verschiedene Benutzer können daher unterschiedliche Ebenen der Sichtbarkeit und des Zugriffs auf bestimmte Priva-Features haben.
 
-Rollengruppen können bei Bedarf angepasst werden. Um versehentlichen Verlust des Zugriffs zu vermeiden, empfehlen wir, eine Kopie der vorhandenen Rollengruppe zu erstellen, die Sie anpassen möchten, der Kopie einen identifizierbaren Namen zu geben, Ihre Änderungen an der neuen Gruppe vorzunehmen und zu überprüfen und ihr Personen je nach Bedarf zuzuweisen.
+Rollengruppen können bei Bedarf angepasst werden. Um versehentlichen Zugriffsverlust zu vermeiden, empfiehlt es sich, eine Kopie der vorhandenen Rollengruppe zu erstellen, die Sie anpassen möchten, der Kopie einen identifizierbaren Namen zu geben, Ihre Änderungen an der neuen Gruppe vorzunehmen und zu überprüfen und ihr entsprechend Personen zuzuweisen.
 
 ## <a name="privacy-management-role-group"></a>Rollengruppe "Datenschutzverwaltung"
 
-Diese Gruppe enthält alle Priva-Berechtigungsrollen in einer einzelnen Gruppe. Diese Rollengruppe eignet sich möglicherweise gut für Organisationen, in denen dieselbe Person alle Aufgaben ausführen kann. Die Bereitstellung der Mitgliedschaft in dieser Rollengruppe gewährt diesem Konto vollen Zugriff auf alle Features von Priva, für die Sie über eine Lizenz verfügen.
+Diese Gruppe enthält alle Priva-Berechtigungsrollen in einer einzigen Gruppe. Diese Rollengruppe eignet sich möglicherweise gut für Organisationen, in denen dieselbe Person möglicherweise alle Aufgaben erfüllt. Die Mitgliedschaft in dieser Rollengruppe gewährt diesem Konto vollumfänglichen Zugriff auf alle Features von Priva, für die Sie eine Lizenz besitzen.
 
-Es wird empfohlen, sicherzustellen, dass immer mindestens ein aktives Mitglied dieser Gruppe vorhanden ist.
+Es wird empfohlen sicherzustellen, dass immer mindestens ein aktives Mitglied dieser Gruppe vorhanden ist.
 
 Zu den Rollen gehören:
 
 - Fallverwaltung  
-- Inhaltsanzeige für Datenklassifizierung  
+- Inhaltsanzeige der Datenklassifizierung  
 - Datenklassifizierungslistenanzeige  
 - Datenschutzverwaltungsadministrator  
 - Analyse des Datenschutzmanagements  
-- Untersuchung des Datenschutzmanagements  
-- Permanenter Beitrag zum Datenschutzmanagement  
+- Datenschutzverwaltungsuntersuchung  
+- Permanenter Beitrag zur Datenschutzverwaltung  
 - Temporärer Beitrag zur Datenschutzverwaltung  
-- Privacy Management Viewer  
-- Administrator für Antragstellerrechteanforderung  
+- Datenschutzverwaltungsanzeige  
+- Antragstellerberechtigungsanforderungsadministrator  
 - View-Only Fall
 
 ## <a name="privacy-management-administrators-role-group"></a>Rollengruppe "Datenschutzverwaltungsadministratoren"
 
-Mitglieder dieser Rollengruppe haben umfassenden Zugriff auf Priva-Funktionen, einschließlich erstellen, Lesen, Aktualisieren und Löschen von Datenschutz-Risikomanagementrichtlinien, Anforderungen für Betreffrechte, Berechtigungen und Einstellungen.
+Mitglieder dieser Rollengruppe haben umfassenden Zugriff auf Priva-Funktionen, einschließlich Erstellen, Lesen, Aktualisieren und Löschen von Datenschutz-Risikomanagementrichtlinien, Anfragen zu Rechten betroffener Personen, Berechtigungen und Einstellungen.
 
 Zu den Rollen gehören:
 
@@ -78,9 +78,9 @@ Zu den Rollen gehören:
 - Datenschutzverwaltungsadministrator  
 - View-Only Fall
 
-## <a name="privacy-management-analysts-role-group"></a>Rollengruppe "Datenverwaltungsanalysten"
+## <a name="privacy-management-analysts-role-group"></a>Rollengruppe "Datenschutzverwaltungsanalysten"
 
-Mitglieder dieser Rollengruppe fungieren als Fallanalysten. Sie können Richtlinienüberstimmungen untersuchen, Dateimetadaten anzeigen und Korrekturmaßnahmen ergreifen. Diese Gruppe kann nicht über den Inhalts-Explorer auf vollständige Dateien zugreifen.
+Mitglieder dieser Rollengruppe fungieren als Fallanalysten. Sie können Richtlinienübereinstimmungen untersuchen, Dateimetadaten anzeigen und Abhilfemaßnahmen ergreifen. Diese Gruppe kann nicht über den Inhalts-Explorer auf vollständige Dateien zugreifen.
 
 Zu den Rollen gehören:
 
@@ -91,41 +91,41 @@ Zu den Rollen gehören:
 
 ### <a name="privacy-management-investigators-role-group"></a>Rollengruppe "Datenschutzverwaltungsermittler"
 
-Mitglieder dieser Gruppe fungieren als Datenermittler. Sie können Richtlinienüberstimmungen untersuchen, den zugehörigen Dateiinhalt anzeigen und Korrekturmaßnahmen ergreifen. Diese Gruppe kann über den Inhalts-Explorer auf Dateien zugreifen.
+Mitglieder dieser Gruppe fungieren als Datenermittler. Sie können Richtlinienübereinstimmungen untersuchen, den zugehörigen Dateiinhalt anzeigen und Abhilfemaßnahmen ergreifen. Diese Gruppe kann über den Inhalts-Explorer auf Dateien zugreifen.
 
 Zu den Rollen gehören:
 
 - Fallverwaltung  
-- Inhaltsanzeige für Datenklassifizierung  
+- Inhaltsanzeige der Datenklassifizierung  
 - Datenklassifizierungslistenanzeige  
-- Untersuchung des Datenschutzmanagements  
+- Datenschutzverwaltungsuntersuchung  
 - View-Only Fall
 
 ## <a name="privacy-management-viewer-role-group"></a>Rollengruppe "Datenschutzverwaltungsanzeige"
 
-Mitglieder dieser Gruppe können analysebasierte Informationen in Priva anzeigen, z. B. die Übersicht, das Datenprofil und die Berichte zu Antragstelleranfragen.
+Mitglieder dieser Gruppe können analytische Informationen in Priva anzeigen, z. B. die Übersicht, das Datenprofil und die Betreffanforderungsberichte.
 
 Zu den Rollen gehören:
 
-- Privacy Management Viewer
+- Datenschutzverwaltungsanzeige
 
-## <a name="subject-rights-request-administrators-role-group"></a>Rollengruppe "Administratoren von Antragstellerrechten anfordern"
+## <a name="subject-rights-request-administrators-role-group"></a>Rollengruppe "Antragstellerberechtigungsanforderungsadministratoren"
 
-Mitglieder dieser Gruppe haben Vollzugriff zum Verwalten und Erstellen von Anträgen auf Antragstellerrechte.
+Mitglieder dieser Gruppe haben Vollzugriff auf die Verwaltung und Erstellung von Anfragen zu Rechten betroffener Personen.
 
 Zu den Rollen gehören:
 
-- Administrator für Antragstellerrechteanforderung
+- Antragstellerberechtigungsanforderungsadministrator
 
-## <a name="privacy-management-contributors-role-group"></a>Rollengruppe "Mitwirkende im Datenschutzmanagement"
+## <a name="privacy-management-contributors-role-group"></a>Rollengruppe "Datenschutzverwaltungsmitwirkende"
 
-Mitglieder dieser Gruppe haben Zugriff auf Anträge von Antragstellerrechten, für die sie als Mitarbeiter hinzugefügt wurden.  
+Mitglieder dieser Gruppe haben Zugriff auf Anträge betroffener Rechte, für die sie als Mitarbeiter hinzugefügt wurden.  
 
 Zu den Rollen gehören:
 
 - Temporärer Beitrag zur Datenschutzverwaltung  
-- Permanenter Beitrag zum Datenschutzmanagement
+- Permanenter Beitrag zur Datenschutzverwaltung
 
-## <a name="legal-disclaimer"></a>Haftungsausschluss
+## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
 
-[Haftungsausschluss für Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva Rechtlicher Haftungsausschluss](priva-disclaimer.md)

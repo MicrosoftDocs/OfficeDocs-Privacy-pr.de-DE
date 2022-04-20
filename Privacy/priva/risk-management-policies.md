@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie Datenschutzrichtlinien für den Umgang mit den personenbezogenen Daten Ihrer Organisation in Microsoft 365 erstellen und anpassen.
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865774"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930506"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>Erstellen von Richtlinien im Datenschutzrisikomanagement
 
@@ -33,7 +33,7 @@ Beim Erstellen oder Bearbeiten von Richtlinien können Sie E-Mail-Benachrichtigu
 
 Führen Sie die folgenden Schritte aus, um eine Richtlinie mithilfe einer der Standardvorlagen zu erstellen.
 
-1. Wechseln Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien"** aus.
+1. Wechseln Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien**" aus.
 1. Wählen Sie **Richtlinie erstellen** aus.
 1. Wählen Sie den gewünschten Vorlagentyp aus. Dadurch wird ein Flyoutbereich mit Informationen zur Vorlage geöffnet.
 1. Um die Standardeinstellungen der Vorlage zu überprüfen, einschließlich Datentypen, Datenspeicherorten und bedingungen, die Richtlinienübereinstimmungen auslösen, wählen Sie **"Ansichtseinstellungen"** aus.
@@ -48,7 +48,7 @@ Um die Einstellungen einer Richtlinie präzise zu steuern, können Sie eine ange
 
 Alle Richtlinientypen folgen diesem grundlegenden Fluss. Bestimmte Einstellungen und Optionen ändern sich je nach ausgewählter Richtlinie.
 
-1. Wechseln Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien"** aus.
+1. Wechseln Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) zum Abschnitt "Priva Privacy Risk Management", und wählen Sie **"Richtlinien**" aus.
 1. Wählen Sie **Richtlinie erstellen** aus.
 1. Wählen Sie die Option **"Benutzerdefiniert** " aus, um mit der Verwendung des Assistenten zu beginnen.
 1. Wählen Sie ihren Basisvorlagentyp aus: **Datenüberbelichtung,** **Datenübertragungen** oder **Datenminimierung**. Jede dieser Optionen gibt Ihnen während der Richtlinienerstellung bestimmte Optionen.

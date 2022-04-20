@@ -17,81 +17,81 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Übersicht und das Datenprofil in Priva und wie Sie Einblicke in die personenbezogenen Daten in der Microsoft 365 Umgebung Ihrer Organisation erhalten.
-ms.openlocfilehash: 57064821a1c118b955d1f5380886a349263c845c
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249022"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930596"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Suchen und Visualisieren personenbezogener Daten in Microsoft Priva
 
-Microsoft Priva hilft Ihnen, die Daten zu verstehen, die Ihre Organisation speichert, indem es die Ermittlung von persönlichen Datenressourcen automatisiert und Visualisierungen wichtiger Informationen bereitstellt. Diese Visualisierungen finden Sie auf den **Übersichts** - und **Datenprofilseiten** . Sie können auf die Hierinblicke reagieren, um den Datenschutz Ihrer Organisation zu stärken und Risiken zu verringern.
+Microsoft Priva hilft Ihnen, die in Ihrer Organisation gespeicherten Daten zu verstehen, indem die Ermittlung personenbezogener Datenobjekte automatisiert und Visualisierungen wichtiger Informationen bereitgestellt werden. Diese Visualisierungen finden Sie auf den **Übersichts** - und **Datenprofilseiten** . Sie können hier auf die Erkenntnisse reagieren, um den Datenschutzstatus Ihrer Organisation zu stärken und Risiken zu reduzieren.
 
-Wechseln Sie zunächst zum Abschnitt "Priva" des [Microsoft 365 Compliance Center](https://compliance.microsoft.com/), und zeigen Sie die folgenden Seiten an:
+Wechseln Sie zunächst zum Priva-Abschnitt des [Microsoft Purview Compliance-Portals](https://compliance.microsoft.com/) , und zeigen Sie diese Seiten an:
 
-- **Übersicht**: Bietet einen Überblick über die Daten Ihrer Organisation in Microsoft 365. Datenschutzadministratoren können Trends und Aktivitäten überwachen, potenzielle Risiken im Zusammenhang mit personenbezogenen Daten erkennen und untersuchen und wichtige Aktivitäten wie Richtlinienverwaltung oder Anfragen von Antragstellerrechten ins Blickpunkt treten.
-- **Datenprofil**: Stellt eine Momentaufnahme der personenbezogenen Daten bereit, die Ihre Organisation in Microsoft 365 speichert. Auf dieser Seite können Sie visualisieren, wo personenbezogene Daten gespeichert sind, welche Typen in Ihrer Organisation am häufigsten vorkommen und wie viele verschiedene Typen an verschiedenen Standorten in Ihrer Microsoft 365 Umgebung vorhanden sind. Sie können auch personenbezogene Daten von diesem Ort aus erkunden.
+- **Übersicht**: Bietet einen Überblick über die Daten Ihrer Organisation in Microsoft 365. Datenschutzadministratoren können Trends und Aktivitäten überwachen, potenzielle Risiken im Zusammenhang mit personenbezogenen Daten identifizieren und untersuchen und wichtige Aktivitäten wie Richtlinienverwaltung oder Aktionen zur Anforderung von Rechten betroffener Personen umsetzen.
+- **Datenprofil**: Stellt eine Momentaufnahme der personenbezogenen Daten bereit, die Ihre Organisation in Microsoft 365 speichert. Auf dieser Seite können Sie visualisieren, wo sich personenbezogene Daten befinden, welche Typen in Ihrer Organisation am häufigsten verwendet werden und wie viele verschiedene Typen standortübergreifend in Ihrer Microsoft 365-Umgebung vorhanden sind. Sie können auch personenbezogene Daten von diesem Ort aus erkunden.
 
-Wenn sich Ihre Daten ändern und Priva neue Ergebnisse vornimmt, werden die auf diesen Seiten angezeigten Informationen aktualisiert. Beachten Sie, dass es bis zu 24 Stunden dauern kann, bis neue Daten in den Diagrammen dargestellt werden.
+Wenn sich Ihre Daten ändern und Priva neue Erkenntnisse macht, werden die auf diesen Seiten angezeigten Informationen aktualisiert. Beachten Sie, dass es bis zu 24 Stunden dauern kann, bis neue Daten in den Diagrammen dargestellt werden.
 
 ## <a name="explore-the-overview-page"></a>Erkunden der Übersichtsseite
 
-Die Übersichtsseite besteht aus drei Hauptabschnitten. Kacheln oben auf der Seite stellen wichtige aktuelle Statistiken zu Ihren Daten bereit. Der Abschnitt mit den wichtigsten Erkenntnissen bietet Untersuchungsmöglichkeiten zu Trends und Bereichen von zentralem Interesse. Weitere Informationen zu Ihrer Datenumgebung finden Sie in den Trendliniendiagrammen. Weitere Informationen zu diesen Bereichen finden Sie in den folgenden Abschnitten.
+Die Übersichtsseite besteht aus drei Hauptabschnitten. Kacheln am oberen Rand der Seite stellen wichtige aktuelle Statistiken zu Ihren Daten bereit. Der Abschnitt "Wichtige Einblicke" bietet Untersuchungsmöglichkeiten zu Trends und Bereichen von wichtigem Interesse. Weitere Perspektiven auf Ihre Datenumgebung finden Sie in den Trendliniendiagrammen. Weitere Informationen zu diesen Bereichen finden Sie in den folgenden Abschnitten.
 
 ![Beispielübersichtsseite.](../media/priva-overview.png)
 
-### <a name="top-tiles"></a>Top-Kacheln
+### <a name="top-tiles"></a>Obere Kacheln
 
-#### <a name="policy-matches-over-past-7-days"></a>Richtlinienüberstimmungen in den letzten 7 Tagen
+#### <a name="policy-matches-over-past-7-days"></a>Richtlinienübereinstimmungen in den letzten 7 Tagen
 
-Wenn Richtlinien innerhalb des Priva-Datenschutzrisikomanagements festgelegt sind, werden Ihre Daten basierend auf Ihren Richtlinien für bestimmte Bedingungen ausgewertet, die Datenschutzrisiken darstellen können. Richtlinienüberstimmungen deuten auf Datenentdeckungen hin, die möglicherweise einer weiteren Überprüfung oder Korrektur bedürfen. Diese Kachel zeigt, wie viele Richtlinienüberstimmungen innerhalb der letzten sieben Tage aufgetreten sind. Hier werden Übereinstimmungen angezeigt, unabhängig davon, ob Richtlinien aktiviert sind oder im Testmodus ausgeführt werden, sodass Sie die Ergebnisse aller aktiven Richtlinien sehen können. Wenn Sie diese Kachel auswählen, gelangen Sie zu einer gefilterten Ansicht der Seite **"Richtlinien** " des Datenschutzrisikomanagements, auf der die Richtlinien angezeigt werden, bei denen innerhalb der letzten sieben Tage eine Übereinstimmung aufgetreten ist.
+Wenn Richtlinien innerhalb von Priva Privacy Risk Management festgelegt werden, werden Ihre Daten basierend auf Ihren Richtlinien für bestimmte Bedingungen ausgewertet, die Datenschutzrisiken darstellen können. Richtlinienübereinstimmungen deuten auf Datenerhebungen hin, die möglicherweise noch überprüft oder behoben werden müssen. Diese Kachel zeigt, wie viele Richtlinienübereinstimmungen innerhalb der letzten sieben Tage aufgetreten sind. Hier werden Übereinstimmungen angezeigt, unabhängig davon, ob Richtlinien aktiviert sind oder im Testmodus ausgeführt werden, sodass Sie die Ergebnisse aller aktiven Richtlinien sehen können. Wenn Sie diese Kachel auswählen, gelangen Sie zu einer gefilterten Ansicht der Seite **"Richtlinien** " des Datenschutzrisikomanagements, in der die Richtlinien angezeigt werden, für die innerhalb der letzten sieben Tage eine Übereinstimmung aufgetreten ist.
 
 #### <a name="items-with-personal-data"></a>Elemente mit personenbezogenen Daten
 
-Um die automatisierten Ermittlungsfunktionen von Priva bei der Arbeit anzuzeigen, überprüfen Sie die Kachel " **Elemente mit persönlichen Daten** ". Diese Kachel zeigt, wie viele neue Elemente, die personenbezogene Daten basierend auf Ihren Einstellungen enthalten, in den letzten sieben Tagen in der Microsoft 365 Umgebung Ihrer Organisation entdeckt wurden. Wenn Sie diese Kachel auswählen, wird eine Ansicht der neuesten 100 ermittelten Elemente geladen.
+Um die automatisierten Ermittlungsfunktionen von Priva bei der Arbeit zu sehen, überprüfen Sie die Kachel **"Elemente mit personenbezogenen Daten** ". Diese Kachel zeigt, wie viele neue Elemente, die personenbezogene Daten basierend auf Ihren Einstellungen enthalten, in den letzten sieben Tagen in der Microsoft 365 Umgebung Ihrer Organisation ermittelt wurden. Wenn Sie diese Kachel auswählen, wird eine Ansicht der neuesten 100 ermittelten Elemente geladen.
 
-#### <a name="subject-rights-requests"></a>Anträge auf Rechte von Antragstellern
+#### <a name="subject-rights-requests"></a>Anträge betroffener Personen
 
-Die Übersichtsseite enthält eine Kachel, die zeigt, wie viele Antragstellerrechteanforderungen in den letzten sieben Tagen erstellt wurden. Eine zweite Kachel zeigt ggf. an, wie viele Anforderungen basierend auf den festgelegten Stichtagen überfällig sind und möglicherweise sofortige Aufmerksamkeit erfordern. Wenn Sie diese Kacheln auswählen, erhalten Benutzer die entsprechenden Berechtigungen für die Seite "Antragstellerrechte anfordern" von Priva.
+Die Übersichtsseite enthält eine Kachel, die zeigt, wie viele Anfragen zu Rechten betroffener Personen in den letzten sieben Tagen erstellt wurden. Eine zweite Kachel zeigt ggf. an, wie viele Anforderungen basierend auf Ihren festgelegten Fristen überfällig sind und möglicherweise sofortige Aufmerksamkeit erfordern. Wenn Sie diese Kacheln auswählen, erhalten Benutzer die entsprechenden Berechtigungen für die Anforderungsseite für Rechte betroffener Personen von Priva.
 
-### <a name="key-insights"></a>Wichtige Erkenntnisse
+### <a name="key-insights"></a>Wichtige Einblicke
 
 #### <a name="content-items-with-the-most-personal-data"></a>Inhaltselemente mit den persönlichsten Daten
 
-Inhalte, die eine große Menge an personenbezogenen Daten enthalten, können ein höheres Risiko einer Gefährdung darstellen. Sie können diese Elemente überprüfen, um sicherzustellen, dass sie von einer Richtlinie für das Datenschutzrisikomanagement abgedeckt werden. Um diese Elemente auf Sich aufmerksam zu machen, bietet die Übersichtsseite eine Ansicht ihrer Inhaltselemente, die gemäß Ihren Einstellungen die persönlichsten Daten enthalten. Hier sehen Sie die Anzahl der erkannten eindeutigen personenbezogenen Datentypen, wie viele eindeutige Inhaltsbesitzer identifiziert wurden und wie viele betroffene Personen gemäß den Datenabgleichseinstellungen für Anträge betroffener Personen identifiziert wurden.
+Inhalte, die eine große Menge an personenbezogenen Daten enthalten, können ein höheres Risiko der Gefährdung darstellen. Möglicherweise möchten Sie solche Elemente überprüfen, um sicherzustellen, dass sie von einer Richtlinie für das Datenschutzrisikomanagement abgedeckt sind. Um diese Elemente auf Sich aufmerksam zu machen, bietet die Übersichtsseite einen Einblick in Ihre Inhaltselemente, die die persönlichsten Daten gemäß Ihren Einstellungen enthalten. Hier sehen Sie die Anzahl der erkannten eindeutigen persönlichen Datentypen, wie viele eindeutige Inhaltsbesitzer identifiziert wurden und wie viele betroffene Personen gemäß den Datenabgleichseinstellungen für Anfragen von Betroffenenrechten identifiziert wurden.
 
-Wählen Sie **"Zusammenfassung anzeigen** " aus, um eine Zusammenfassungsansicht der gefundenen Elemente anzuzeigen. Sie **können diese Ergebnisse** auch erkunden, um eine Vorschau einzelner Dateien anzuzeigen. In dieser Ansicht werden maximal 100 Elemente angezeigt. Benutzer in der Rollengruppe "Datenschutzverwaltung" können Dateien auswählen, um Details zu überprüfen und die Relevanz zu ermitteln, und die Liste im .csv Format zur Referenz exportieren.
+Wählen Sie **"Zusammenfassung anzeigen"** für eine Zusammenfassungsansicht der gefundenen Elemente aus. Sie können diese Ergebnisse auch **durchsuchen** , um eine Vorschau einzelner Dateien anzuzeigen. In dieser Ansicht werden maximal 100 Elemente angezeigt. Benutzer in der Rollengruppe "Datenschutzverwaltung" können Dateien auswählen, um Details zu überprüfen und die Relevanz zu bestimmen, und die Liste zur Referenz in .csv Format exportieren.
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>Richtlinien mit den meisten Übereinstimmungen in der letzten Woche
 
-Diese Einblicke zeigen, welche Richtlinien in den letzten sieben Tagen am häufigsten abgeglichen wurden, sei es im "Ein"-Modus oder im "Testen". Es hilft ihnen, die Leistung Ihrer Richtlinien und die Auswirkungen der laufenden Arbeit zu veranschaulichen, wenn Ihre Priva-Benutzer ihr Datenschutzverhalten verfeinern.
+Dieser Einblick zeigt, welche Richtlinien in den letzten sieben Tagen am häufigsten abgeglichen wurden, ob im "Ein"-Modus oder im "Testen". Es hilft, die Leistung Ihrer Richtlinien und die Auswirkungen der laufenden Arbeit zu veranschaulichen, während Ihre Priva-Benutzer ihr Datenschutzverhalten verfeinern.
 
-Wählen Sie **"Zusammenfassung anzeigen** " aus, um eine Zusammenfassung der 10 am häufigsten gefundenen Richtlinien und der Inhaltsbesitzer der zugeordneten Inhalte anzuzeigen. Außerdem wird angezeigt, wie viele Benutzerbenachrichtigungen aufgrund dieser Richtlinienüberstimmungen gesendet wurden und wie viele Benutzeraktionen ausgeführt wurden. Wählen Sie **"Untersuchen** " aus, um die Seite "Richtlinien" im Datenschutzrisikomanagement anzuzeigen, gefiltert, um die Richtlinien aus der Zusammenfassungsansicht anzuzeigen. In dieser Untersuchungsansicht werden Statistiken für die gesamte Lebensdauer der Richtlinie angezeigt. Wählen Sie ihn aus, um Details anzuzeigen, z. B. wann übereinstimmende Elemente anfänglich erkannt wurden.
+Wählen Sie **"Zusammenfassung anzeigen"** aus, um eine Zusammenfassung der 10 besten übereinstimmenden Richtlinien und der Inhaltsbesitzer der zugeordneten Inhalte anzuzeigen. Außerdem wird angezeigt, wie viele Benutzerbenachrichtigungen aufgrund dieser Richtlinienübereinstimmungen gesendet wurden und wie viele Benutzeraktionen ausgeführt wurden. Wählen Sie **"Untersuchen** " aus, um die Seite "Richtlinien" im Datenschutzrisikomanagement anzuzeigen, gefiltert, um die Richtlinien aus der Zusammenfassungsansicht anzuzeigen. In dieser Untersuchungsansicht werden Statistiken für die gesamte Lebensdauer der Richtlinie angezeigt. Wählen Sie sie aus, um Details anzuzeigen, z. B. wann übereinstimmende Elemente anfänglich erkannt wurden.
 
-#### <a name="users-with-the-most-policy-matched-in-the-last-week"></a>Benutzer, deren Richtlinie in der letzten Woche am häufigsten abgeglichen wurde
+#### <a name="users-with-the-most-policy-matched-in-the-last-week"></a>Benutzer mit der am häufigsten übereinstimmenden Richtlinie in der letzten Woche
 
-Dieser Einblick befasst sich auch mit Übereinstimmungen aus Richtlinien im "Testmodus" oder im "Ein"-Modus. Sie können eine Zusammenfassung der Benutzer mit den meisten Richtlinienüberstimmungen in der letzten Woche anzeigen und welche Richtlinien sie erfüllen. Dies umfasst Summen der eindeutigen Inhaltsbesitzer, an diese Benutzer gesendete Benachrichtigungen und wie viele Aktionen aus diesen Benachrichtigungen ausgeführt wurden. Wenn Sie **"Untersuchen** " auswählen, gelangen Sie zur Seite "Richtlinien", gefiltert, um die Richtlinien aus der Zusammenfassungsansicht anzuzeigen. In der Untersuchungsansicht finden Sie keine Benutzerinformationen, aber Sie können eine Richtlinie auswählen, um Richtliniendetails im Zusammenhang mit diesen Übereinstimmungen anzuzeigen.
+Dieser Einblick befasst sich auch mit Übereinstimmungen aus Richtlinien im Modus "Testen" oder "Ein". Sie können eine Zusammenfassung der Benutzer mit den meisten Richtlinienübereinstimmungen in der letzten Woche und den richtlinienübereinstimmungen anzeigen. Dazu gehören Summen der eindeutigen Inhaltsbesitzer, Benachrichtigungen, die an diese Benutzer gesendet wurden, und die Anzahl der Aktionen, die aus diesen Benachrichtigungen ausgeführt wurden. Wenn Sie **"Untersuchen** " auswählen, gelangen Sie zur Seite "Richtlinien", gefiltert, um die Richtlinien aus der Zusammenfassungsansicht anzuzeigen. In der Untersuchungsansicht finden Sie keine Benutzerinformationen, aber Sie können eine Richtlinie auswählen, um Richtliniendetails zu diesen Übereinstimmungen anzuzeigen.
 
 #### <a name="items-with-the-most-data-subject-content"></a>Elemente mit den meisten Inhalten betroffener Personen
 
-Dieser Einblick verweist auf Informationen aus der Datenübereinstimmungsfunktion in Anträgen von Betreffrechten und stellt Inhaltselemente dar, die in Microsoft 365 gefunden wurden, die die meisten betroffenen Personen enthalten. Weitere Informationen zu dieser Einstellung finden Sie unter ["Informationen zu Anträgen betroffener Personen"](subject-rights-requests.md).
+Dieser Einblick verweist auf Informationen aus dem Datenabgleichsfeature in Anfragen zu Rechten betroffener Personen und zeigt Innerhalb Microsoft 365 ermittelte Inhaltselemente an, die die meisten betroffenen Personen enthalten. Weitere Informationen zu dieser Einstellung finden Sie unter ["Informationen zu Anfragen zu Rechten betroffener Personen](subject-rights-requests.md)".
 
-Diese Elemente können Ihnen helfen, Ihre Datenabgleichskonfiguration zu bestätigen und Datenschutzrisiken im Zusammenhang mit diesen Elementen zu mindern. Select **View summary** for a summary view. Wählen Sie **"Erkunden"** aus, um eine detaillierte Ansicht von bis zu 100 dieser Elemente zu finden. Hier können Sie eine Vorschau dieser Elemente anzeigen und die Relevanz ermitteln und die Liste im .csv Format exportieren.
+Diese Elemente können ihnen helfen, ihre Datenabgleichskonfiguration zu bestätigen und Datenschutzrisiken im Zusammenhang mit diesen Elementen zu minimieren. Wählen Sie **"Zusammenfassung anzeigen"** für eine Zusammenfassungsansicht aus. Wählen Sie **"Durchsuchen** " aus, um eine detaillierte Ansicht von bis zu 100 dieser Elemente anzuzeigen. Hier können Sie eine Vorschau dieser Elemente anzeigen und die Relevanz bestimmen und die Liste in .csv Format exportieren.
 
 ### <a name="trendline-graphs"></a>Trendliniendiagramme
 
-Dynamische Visualisierungen von Trends, die in den Daten Ihrer Organisation zu finden sind, finden Sie in den Trendliniendiagrammen. Diese Diagramme können nach Merkmalen wie Zeiträumen, Datentypen oder Speicherorten von Daten gefiltert werden. Verwenden Sie die bereitgestellten Dropdowns, um Ihre Ansicht anzupassen. Wenn Sie mit dem Mauszeiger über Linien im Diagramm zeigen, können Sie Statistiken anzeigen, die sich auf diesen bestimmten Zeitpunkt beziehen.
+Dynamische Visualisierungen von Trends in den Daten Ihrer Organisation finden Sie in den Trendliniendiagrammen. Diese Diagramme können nach Merkmalen wie Zeiträumen, Datentypen oder Datenspeicherorten gefiltert werden. Verwenden Sie die bereitgestellten Dropdowns, um Ihre Ansicht anzupassen. Wenn Sie mit dem Mauszeiger auf Linien im Diagramm zeigen, können Sie Statistiken im Zusammenhang mit diesem bestimmten Zeitpunkt anzeigen.
 
-Zu den Ergebnissen im Zusammenhang mit Richtlinien gehören Daten aus Richtlinien im Modus "Test" und "Ein". Wenn keine Richtlinien eines bestimmten Typs aktiv sind, werden in den zugehörigen Diagrammen keine Ergebnisse angezeigt.
+Die Ergebnisse im Zusammenhang mit Richtlinien enthalten Daten aus Richtlinien sowohl im Testmodus als auch im "Ein"-Modus. Wenn keine Richtlinien eines bestimmten Typs aktiv sind, werden in den zugehörigen Diagrammen keine Ergebnisse angezeigt.
 
-#### <a name="active-policy-alerts"></a>Warnungen bei aktiven Richtlinien
+#### <a name="active-policy-alerts"></a>Aktive Richtlinienwarnungen
 
-In diesem Bereich wird eine Momentaufnahme der aktiven Warnungen angezeigt, die durch Richtlinienübersprechung ausgelöst werden. Im Laufe der Zeit kann diese Ansicht Ihnen helfen, Anomalien wie große Mengenspitzen leichter zu erkennen. Wählen Sie **Warnungen anzeigen** aus, um zur Seite "Richtlinien" im Datenschutzrisikomanagement zu navigieren, auf der Sie Warnungen weiter untersuchen und Probleme für die Behebung erstellen können.
+In diesem Bereich wird eine Momentaufnahme aktiver Warnungen angezeigt, die durch Richtlinienübereinstimmungen ausgelöst werden. Im Laufe der Zeit kann Ihnen diese Ansicht helfen, Anomalien wie große Volumenspitzen leichter zu erkennen. Wählen Sie **"Warnungen anzeigen** " aus, um zur Seite "Richtlinien" im Datenschutzrisikomanagement zu navigieren, auf der Sie Warnungen weiter untersuchen und Probleme zur Behebung erstellen können.
 
 #### <a name="personal-data-found-in-organization"></a>In der Organisation gefundene personenbezogene Daten
 
-Dieses Diagramm zeigt Trends, wie viele personenbezogene Daten, die Ihren Einstellungen entsprechen, im Laufe der Zeit in Ihrer Microsoft 365 Umgebung ermittelt wurden und wo sie sich befinden. Sie beginnt mit dem Auffüllen, nachdem Priva ausreichend lange ausgeführt wurde und nachdem Inhalte mit personenbezogenen Daten innerhalb SharePoint, OneDrive, Teams und/oder Exchange gefunden wurden.
+Dieses Diagramm zeigt, wie viele personenbezogene Daten, die Ihren Einstellungen entsprechen, im Laufe der Zeit in Ihrer Microsoft 365 Umgebung ermittelt wurden und wo sie sich befinden. Es beginnt mit dem Auffüllen, nachdem Priva ausreichend lange ausgeführt wurde und inhalte mit personenbezogenen Daten in SharePoint, OneDrive, Teams und/oder Exchange gefunden wurden.
 
 #### <a name="data-transfers-detected-in-organization"></a>In der Organisation erkannte Datenübertragungen
 
@@ -99,54 +99,54 @@ Dieses Diagramm bezieht sich auf Datenübertragungsrichtlinien. Es bietet eine �
 
 #### <a name="unused-personal-data"></a>Nicht verwendete personenbezogene Daten
 
-Dieses Diagramm bezieht sich auf Richtlinien zur Datenminimierung. Es bietet Einblicke, wie Ihre Organisation Inhalte mit personenbezogenen Daten speichert und wie Ihre Richtlinien den Umgang mit diesen Daten im Laufe der Zeit verbessern können.
+Dieses Diagramm bezieht sich auf Datenminimierungsrichtlinien. Es gibt Einblicke, wie Ihre Organisation Inhalte speichert, die personenbezogene Daten enthalten, und wie Ihre Richtlinien Ihren Umgang mit diesen Daten im Laufe der Zeit verbessern können.
 
-#### <a name="overexposed-personal-data"></a>Überlastete personenbezogene Daten
+#### <a name="overexposed-personal-data"></a>Überbelichtete personenbezogene Daten
 
-Dieses Diagramm bezieht sich auf Datenüberlastungsrichtlinien. Es kann Ihnen helfen, Freigabeverhalten im Laufe der Zeit innerhalb Ihrer Organisation und Speicherorte zu identifizieren, an denen Inhalte mit personenbezogenen Daten möglicherweise überlastet sind, z. B. indem sie öffentlich, für einen externen Benutzer freigegeben oder in Ihrer Organisation umfassend freigegeben werden.
+Dieses Diagramm bezieht sich auf Datenüberbelichtungsrichtlinien. Es kann Ihnen dabei helfen, das Freigabeverhalten im Laufe der Zeit innerhalb Ihrer Organisation und an Orten zu identifizieren, an denen Inhalte mit personenbezogenen Daten möglicherweise überbelichtet sind, z. B. durch die öffentliche Freigabe, die Freigabe für einen externen Benutzer oder die gemeinsame Nutzung von Inhalten innerhalb Ihrer Organisation.
 
 #### <a name="subject-rights-requests-by-regulation"></a>Anträge betroffener Personen nach Verordnung
 
-Diese Ansicht bietet Einblicke in die Vorschriften, die ihre Anträge auf Rechte betroffener Personen im Laufe der Zeit am häufigsten vorantreiben. Die Legende dieses Diagramms zeigt die Namen der trendenden Bestimmungen. Wenn Sie mit dem Mauszeiger über die Trendlinien zeigen, werden die Gesamtsummen der Anträge betroffener Personen angezeigt, die während der ausgewählten Zeit für diese Verordnung geöffnet wurden.
+Diese Ansicht bietet Einblicke in die Bestimmungen, die im Laufe der Zeit am häufigsten Anforderungen an Ihre Betroffenenrechte fördern. Die Legende dieses Diagramms zeigt die Namen der trendenden Vorschriften. Wenn Sie mit dem Mauszeiger auf die Trendlinien zeigen, werden die Summen der Anträge betroffener Personen angezeigt, die für diese Verordnung während des ausgewählten Zeitraums geöffnet sind.
 
-#### <a name="subject-rights-requests-by-status"></a>Anträge von Antragstellerrechten nach Status
+#### <a name="subject-rights-requests-by-status"></a>Anträge betroffener Personen nach Status
 
-Dieses Diagramm zeigt, wie Ihre Organisation mit der Erledigung von Anträgen auf Betreffrechte arbeitet, aufgeteilt in Anforderungen, die **entweder aktiv**, **geschlossen** oder **überfällig** sind. Die hier vorgestellten Ergebnisse können ihnen helfen, anzugeben, wo Sie von der Zuweisung weiterer Ressourcen profitieren könnten, um Ihre Anforderungen zu schließen und Ziele zu erfüllen.
+Dieses Diagramm zeigt, wie Ihre Organisation mit dem Ausfüllen von Anfragen zu Rechten betroffener Personen umgeht, aufgeschlüsselt in Anforderungen, die entweder **aktiv**, **geschlossen** oder **überfällig** sind. Anhand der hier gezeigten Ergebnisse können Sie erkennen, wo Sie von der Zuweisung weiterer Ressourcen zum Schließen Ihrer Anforderungen und Besprechungsziele profitieren können.
 
 ### <a name="additional-data-views"></a>Zusätzliche Datenansichten
 
-#### <a name="subject-rights-requests-at-a-glance"></a>Anträge auf Rechte betroffener Personen auf einen Blick
+#### <a name="subject-rights-requests-at-a-glance"></a>Anträge betroffener Personen auf einen Blick
 
-Diese Ansicht bietet eine allgemeine Ansicht der Anträge aktiver Antragstellerrechte, einschließlich der verbleibenden Zeit zum Abschließen von Anforderungen bis zu ihren Stichtagen. Es wird zusammengefasst, wie viele Anforderungen Sie insgesamt haben, wie viele aktiv sind und wie viele geschlossen sind. Wählen Sie **"Alle Anforderungen anzeigen** " aus, um zur Seite zur Anforderung von Betreffrechten zu wechseln, auf der Sie weitere Details anzeigen und an den aktiven Anforderungen arbeiten können, um sie bis zum Abschluss zu führen.
+Diese Ansicht bietet eine allgemeine Übersicht über aktive Anträge betroffener Personen, einschließlich der verbleibenden Zeit zum Abschließen von Anträgen nach deren Fristen. Es fasst zusammen, wie viele Anforderungen Sie insgesamt haben, wie viele aktiv sind und wie viele geschlossen werden. Wählen Sie **"Alle Anforderungen anzeigen** " aus, um zur Anforderungsseite für Die Betroffenenrechte zu wechseln, auf der Sie weitere Details anzeigen und an den aktiven Anforderungen arbeiten können, um sie bis zum Abschluss fortzuentwickeln.
 
-#### <a name="subject-rights-requests-by-residency"></a>Anträge betroffener Personen nach Dementhaltung
+#### <a name="subject-rights-requests-by-residency"></a>Anträge betroffener Personen nach Wohnsitz
 
-Diese Kartenansicht hilft Ihnen bei der Visualisierung Ihres Umfangs von Anträgen auf Rechte von Betroffenen durch den Wohnsitz der betroffenen Personen. Wenn Sie mit dem Mauszeiger auf eine Blase zeigen, werden die Region und die Gesamtzahl der Anträge betroffener Personen identifiziert, die im Auftrag von Dort ansässigen Personen geöffnet wurden.
+Diese Kartenansicht hilft Ihnen bei der Visualisierung Ihres Volumens von Anfragen zu Rechten betroffener Personen durch den Aufenthalt der betroffenen Personen. Wenn Sie mit dem Mauszeiger auf eine Blase zeigen, werden die Region und die Gesamtzahl der Anträge betroffener Personen identifiziert, die im Namen der Dort ansässigen Personen geöffnet wurden.
 
 ## <a name="explore-the-data-profile-page"></a>Erkunden der Datenprofilseite
 
-Die Datenprofilseite in Priva bietet eine Momentaufnahme der personenbezogenen Daten, die Ihre Organisation in Microsoft 365 speichert und wo sie sich befinden. Außerdem erhalten Sie Einen Einblick in die Arten von Daten, die Sie speichern. Die Hauptkacheln umfassen Folgendes.
+Die Datenprofilseite in Priva bietet eine Momentaufnahme der personenbezogenen Daten, die Ihre Organisation in Microsoft 365 speichert und wo sie sich befinden. Es bietet auch Einblicke in die Arten von Daten, die Sie speichern. Die Hauptkacheln umfassen Folgendes:
 
 ![Beispieldatenprofilseite.](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>In Microsoft 365 erkannte Instanzen des persönlichen Datentyps
 
-Mit dieser Kachel können Sie anhand Ihrer Einstellungen visualisieren, wie viele personenbezogene Daten in Ihrer Microsoft 365-Umgebung vorhanden sind und wie diese Daten über Exchange, OneDrive, SharePoint und Teams verteilt werden.
+Mithilfe dieser Kachel können Sie basierend auf Ihren Einstellungen visualisieren, wie viele personenbezogene Daten in Ihrer Microsoft 365-Umgebung vorhanden sind und wie diese Daten auf Exchange, OneDrive, SharePoint und Teams verteilt werden.
 
-Das Balkendiagramm zeigt die ungefähre Aggregatanzahl eindeutiger Instanzen des persönlichen Datentyps, die in Ihren Inhalten gefunden werden. Beispiele für Datentypen können z. B. Kreditkartennummern und Sozialversicherungsnummern sein. Daher würde eine ermittelte Datei, die drei Kreditkartennummern und eine Sozialversicherungsnummer enthält, zwei eindeutige personenbezogene Datentypen und vier Instanzen enthalten. Im unteren Teil dieser Kachel werden die eindeutigen persönlichen Datentypen an jedem Microsoft 365 Speicherort angezeigt. Sie bietet einen Einblick in die Vielfalt der personenbezogenen Datentypen, die in den Inhalten Ihrer Organisation erkannt werden.
+Das Balkendiagramm zeigt die ungefähre Aggregatanzahl der eindeutigen Instanzen des persönlichen Datentyps, die in Ihrem Inhalt gefunden wurden. Beispiele für Datentypen können Kreditkartennummern und Sozialversicherungsnummern sein. Daher würde eine ermittelte Datei, die drei Kreditkartennummern und eine Sozialversicherungsnummer enthält, zwei eindeutige persönliche Datentypen und vier Instanzen enthalten. Der untere Teil dieser Kachel zeigt die eindeutigen persönlichen Datentypen innerhalb jedes Microsoft 365 Speicherorts an. Es bietet einen Einblick in die Vielfalt der personenbezogenen Datentypen, die in den Inhalten Ihrer Organisation erkannt werden.
 
-### <a name="top-personal-data-types-across-your-organization"></a>Die wichtigsten typen personenbezogener Daten in Ihrer Organisation
+### <a name="top-personal-data-types-across-your-organization"></a>Die wichtigsten persönlichen Datentypen in Ihrer Organisation
 
-Diese Kachel enthält eine Momentaufnahme der wichtigsten in Ihrer Umgebung erkannten typen personenbezogener Daten sowie Informationen dazu, wie viele Elemente diesen persönlichen Datentyp enthalten und an welchen Speicherorten.
+Diese Kachel bietet eine Momentaufnahme der wichtigsten in Ihrer Umgebung erkannten persönlichen Datentypen sowie Informationen dazu, wie viele Elemente diesen persönlichen Datentyp enthalten und an welchen Orten.
 
 ### <a name="personal-data-type-instances-by-region"></a>Instanzen des persönlichen Datentyps nach Region
 
-Für Multi-Geo-Umgebungen aggregiert diese Kachel Instanzen des typs "Personenbezogener Daten" regional, die sich in Ihren Inhalten befinden, basierend auf den Regionen, in denen diese Inhalte gehostet werden. Für Organisationen mit einer Region zeigt diese Kachel einen Punkt an, der Ihren Microsoft 365 Standort darstellt. Wenn Sie auf der Karte auf Punkte zeigen, wird die ungefähre Anzahl der in dieser Region entdeckten Instanzen des typs "Personenbezogener Datentyp" angezeigt.
+Bei Multi-Geo-Umgebungen aggregiert diese Kachel instanzen des persönlichen Datentyps, die in Ihren Inhalten gefunden werden, basierend auf den Regionen, in denen diese Inhalte gehostet werden. Bei Organisationen mit einer Region wird auf dieser Kachel ein Punkt angezeigt, der Ihren Microsoft 365 Standort darstellt. Wenn Sie mit dem Mauszeiger auf Punkte auf der Karte zeigen, wird die ungefähre Anzahl von Instanzen des persönlichen Datentyps angezeigt, die in dieser Region ermittelt wurden.
 
 ### <a name="exploring-content"></a>Erkunden von Inhalten
 
-Wenn Sie " **Durchsuchen"** auf einer beliebigen Datenprofilkachel auswählen, wird der Inhalts-Explorer geöffnet. Zu diesem Zeitpunkt können Sie nicht nach einem bestimmten Inhaltselement suchen, und in dieser Ansicht werden keine Teams Daten angezeigt. Dies bedeutet, dass Zahlen im Inhalts-Explorer möglicherweise nicht mit den auf der Datenprofilseite angezeigten Zahlen übereinstimmen, da die Datenprofilseite Teams Inhalt enthält. Datenschutzadministratoren, die weitere Einblicke in ihre Datenschutzdaten benötigen, können dies hier basierend auf dem persönlichen Datentyp (Typ vertraulicher Informationen) oder nach Standort (Exchange, OneDrive oder SharePoint) tun.
+Wenn Sie **"Durchsuchen** " auf einer beliebigen Datenprofilkachel auswählen, wird der Inhalts-Explorer geöffnet. Derzeit können Sie nicht nach einem bestimmten Inhaltselement suchen, und in dieser Ansicht werden Teams Daten nicht angezeigt. Dies bedeutet, dass Zahlen im Inhalts-Explorer möglicherweise nicht mit den Zahlen übereinstimmen, die auf der Datenprofilseite angezeigt werden, da die Datenprofilseite Teams Inhalt enthält. Datenschutzadministratoren, die weitere Einblicke in ihre Datenschutzdaten wünschen, können dies hier basierend auf dem persönlichen Datentyp (Typ vertraulicher Informationen) oder nach Standort (Exchange, OneDrive oder SharePoint) tun.
 
-## <a name="legal-disclaimer"></a>Haftungsausschluss
+## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
 
-[Haftungsausschluss für Microsoft Priva](priva-disclaimer.md)
+[Microsoft Priva Rechtlicher Haftungsausschluss](priva-disclaimer.md)
