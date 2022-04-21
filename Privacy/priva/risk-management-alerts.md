@@ -15,81 +15,76 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie Warnungen und Probleme, die von Richtlinienüberstimmungen ausgelöst werden, im Datenschutzrisikomanagement verwalten.
-ms.openlocfilehash: 26b30082d4f7122e113d38e8357af26b3850fda2
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: Erfahren Sie, wie Sie Warnungen und Probleme verwalten, die durch Richtlinienübereinstimmungen in Microsoft Priva Privacy Risk Management ausgelöst werden.
+ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248962"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014385"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Untersuchen und Beheben von Warnungen im Datenschutzrisikomanagement
 
-Microsoft Priva kann Ihnen dabei helfen, wichtige Erkenntnisse über Ihre Datenüberlagerung, Datenminimierung oder Datenübertragungsrichtlinien sichtbar zu machen. Innerhalb der Lösung für das Datenschutzrisikomanagement können Administratoren **Warnungen** zu Inhalten überprüfen, die Ihren Richtlinienbedingungen entsprechen. Mit der Überprüfung von Warnungen können Sie Fälle identifizieren, die nachgesehen werden müssen. Sie können dies tun, indem Sie **Probleme erstellen**. Probleme bieten Ihren Benutzern eine strukturierte Möglichkeit, Inhalte zu überprüfen, den Schweregrad des Problems zuzuweisen und gemeinsam an der Behebung von Problemen zu arbeiten.
+Microsoft Priva kann Ihnen dabei helfen, Einblicke in wichtige Entdeckungen aus Ihren Datenüberbelichtungs-, Datenminimierungs- oder Datenübertragungsrichtlinien zu bieten. Innerhalb der Privacy Risk Management-Lösung können Administratoren **Warnungen** zu Inhalten überprüfen, die Ihren Richtlinienbedingungen entsprechen. Durch das Überprüfen von Warnungen können Sie Fälle identifizieren, die nachverfolgt werden müssen. Sie können dies tun, indem Sie **Probleme** erstellen. Probleme bieten Ihren Benutzern eine strukturierte Möglichkeit, Inhalte zu überprüfen, den Schweregrad des Problems zuzuweisen und gemeinsam an der Behebung von Problemen zu arbeiten.
 
-Wenn Ihre Richtlinie für das Senden von Benachrichtigungen an Ihre Benutzer eingerichtet wurde, können Inhaltsbesitzer auch bestimmte Korrekturmaßnahmen direkt über diese E-Mails oder über Teams ergreifen. Weitere Informationen finden Sie unter [Senden von Benutzerbenachrichtigungen im Datenschutzrisikomanagement](risk-management-notifications.md).
+Wenn Ihre Richtlinie so eingerichtet wurde, dass Benachrichtigungen an Ihre Benutzer gesendet werden, können Inhaltsbesitzer bestimmte Korrekturmaßnahmen auch direkt aus diesen E-Mails oder aus Teams ausführen. Weitere Informationen finden [Sie unter "Senden von Benutzerbenachrichtigungen im Datenschutzrisikomanagement](risk-management-notifications.md)".
 
-## <a name="view-current-alerts-and-issues"></a>Anzeigen aktueller Warnungen und Probleme
+## <a name="view-current-alerts-and-issues"></a>Aktuelle Warnungen und Probleme anzeigen
 
-Die **Übersichtsseite** von Priva bietet einen Überblick über die aktuellen Ergebnisse mit Updates zu wichtigen Bereichen, wie z. B. die Richtlinien mit den meisten Übereinstimmungen und Ihre derzeit aktiven Richtlinienwarnungen. Weitere Informationen zu den Informationen, die diese Ansicht bereitstellt, finden Sie unter [Suchen und Visualisieren personenbezogener Daten in Priva](priva-data-profile.md).
+Die Priva-Seite **"Übersicht** " bietet einen Einblick in aktuelle Ergebnisse mit Updates zu wichtigen Bereichen, z. B. den Richtlinien mit den meisten Übereinstimmungen und Ihren derzeit aktiven Richtlinienwarnungen. Weitere Informationen zu den in dieser Ansicht bereitgestellten Informationen finden [Sie unter Suchen und Visualisieren personenbezogener Daten in Priva](priva-data-profile.md).
 
-Sie können auch über die Hauptseite " **Richtlinien** " auf Visualisierungen und Details zu Ihren Warnungen und Problemen zugreifen. Wählen Sie **Warnungen anzeigen** und **Probleme anzeigen** aus, um Details anzuzeigen.
+Sie können auch über die Hauptseite " **Richtlinien** " auf Visualisierungen und Details zu Ihren Warnungen und Problemen zugreifen. Wählen Sie **"Warnungen anzeigen"** und **"Probleme anzeigen"** aus, um Details anzuzeigen.
 
 ## <a name="manage-alerts"></a>Verwalten von Warnungen
 
-Um Ihre aktiven Warnungen auszuwerten und anzugeben, welche nachverfolgungsbereit sein müssen, greifen Sie auf die Seite **"Warnungen"** zu. Es stellt eine filterbare Liste von Warnungen bereit, die von Ihren Richtlinien generiert werden. Sie können diese einzeln überprüfen, um die Umstände zu ermitteln, unter denen sie ausgelöst wurden.
+Um Ihre aktiven Warnungen auszuwerten und anzugeben, welche Warnungen nachverfolgt werden müssen, greifen Sie auf Ihre **Warnungsseite** zu. Es bietet eine filterbare Liste der Warnungen, die von Ihren Richtlinien generiert werden. Sie können sie einzeln überprüfen, um die Umstände zu ermitteln, unter denen sie ausgelöst wurden.
 
-Wenn Sie eine Warnung auswählen, wird ein Flyover-Bereich mit zusätzlichen Details geöffnet, wie z. B. die Anzahl der übereinstimmenden Elemente und der Schweregrad, der von Ihren Richtlinieneinstellungen als unerwähnt eingestuft wird. Auf der Registerkarte " **Inhalt** " können Sie überprüfen, welche Dateien an dieser Warnung beteiligt sind. Diese Informationen können zusätzliche Einblicke in das spezifische Ereignis liefern, das die Warnung ausgelöst hat, wo sich die Dateien befinden und welche Arten von personenbezogenen Daten beteiligt sind. Trigger für Warnungen werden durch die spezifischen Bedingungen der einzelnen Richtlinien bestimmt. Beispielsweise kann eine Warnung für eine Datenübertragungsrichtlinie ausgelöst werden, wenn Priva eine Übertragung zwischen den angegebenen Abteilungen oder Regionen der Richtlinie erkennt.
+Wenn Sie eine Warnung auswählen, wird ein Flyoverbereich mit zusätzlichen Details geöffnet, z. B. die Anzahl der übereinstimmenden Elemente und der Schweregrad, wie sie anhand Ihrer Richtlinieneinstellungen beurteilt werden. Auf der Registerkarte **"Inhalt** " können Sie überprüfen, welche Dateien an dieser Warnung beteiligt sind. Diese Informationen können zusätzliche Einblicke in das spezifische Ereignis liefern, das die Warnung ausgelöst hat, wo sich die Dateien befinden und welche Arten von personenbezogenen Daten beteiligt sind. Trigger für Warnungen werden durch die spezifischen Bedingungen jeder Richtlinie bestimmt. Beispielsweise kann eine Warnung bei einer Datenübertragungsrichtlinie ausgelöst werden, wenn Priva eine Übertragung zwischen den angegebenen Abteilungen oder Regionen der Richtlinie erkennt.
 
-Nachdem Sie eine Warnung in der Liste bewertet haben, können Sie **"Problem erstellen"** auswählen, um weitere Untersuchungen und Aktionen durch Ihre Benutzer zu veranlassen. Sie werden aufgefordert, das Problem zu benennen und alle relevanten Kommentare für den Kontext hinzuzufügen. Sie können Warnungen hier auch schließen, wenn keine Nachverfolgung erforderlich ist.
+Nachdem Sie eine Warnung in der Liste bewertet haben, können Sie " **Problem erstellen"** auswählen, um weitere Untersuchungen und Aktionen ihrer Benutzer zu veranlassen. Sie werden aufgefordert, das Problem zu benennen und relevante Kommentare für den Kontext hinzuzufügen. Sie können Benachrichtigungen auch hier schließen, wenn sie keine Nachverfolgung erfordern.
 
 ## <a name="manage-issues"></a>Verwalten von Problemen
 
-Probleme werden von Administratoren erstellt, während Warnungen zu Richtlinienüberstimmungen bewertet werden. Um die angegebenen Bedenken zu verfolgen und zu beheben, können Benutzer die Seite **"Probleme"** besuchen. Von hier aus können Sie einzelne Probleme überprüfen, die anstiftenden Bedingungen untersuchen, die Daten überprüfen und die erforderlichen Schritte ausführen, um den Fall zu schließen.
+Probleme werden von Administratoren bei der Bewertung von Warnungen zu Richtlinienübereinstimmungen erstellt. Um die angegebenen Bedenken zu verfolgen und zu beheben, können Benutzer die Seite **"Probleme** " besuchen. Von hier aus können Sie einzelne Probleme überprüfen, die anstiftenden Bedingungen untersuchen, die Daten überprüfen und die erforderlichen Schritte ausführen, um den Fall zu schließen.
 
-Diese Seite enthält eine Liste aller offenen Probleme. Sie werden nach Namen aufgelistet und nach Schweregrad sortiert, damit Sie Fälle priorisieren können, einschließlich der Kategorien "Hoch", "Mittel" und "Niedrig" sowie "Nicht zugewiesen". Wählen Sie ein Problem in der Liste aus, um dessen Inhalt zu überprüfen, und ergreifen Sie Maßnahmen, um es zu beheben. Sie können nicht zugewiesenen Problemen während der Überprüfung eine Bewertung des Schweregrads zuweisen.
+Diese Seite enthält eine Liste aller offenen Probleme. Sie werden nach Namen aufgelistet und nach Schweregrad sortiert, damit Sie Fälle, einschließlich hoher, mittlerer und niedriger Kategorien, sowie nicht zugewiesener Fälle priorisieren können. Wählen Sie ein Beliebiges Problem in der Liste aus, um dessen Inhalt zu überprüfen und Maßnahmen zu ergreifen, um es zu beheben. Sie können nicht zugewiesenen Problemen während der Überprüfung eine Schweregradbewertung zuweisen.
 
-### <a name="review-issue-details"></a>Überprüfen von Problemdetails
+### <a name="review-issue-details"></a>Problemdetails überprüfen
 
-Seiten mit Problemdetails helfen Ihnen dabei, die identifizierten Datenschutzrisiken zu behandeln und die angegebenen Dateien zu behandeln.
+Problemdetailseiten helfen Ihnen, den Prozess der Behandlung der identifizierten Datenschutzrisiken und des Umgangs mit den angegebenen Dateien zu durchlaufen.
 
-Die Registerkarten auf Problemdetailseiten enthalten Informationen zu den zugehörigen Warnungen und Inhalten, einschließlich:
+Die Registerkarten auf den Problemdetailseiten enthalten Informationen zu den zugehörigen Warnungen und Inhalten, einschließlich:
 
-- **Übersicht**: Enthält wichtige Informationen zu dem Problem. Sehen Sie sich den aktuellen Status des Problems und die nächsten empfohlenen Aktionen an. Sie können auch eine Übersicht über den Inhalt, die zugeordnete Richtlinie, Details zur Warnung und die Zeitachse anzeigen. Die Zeitachse zeigt an, wo Sie Inhalte abrufen. Heruntergeladene Inhalte werden vorübergehend zur Überprüfung aufbewahrt.
-- **Warnungen**: Eine detaillierte Liste der Warnungen im Zusammenhang mit dem Problem.
-- **Inhalt**: Eine filterbare Liste der zugeordneten Inhaltselemente. Wählen Sie ein beliebiges Element aus, um Details dazu anzuzeigen, einschließlich aller aktivitäten, die aufgetreten sind, und des Wartungsverlaufs, wenn jemand in Priva bereits Aktionen zum Verwalten der Daten ausgeführt hat. Sie können auch neue Korrekturmaßnahmen ergreifen.
-- **Hinweise**: Wählen Sie diese Option aus, um Notizen zu dem Problem für Ihr Team hinzuzufügen oder anzuzeigen.
+- **Übersicht**: Enthält wichtige Informationen zu dem Problem. Sehen Sie sich den aktuellen Status des Problems und die nächsten empfohlenen Maßnahmen an. Sie können auch eine Übersicht über den Inhalt, die zugeordnete Richtlinie, Details zur Warnung und die Zeitachse anzeigen. Auf der Zeitachse wird angezeigt, wo Sie Sich beim Abrufen von Inhalten befinden. Heruntergeladene Inhalte werden vorübergehend zur Überprüfung aufbewahrt.
+- **Warnungen**: Eine detaillierte Liste der Warnungen, die mit dem Problem verbunden sind.
+- **Inhalt**: Eine filterbare Liste der zugeordneten Inhaltselemente. Wählen Sie ein beliebiges Element aus, um Details darüber anzuzeigen, einschließlich aller aktivitäten, die aufgetreten sind, und des Zugehörigen Wartungsverlaufs, wenn jemand bereits Aktionen in Priva zum Verwalten der Daten ausgeführt hat. Sie können auch neue Korrekturaktionen ausführen.
+- **Hinweise**: Wählen Sie diese Option aus, um Notizen für Ihr Team zu dem Problem hinzuzufügen oder anzuzeigen.
 - **Mitarbeiter**: Anzeigen und Verwalten der Liste der Mitarbeiter, die zur Lösung dieses Problems beitragen können.
 
-### <a name="share-the-issue"></a>Freigeben des Problems
+### <a name="share-the-issue"></a>Teilen des Problems
 
-Wenn Sie Personen als Mitarbeiter hinzufügen, können Sie das Problem mit zusätzlichen Mitgliedern Ihres Unternehmens über einen sicheren Microsoft Teams Kanal, eine Unternehmens-E-Mail oder durch direktes Freigeben eines Links zur Seite des Problems in Priva teilen. Diese Optionen sind unter der Schaltfläche **"Freigeben** " verfügbar. Bei der Freigabe über Teams werden Sie aufgefordert, aus den verfügbaren Teams in Ihrer Organisation auszuwählen, den spezifischen Kanal auszuwählen und eine Nachricht zu dem Problem zu hinterlassen, das für den angegebenen Kanal freigegeben wird.
+Wenn Sie Personen als Mitarbeiter hinzufügen, können Sie das Problem mit weiteren Mitgliedern Ihres Unternehmens über einen sicheren Microsoft Teams Kanal, E-Mail-Adresse des Unternehmens oder durch direkte Freigabe eines Links zur Seite des Problems in Priva teilen. Diese Optionen sind unter der Schaltfläche " **Freigeben** " verfügbar. Bei der Freigabe über Teams werden Sie aufgefordert, aus den verfügbaren Teams in Ihrer Organisation auszuwählen, den bestimmten Kanal auszuwählen und eine Meldung zu dem Problem zu hinterlassen, die für den angegebenen Kanal freigegeben wird.
 
 ## <a name="review-content-and-remediate-issues"></a>Überprüfen von Inhalten und Beheben von Problemen
 
-Wenn Sie den mit einem Problem verbundenen Inhalt überprüfen möchten, wählen Sie die **Aktion "Inhalt überprüfen** " aus, wenn Sie dazu aufgefordert werden, oder öffnen Sie die Registerkarte **"Inhalt** ". Wählen Sie eine beliebige Datei in der Liste aus, um sie vollständig anzuzeigen. Hier sehen Sie Details zu der Datei, zu allen aufgezeichneten Aktivitäten und zum Wartungsverlauf, wenn vorherige Schritte zum Verwalten dieser Datei ausgeführt wurden.
-
-Verwenden Sie die Schaltfläche **"Korrigieren** ", um ihre eigenen Entscheidungen zur Datenverarbeitung für diese Inhalte in Priva zu treffen. Wenn Sie die Schaltfläche auswählen, können Sie eine oder mehrere Korrekturaktionen auswählen. Die folgenden Optionen stehen zur Verfügung:
-
-**Alle Richtlinien**
+Wenn Sie den inhalt überprüfen möchten, der einem Problem zugeordnet ist, wählen Sie die Aktion " **Inhalt überprüfen** " aus, wenn Sie dazu aufgefordert werden, oder öffnen Sie die Registerkarte **"Inhalt** ". Wählen Sie eine beliebige Datei in der Liste aus, um sie vollständig anzuzeigen. Hier können Sie Details zu der Datei, allen Aktivitäten auf dem Datensatz und deren Wartungsverlauf anzeigen, wenn vorherige Schritte zum Verwalten dieser Datei ausgeführt wurden. Wählen Sie **"Korrigieren"** aus, um eine oder mehrere der unten aufgeführten Aktionen auszuführen.
 
 - **Besitzer benachrichtigen**: Benachrichtigen Sie den Inhaltsbesitzer über das erkannte Problem.
-- **Anwenden einer Aufbewahrungsbezeichnung**: Fügen Sie eine Bezeichnung zur Datenaufbewahrung für dieses Element hinzu. [Erfahren Sie mehr über Aufbewahrungsbezeichnungen](/microsoft-365/compliance/create-apply-retention-labels).
-- **Anwenden einer Vertraulichkeitsbezeichnung**: Fügen Sie eine Bezeichnung zur Vertraulichkeit der Daten dieses Elements hinzu. [Erfahren Sie mehr über Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels).
-- **Als keine Übereinstimmung markieren**: Identifizieren Sie ein Suchergebnis als falsch positives Ergebnis, um das Inhaltselement aus der Überlegung zu entfernen.
 
-**Datenminimierung**
+- **Aufbewahrungsbezeichnung anwenden**: Fügen Sie eine Bezeichnung zur Datenaufbewahrung für dieses Element hinzu. [Weitere Informationen zu Aufbewahrungsbezeichnungen](/microsoft-365/compliance/create-apply-retention-labels).
 
-- **Löschen**: Verwenden Sie diese Option zum vorläufigen Löschen der Daten. Inhalte werden in den Ordner "Gelöschte Elemente" oder "Wiederverwenden" (Exchange, SharePoint, OneDrive) verschoben oder mit einer Option zum Wiederherstellen (Teams Nachrichten) gelöscht. Der Löschvorgang kann innerhalb eines festgelegten Zeitraums rückgängig gemacht werden, abhängig von den Einstellungen des Diensts.
+- **Vertraulichkeitsbezeichnung anwenden**: Fügen Sie eine Bezeichnung zur Vertraulichkeit der Daten dieses Elements hinzu. [Erfahren Sie mehr über Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels).
 
-**Datenüberlastung und Datenübertragung**
+- **Als keine Übereinstimmung markieren**: Identifizieren Sie ein Suchergebnis als falsch positives Ergebnis, um das Inhaltselement zu entfernen.
 
-- **Privat machen**: Entfernen sie den offenen Zugriff für dieses Inhaltselement.
+- **Löschen** (nur für Datenminimierungsrichtlinien): Verwenden Sie diese Option für ein vorläufiges Löschen der Daten. Das Element wird in den Ordner "Gelöschte Elemente" oder den Papierkorb (Exchange, SharePoint, OneDrive) verschoben oder mit einer Option zum Wiederherstellen (Teams Nachrichten) gelöscht. Der Löschvorgang kann in Abhängigkeit von den Einstellungen des Diensts innerhalb eines festgelegten Zeitraums rückgängig gemacht werden.
 
-Bei jeder Option werden Sie aufgefordert, Kommentare und andere erforderliche unterstützende Informationen für den Inhaltsbesitzer zu hinterlassen, bevor Sie Ihre Auswahl bestätigen.
+- **Privat machen** (nur für Datenüberbelichtungs- und Datenübertragungsrichtlinien): Entfernen Sie den offenen Zugriff für dieses Inhaltselement.
 
-Nachdem alle Korrekturschritte durchgeführt wurden (einschließlich aller Aktionen, die Sie zusätzlich zu den optionen, die Ihnen in Priva zur Verfügung stehen), und das Problem zu schließen bereit ist, verwenden Sie die Schaltfläche **"Auflösen** ", und fügen Sie Ihre endgültigen Kommentare hinzu, bevor Sie sie übermitteln.
+Jede Option fordert Sie auf, Kommentare und andere erforderliche unterstützende Informationen für den Inhaltsbesitzer zu hinterlassen, bevor Sie Ihre Auswahl bestätigen.
 
-## <a name="legal-disclaimer"></a>Haftungsausschluss
+Sobald alle Abhilfemaßnahmen (einschließlich aller Aktionen, die Sie zusätzlich zu den verfügbaren Optionen in Priva für ratsam halten) durchgeführt wurden und das Problem geschlossen werden kann, verwenden Sie die Schaltfläche " **Beheben** ", und fügen Sie Ihre abschließenden Kommentare hinzu, bevor Sie es übermitteln.
 
-[Haftungsausschluss für Microsoft Priva](priva-disclaimer.md)
+## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
+
+[Microsoft Priva Rechtlicher Haftungsausschluss](priva-disclaimer.md)

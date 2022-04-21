@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Microsoft Priva-Testversion, sehen Sie sich die empfohlenen Maßnahmen an, die Sie während Ihres Testzeitraums ergreifen sollten, und lesen Sie Links zu wichtigen Dokumentationen.
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930526"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014395"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Test-Playbook: Microsoft Priva
 
@@ -87,21 +87,21 @@ Privacy Risk Management bietet Ihnen die Möglichkeit, Richtlinien einzurichten,
 
 ## <a name="create-and-customize-policies"></a>Richtlinien erstellen und anpassen
 
-Erstellen Sie neue Richtlinien im Datenschutzrisikomanagement, um Datenschutzrisikoszenarien zu behandeln, die für Ihre Organisation wichtig sind. Verwenden Sie für einen Schnellstart die Standardvorlagen, um neue Richtlinien für Datenüberbelichtung, Datenübertragungen sowie Datenminimierung und Szenarien zu erstellen.
+Erstellen Sie neue Richtlinien im Datenschutzrisikomanagement, um Datenschutzrisikoszenarien zu behandeln, die für Ihre Organisation wichtig sind. Verwenden Sie für den Schnellstart vorlagenbasierte Standardeinstellungen, um neue Richtlinien für Datenüberbelichtung, Datenübertragungen sowie Datenminimierung und Szenarien zu erstellen.
 
-1. [Erstellen einer Richtlinie aus einer Vorlage](risk-management-policies.md#create-a-policy-from-a-template)
-1. [Erstellen einer benutzerdefinierten Richtlinie](risk-management-policies.md#create-a-custom-policy)
-1. [Informationen zu den wichtigsten Einstellungen für alle Richtlinien](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [Informationen zu Einstellungen für Datenminimierungsrichtlinien](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [Informationen zu Einstellungen für Datenübertragungsrichtlinien](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [Informationen zu Einstellungen für Datenüberbelichtungsrichtlinien](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [Erstellen einer Richtlinie mithilfe einer Vorlage mit Standardeinstellungen](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [Erstellen einer Richtlinie durch Anpassen von Vorlageneinstellungen](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [Informationen zu den wichtigsten Einstellungen für alle Richtlinien](risk-management-policies.md)
+1. [Informationen zu Einstellungen für Datenminimierungsrichtlinien](risk-management-policy-data-minimization.md)
+1. [Informationen zu Einstellungen für Datenübertragungsrichtlinien](risk-management-policy-data-transfer.md)
+1. [Informationen zu Einstellungen für Datenüberbelichtungsrichtlinien](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>Verwalten von Richtlinien
 
 Nachdem Sie Richtlinien im Datenschutzrisikomanagement zur Behandlung von Datenminimierungs-, Datenübertragungs- oder Datenüberbelichtungsszenarien erstellt haben, sollten Sie Ihre Richtlinieneinstellungen überprüfen oder aktualisieren. Möglicherweise möchten Sie auch eine neue Richtlinie testen, bevor Sie sie für die laufende Verwendung vollständig einführen.
 
-1. [Anzeigen von Richtliniendetails](risk-management-policies-manage.md#view-policy-details)
-1. [Testen Der Richtlinie](risk-management-policies-manage.md#test-your-policy)
+1. [Anzeigen von Richtliniendetails](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [Testen Der Richtlinie](risk-management-policies-manage.md#testing-a-policy)
 1. [Löschen einer Richtlinie](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>Warnungen und Probleme von Richtlinien verstehen
@@ -117,9 +117,9 @@ Durch das Überprüfen von Warnungen können Sie Fälle identifizieren, die nach
 
 Das Datenschutzrisikomanagement kann Inhaltsbesitzer direkt über Übereinstimmungen für Ihre Datenüberbelichtungs-, Datenminimierungs- und Datenübertragungsrichtlinien informieren. Mit E-Mail-Benachrichtigungen können Sich Ihre Benutzer ganz einfach über Inhalte informieren, die sie überprüfen müssen.
 
-1. [Vorbereiten von Schulungsinhalten für Richtlinienbenachrichtigungen](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [Einrichten von E-Mail-Benachrichtigungen für Richtlinien](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [Beheben von Problemen mit E-Mail-Benachrichtigungen](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [Vorbereiten von Schulungsinhalten für Richtlinienbenachrichtigungen](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [Einrichten von E-Mail-Benachrichtigungen für Richtlinien](risk-management-notifications.md#set-user-email-notifications)
+1. [Anzeigen einer Vorschau und Anpassen von E-Mail-Benachrichtigungen](risk-management-notifications.md#preview-and-customize-email-content)
 1. [Senden von Benachrichtigungen in Teams](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>Erfahren Sie mehr über Anfragen zu Rechten betroffener Personen.
