@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Übersicht und das Datenprofil in Priva und wie Sie Einblicke in die personenbezogenen Daten in der Microsoft 365 Umgebung Ihrer Organisation erhalten.
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930596"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059749"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>Suchen und Visualisieren personenbezogener Daten in Microsoft Priva
 
@@ -75,7 +75,7 @@ Dieser Einblick befasst sich auch mit Übereinstimmungen aus Richtlinien im Modu
 
 #### <a name="items-with-the-most-data-subject-content"></a>Elemente mit den meisten Inhalten betroffener Personen
 
-Dieser Einblick verweist auf Informationen aus dem Datenabgleichsfeature in Anfragen zu Rechten betroffener Personen und zeigt Innerhalb Microsoft 365 ermittelte Inhaltselemente an, die die meisten betroffenen Personen enthalten. Weitere Informationen zu dieser Einstellung finden Sie unter ["Informationen zu Anfragen zu Rechten betroffener Personen](subject-rights-requests.md)".
+Dieser Einblick zeigt Inhaltselemente, die die personenbezogenen Daten der meisten betroffenen Personen enthalten. Um diese Erkenntnisse zu erhalten, muss Ihre Organisation [den Datenabgleich für Anfragen zu Rechten betroffener Personen](subject-rights-requests-data-match.md) einrichten.
 
 Diese Elemente können ihnen helfen, ihre Datenabgleichskonfiguration zu bestätigen und Datenschutzrisiken im Zusammenhang mit diesen Elementen zu minimieren. Wählen Sie **"Zusammenfassung anzeigen"** für eine Zusammenfassungsansicht aus. Wählen Sie **"Durchsuchen** " aus, um eine detaillierte Ansicht von bis zu 100 dieser Elemente anzuzeigen. Hier können Sie eine Vorschau dieser Elemente anzeigen und die Relevanz bestimmen und die Liste in .csv Format exportieren.
 
