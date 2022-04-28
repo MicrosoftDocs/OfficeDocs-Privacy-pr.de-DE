@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie zusätzliche Informationen zu Ihren betroffenen Personen in Microsoft Priva hochladen.
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930581"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059739"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>Datenabgleich für Anträge betroffener Personen
 
 Mit dem Datenabgleich können Organisationen Microsoft Priva ermöglichen, betroffene Personen basierend auf genau angegebenen Datenwerten zu identifizieren. Dies kann dazu beitragen, die Genauigkeit der Suche nach Inhalten betroffener Personen zu erhöhen, die diesen Datenwerten sowohl für Ihr internes Personal als auch für externe Benutzer, mit denen Sie interagieren, entsprechen. Es vereinfacht auch die Notwendigkeit, Felder manuell während der Erstellung von Anträgen auf Anträge betroffener Personen anzugeben, und bietet Kontext innerhalb von Anfragen zu Rechten betroffener Personen sowie für die Kachel "Übersicht", die Ihre Elemente mit den meisten Inhalten der betroffenen Person anzeigt. Weitere Informationen zu dieser Ansicht finden Sie [unter "Suchen und Visualisieren personenbezogener Daten in Priva](priva-data-profile.md#items-with-the-most-data-subject-content)".
 
-Um das Datenabgleichsfeature verwenden zu können, müssen Sie Mitglied der Rollengruppe "Datenschutzverwaltung" sein. Wählen Sie in Priva im [Microsoft Purview Compliance-Portal](https://compliance.microsoft.com/) **Einstellungen** in der oberen Navigationsleiste und dann **den Datenabgleich** aus. Von hier aus müssen Sie das Schema für personenbezogene Daten definieren und einen Upload personenbezogener Daten bereitstellen, wie unten dargestellt. Beachten Sie, dass Sie Elemente hinzufügen und Elemente löschen können, die Sie über die Benutzeroberfläche hinzufügen. Derzeit können Sie jedoch kein element an Ort und Stelle über die Benutzeroberfläche ändern.
+Um das Datenabgleichsfeature verwenden zu können, müssen Sie Mitglied der Rollengruppe "Datenschutzverwaltung" sein. Wählen Sie in Priva im [Microsoft Purview Compliance-Portal](https://compliance.microsoft.com/) **Einstellungen** in der oberen Navigationsleiste und dann **den Datenabgleich** aus. Von hier aus müssen Sie das Schema für personenbezogene Daten definieren und einen Upload personenbezogener Daten bereitstellen, wie unten dargestellt. Beachten Sie, dass Sie Elemente hinzufügen und hinzugefügte Elemente löschen können, aber sie können ein Element nicht ändern.
 
 ## <a name="prepare-for-data-import"></a>Vorbereiten des Datenimports
 
@@ -35,7 +35,7 @@ Bevor Sie das Schema definieren oder Daten hochladen, müssen Sie die Quelle der
 
 ## <a name="define-the-personal-data-schema"></a>Definieren des Schemas für personenbezogene Daten
 
-Das Schema für personenbezogene Daten beschreibt die Attribute für Ihre betroffenen Personen. Hochladen dieses Schema auf der ersten Registerkarte des Einstellungsbereichs für den Datenabgleich. Zu den erforderlichen Dateien gehören eine **XML-Datei für das Schema personenbezogener Daten** und eine XML-Datei des **Regelpakets** .
+Der erste Schritt beim Einrichten des Datenabgleichs besteht darin, das Schema für personenbezogene Daten zu definieren, in dem die Attribute für Ihre betroffenen Personen beschrieben werden. Sie laden dieses Schema auf der ersten Registerkarte im Einstellungsbereich für den Datenabgleich hoch. Zu den erforderlichen Dateien gehören eine **XML-Datei für das Schema personenbezogener Daten** und eine XML-Datei des **Regelpakets** .
 
 ### <a name="personal-data-schema-xml"></a>XML des Schemas für personenbezogene Daten
 
@@ -129,8 +129,13 @@ Erstellen Sie ein Regelpaket im XML-Format (mit Unicode-Codierung), wie im folge
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>Typen vertraulicher Informationen
+
+Der zweite Schritt beim Einrichten des Datenabgleichs besteht darin, eindeutige Typen vertraulicher Informationen für die Übereinstimmung mit personenbezogenen Daten (Personal Data Match, PDM) zu erstellen. [Typen vertraulicher Informationen (SITs)](/microsoft-365/compliance/sensitive-information-type-learn-about) sind musterbasierte Klassifizierer, die vertrauliche Informationen wie Sozialversicherungs- oder Kreditkartennummern erkennen. Durch das Einrichten eines PDM-Typs für vertrauliche Informationen können Sie genaue Datenwerte anstelle generischer Werte verwenden, um Übereinstimmungen zu erkennen. Wählen Sie zum Starten dieses Schritts den **Vertraulichen Informationstyp "PDM erstellen** " aus, um den Erstellungs-Assistenten zu starten.
+
 ## <a name="upload-personal-data"></a>Hochladen personenbezogener Daten
-Nachdem Sie das Schema für personenbezogene Daten definiert haben, können Sie den **Upload personenbezogener Daten** auf der zweiten Registerkarte der Seite mit den Einstellungen für den Datenabgleich durchführen. Wenn Sie **"Hinzufügen"** auswählen, wählen Sie das persönliche Schema aus, das Sie im ersten Schritt definiert haben, und laden Sie dann die Datei hoch, die die personenbezogenen Daten enthält.
+
+Nachdem Sie das Schema für personenbezogene Daten und typen vertraulicher Informationen definiert haben, besteht der dritte Schritt darin, personenbezogene Daten hochzuladen. Wechseln Sie zur Registerkarte " **Hochladen personenbezogener Daten** ", wählen Sie **"Hinzufügen"** aus, und wählen Sie das persönliche Schema aus, das Sie im ersten Schritt definiert haben, und laden Sie dann die Datei hoch, die die personenbezogenen Daten enthält.
 
 Sie können diese personenbezogenen Daten hochladen, indem Sie eine lokale Datei auswählen oder eine SAS-URL für einen vorhandenen Microsoft Azure Storage Speicherort angeben, der Ihre persönliche Datendatei enthält.
 Wenn Sie eine Datei als ersten Schritt in diesem Prozess vorbereitet haben, die dem erstellten Schema entspricht, können Sie diese Datei für den Upload verwenden.
