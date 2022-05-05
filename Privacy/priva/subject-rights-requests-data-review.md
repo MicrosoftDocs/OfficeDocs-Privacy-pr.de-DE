@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie die von Microsoft Priva gesammelten Daten zu Anträgen betroffener Personen überprüfen und gemeinsam an der Durchführung der Anforderung arbeiten.
-ms.openlocfilehash: f417ebe6129f877c273fc2613a44e6b4a21f0be0
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 3a1211d391ee196ad431fe19ab9134386c9803a4
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930636"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059759"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anfrage zu Rechten betroffener Personen
 
@@ -33,12 +33,35 @@ Um die ersten Ergebnisse Ihrer Suche anzuzeigen, wechseln Sie zum Priva-Bereich 
 
 Wählen Sie Ihre Anforderung in der Liste aus, um die Anforderungsdetails anzuzeigen. Hier erfahren Sie mehr über die Eigenschaften der Anforderung, die Suchergebnisse und den Status der Anforderung. Diese Seite wird zu Ihrem Hub, um die gefundenen Dateien zu verwalten, Berichte und Exporte zu erstellen und zusammenzuarbeiten und die Anforderung abzuschließen.
 
-Kacheln auf der Seite "Anforderungsdetails" umfassen:
+Die Registerkarte " **Übersicht** " Auf der Seite "Anforderungsdetails" finden Sie Details zur Anforderung, eine Statusanzeige mit Ihrem aktuellen Schritt und wichtige Informationen zu den gefundenen Daten. Die Kacheln auf dieser Seite umfassen Folgendes:
 
-- **Details**: Die wesentlichen Details zur Anforderung, einschließlich der Frist und des Anforderungsdatums, der Beschreibung und der damit verbundenen Datenschutzbestimmungen.
-- **Fortschritt**: Eine Zeitachse, die die abgeschlossenen Schritte und alle noch zu erledigenden Aufgaben angibt.
-- Statistiken zu Ihrer aktuellen Statusstufe. Auf dieser Kachel werden möglicherweise Informationen wie eine Datenschätzungszusammenfassung, die Anzahl der in Der Suche gefundenen Elemente und deren Speicherorte in Microsoft 365 oder der Status Ihrer Exporte angezeigt.
-- **Zu überprüfende Prioritätselemente**: Diese Kachel zeigt Informationen zu wichtigen Elementen an, die Priva für Sie erkannt hat. Dies kann z. B. vertrauliche Informationen umfassen, die bereits eine Microsoft-Vertraulichkeitsbezeichnung enthalten, oder Elemente mit Daten zu mehreren Personen, die möglicherweise eine Überarbeitung erfordern. Dies hilft Administratoren zu wissen, wo sie mit ihrer Überprüfung beginnen können. Prioritätselemente finden Sie unter Daten, die durch Filtern nach der Spalte "Prioritätstypen" gesammelt werden.
+##### <a name="details"></a>Details
+
+Auf der **Karte "Details** " werden grundlegende Informationen angezeigt, um Sie an der Anforderung zu orientieren, z. B. der Stichtag, das Erstellungsdatum, die Beschreibung und die Datenschutzbestimmungen im Zusammenhang mit der Anforderung.
+
+##### <a name="progress"></a>Status
+
+Die **Statuskarte** listet jeden Schritt des Prozesses auf: Datenschätzung, Abrufen von Daten, Überprüfen von Daten, Generieren von Berichten und Schließen der Anforderung. Ein ausgefüllter blauer Kreis neben dem Schritt gibt den Schritt an, auf dem Sie sich gerade befinden. Ein Häkchen innerhalb des blauen Kreises bedeutet, dass der Schritt abgeschlossen ist, und der nicht gefüllte Kreis bedeutet, dass der Schritt noch nicht begonnen hat.
+
+##### <a name="total-number-of-items-found"></a>Gesamtzahl der gefundenen Elemente
+
+Statistiken zu Ihrer aktuellen Statusstufe. Auf dieser Kachel werden möglicherweise Informationen wie eine Datenschätzungszusammenfassung, die Anzahl der in Der Suche gefundenen Elemente und deren Speicherorte in Microsoft 365 oder der Status Ihrer Exporte angezeigt.
+
+##### <a name="priority-items-to-review"></a>Zu überprüfenden Prioritätselemente
+
+In der Kachel " **Prioritätselemente zum Überprüfen** " werden Elemente angezeigt, die Sie beim Starten der Überprüfung möglicherweise priorisieren möchten. Die Kachel zeigt eine Anzahl von Elementen an, die zu den folgenden Kategorien gehören:
+- **Vertraulich**: Dies sind Elemente, auf die eine [Microsoft-Vertraulichkeitsbezeichnung](/microsoft-365/compliance/sensitivity-labels) angewendet wurde. Beispielsweise ein Word-Dokument mit der Bezeichnung "Streng vertraulich". 
+- **Mehrpersonendaten**: Diese Elemente enthalten die personenbezogenen Daten von mehr als einer Person. Wenn Sie diese Elemente als Teil des endgültigen Datenpakets einschließen möchten, müssen Sie die irrelevanten Daten in den Dateien bearbeiten. Weitere Informationen finden Sie weiter unten in [Schritt 3: Überprüfen von Daten](#step-3-review-data) . Beachten Sie, dass Ihre Organisation [Datenabgleich für Anträge](subject-rights-requests-data-match.md) betroffener Personen einrichten muss, damit Priva Elemente mit Mehrpersonendaten identifizieren kann.
+
+**So suchen Sie Ihre Prioritätselemente:**
+
+Stellen Sie zunächst sicher, dass Sie ihre Ansicht dieser Elemente in Ihrer Tabelle mit **den gesammelten Daten** aktiviert haben, indem Sie die folgenden Schritte ausführen:
+
+- Wählen Sie auf der Registerkarte **"Gesammelte Daten** " oben in der Liste der Elemente die **Option "Spalten anpassen** " aus.
+- **Platzieren Sie** im Flyoutbereich "Spalten bearbeiten" eine Überprüfung neben "**Prioritätstypen"**.
+- Wählen Sie **Anwenden** aus. Ihre Liste der Elemente enthält jetzt eine Spalte " **Prioritätstypen** ".
+
+Jetzt können Sie die Prioritätselemente identifizieren und finden, indem Sie die Spalte " **Prioritätstyp** " sortieren, um ähnliche Typen zu gruppieren.
 
 ### <a name="understand-progress-stages"></a>Grundlegendes zu Statusstufen
 
