@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie Warnungen und Probleme verwalten, die durch Richtlinienübereinstimmungen in Microsoft Priva Privacy Risk Management ausgelöst werden.
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014385"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268328"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>Untersuchen und Beheben von Warnungen im Datenschutzrisikomanagement
 
@@ -71,9 +71,9 @@ Wenn Sie den inhalt überprüfen möchten, der einem Problem zugeordnet ist, wä
 
 - **Besitzer benachrichtigen**: Benachrichtigen Sie den Inhaltsbesitzer über das erkannte Problem.
 
-- **Aufbewahrungsbezeichnung anwenden**: Fügen Sie eine Bezeichnung zur Datenaufbewahrung für dieses Element hinzu. [Weitere Informationen zu Aufbewahrungsbezeichnungen](/microsoft-365/compliance/create-apply-retention-labels).
+- **Aufbewahrungsbezeichnung anwenden**: Fügen Sie eine Bezeichnung für dieses Element hinzu, die es aufbewahren, löschen oder aufbewahren und dann nach einer bestimmten Zeit löschen kann. [Weitere Informationen zu Aufbewahrungsbezeichnungen](/microsoft-365/compliance/retention).
 
-- **Vertraulichkeitsbezeichnung anwenden**: Fügen Sie eine Bezeichnung zur Vertraulichkeit der Daten dieses Elements hinzu. [Erfahren Sie mehr über Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels).
+- **Vertraulichkeitsbezeichnung anwenden**: Fügen Sie eine Bezeichnung für dieses Element hinzu, die seine Vertraulichkeit identifiziert, und fügen Sie optional Schutz hinzu, der visuelle Markierungen und Verschlüsselung umfasst. [Erfahren Sie mehr über Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels).
 
 - **Als keine Übereinstimmung markieren**: Identifizieren Sie ein Suchergebnis als falsch positives Ergebnis, um das Inhaltselement zu entfernen.
 
