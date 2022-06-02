@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Microsoft Priva Testversion, sehen Sie sich die empfohlenen Aktionen an, die Sie während Ihres Testzeitraums ergreifen sollten, und lesen Sie Links zu wichtigen Dokumentationen.
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678202"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851690"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Test-Playbook: Microsoft Priva
 
@@ -164,10 +164,10 @@ Nachdem Sie eine Anfrage zu Rechten betroffener Personen erstellt haben, verwend
 NachDem Sie Ihre Datenüberprüfung für eine Anfrage zu Rechten betroffener Personen abgeschlossen haben, können Sie mit dem Antrag auf Erfüllung fortgehen.
 
 1. [Vorbereiten von Abschlussberichten für die betroffene Person](subject-rights-requests-reports.md)
-1. [Integration in Partnerlösungen](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [Integration und Erweiterung über Microsoft Graph-API und Power Automate](subject-rights-requests-automate.md)
 1. [Verwalten der Datenaufbewahrung](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>Anfrageaufgaben zu Rechten betroffener Personen automatisieren
+## <a name="extend-with-power-automate"></a>Erweitern mit Power Automate
 
 Aktivieren Sie Power Automate Flüsse für Priva, um wichtige Aufgaben für Fälle und Benutzer zu automatisieren, z. B. das Erstellen von Tickets in ServiceNow oder das Hinzufügen von Kalendererinnerungen zu Fälligkeitsdaten.
 
