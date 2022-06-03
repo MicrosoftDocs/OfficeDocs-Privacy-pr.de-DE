@@ -32,11 +32,11 @@
       href: subject-rights-requests.md
     - name: Anforderungen erstellen
       href: subject-rights-requests-create.md
-    - name: Übereinstimmende Daten festlegen
-      href: subject-rights-requests-data-match.md
     - name: Daten und Zusammenarbeit überprüfen
       href: subject-rights-requests-data-review.md
-    - name: Berichte abrufen und Anforderungen erfüllen
+    - name: Erstellen von Berichten zur Erfüllung von Anfragen
       href: subject-rights-requests-reports.md
-    - name: Aufgabenautomatisierung
+    - name: Integration mit Microsoft Graph API und Power Automate
       href: subject-rights-requests-automate.md
+    - name: Übereinstimmende Daten festlegen
+      href: subject-rights-requests-data-match.md
