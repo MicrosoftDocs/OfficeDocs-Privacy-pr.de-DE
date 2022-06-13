@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie eine Richtlinie zur Datenüberbelichtung in Microsoft Priva Privacy Risk Management erstellen, um personenbezogene Daten zu identifizieren und zu sichern, die möglicherweise übermäßig zugänglich sind.
-ms.openlocfilehash: a0c87a84a78206862d9a79e1c16d17a90de5f040
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Erfahren Sie, wie Sie eine Richtlinie zur Überbelichtung von Daten erstellen, Microsoft Priva Datenschutz-Risikomanagement personenbezogene Daten zu identifizieren und zu sichern, die möglicherweise übermäßig zugänglich sind.
+ms.openlocfilehash: 6efb92ed5d1b79b0fc69beebd5788062b5687269
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014505"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046679"
 ---
 # <a name="data-overexposure-policies-in-privacy-risk-management"></a>Datenüberbelichtungsrichtlinien im Datenschutz-Risikomanagement
 
@@ -39,7 +39,7 @@ Die Standardrichtlinie für die Überbelichtung von Daten wertet personenbezogen
 
 Führen Sie die folgenden Schritte aus, um eine Standardrichtlinie für die Datenübertragung zu erstellen:
 
-1. Suchen Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) priva Privacy Risk Management im linken Navigationsbereich, und wählen Sie **"Richtlinien"** aus.
+1. Suchen Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) im linken Navigationsbereich nach Priva Datenschutz-Risikomanagement, und wählen Sie **"Richtlinien"** aus.
 
 2. Wählen Sie in der oberen rechten Ecke des Bildschirms die Option **"Richtlinie erstellen** " aus, in dem ein Flyoutbereich mit allen Richtlinienerstellungsoptionen angezeigt wird.
 
@@ -75,7 +75,7 @@ Die benutzerdefinierte Richtlinienoption ist ein geführter Prozess zum Erstelle
 
 Führen Sie die folgenden Schritte aus, um eine neue Richtlinie für die Datenüberbelichtung zu erstellen:
 
-1. Suchen Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) priva Privacy Risk Management im linken Navigationsbereich, und wählen Sie **"Richtlinien"** aus.
+1. Suchen Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) im linken Navigationsbereich nach Priva Datenschutz-Risikomanagement, und wählen Sie **"Richtlinien"** aus.
 
 2. Wählen Sie oben rechts auf dem Bildschirm die Schaltfläche " **Richtlinie erstellen** " aus, in der ein Flyoutbereich mit allen Richtlinienerstellungsoptionen angezeigt wird.
 

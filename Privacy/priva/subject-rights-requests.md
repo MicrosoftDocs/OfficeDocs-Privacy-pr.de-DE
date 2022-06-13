@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Die Lösung "Anträge betroffener Personen" in Microsoft Priva hilft Ihnen, personenbezogene Daten zu finden und gemeinsam inhalte zu überprüfen und Berichte zu erstellen.
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851680"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046709"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>Informationen zu Priva Anfragen zu Betroffenenrechten
 
@@ -53,9 +53,9 @@ Nachdem Sie die Daten überprüft und entschieden haben, was für die Anforderun
 
 Erweitern Sie die Automatisierungsfunktionen, indem Sie eine der integrierten Power Automate-Vorlagen verwenden, um Abläufe für allgemeine Aufgaben einzurichten, z. B. das Festlegen von Kalendererinnerungen oder das Erstellen von Datensätzen Ihrer Anforderungen in ServiceNow. Sie können auch die Microsoft 365-API zur Anforderung von Rechten für Die Rechte betroffener Personen verwenden, um die Automatisierung Ihrer vorhandenen Strategie für Rechte betroffener Personen einzuführen.
 
-## <a name="getting-started"></a>Erste Schritte
+## <a name="next-steps"></a>Nächste Schritte
 
-Besuchen [Sie "Erstellen einer Anfrage zu Themenrechten](subject-rights-requests-create.md) ", um zu erfahren, wie Sie mit Ihrer ersten Anfrage angegeben werden.
+Besuchen Sie [die Seite "Grundlegendes zum Anforderungsworkflow und details"](subject-rights-requests-workflow.md) , um mehr über die Fortschrittsschritte beim Erstellen und Durcharbeiten einer Anfrage zu Rechten betroffener Personen zu erfahren. Informationen zu Den ersten Schritte mit Ihrer ersten Anforderung finden [Sie unter "Erstellen einer Anfrage zu Rechten betroffener Personen"](subject-rights-requests-create.md).
 
 ## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
 

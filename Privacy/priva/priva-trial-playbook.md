@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie mehr über die Microsoft Priva Testversion, sehen Sie sich die empfohlenen Aktionen an, die Sie während Ihres Testzeitraums ergreifen sollten, und lesen Sie Links zu wichtigen Dokumentationen.
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851690"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046589"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>Test-Playbook: Microsoft Priva
 
@@ -69,7 +69,7 @@ Wenn Sie bereit sind, mit der Verwendung von Microsoft Priva zu beginnen, führe
 
 Priva hilft Ihnen, die in Ihrer Organisation gespeicherten Daten zu verstehen, indem sie die Ermittlung personenbezogener Datenobjekte automatisieren und Visualisierungen wichtiger Informationen bereitstellen.
 
-Wechseln Sie zunächst zum Priva Abschnitt des [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/), und zeigen Sie die folgenden Seiten an:
+Wechseln Sie zunächst zum Abschnitt Priva des [Microsoft Purview Compliance-Portals](https://compliance.microsoft.com/), und zeigen Sie die folgenden Seiten an:
 
 1. [Übersicht](priva-data-profile.md#explore-the-overview-page): Bietet eine aggregierte Ansicht Ihres Datenschutzstatus, einschließlich Volumen, Kategorie, Standort und Bewegung personenbezogener Daten in Ihrer Microsoft 365 Umgebung. Darüber hinaus erhalten Sie Einblick in den aktuellen Status und die Trends der damit verbundenen Datenschutzrisiken, die sich aus der Überfreigabe, Übertragung oder Unnutzung personenbezogener Daten ergeben.
 1. [Datenprofil](priva-data-profile.md#explore-the-data-profile-page): Stellt eine Momentaufnahme der personenbezogenen Daten bereit, die Ihre Organisation in Microsoft 365 speichert, einschließlich Volume, Typ und Standort (Speicher und Geografie).
@@ -138,9 +138,9 @@ In Übereinstimmung mit bestimmten Datenschutzbestimmungen auf der ganzen Welt k
 
 Administratoren von Themenrechten können neue Anfragen zu Rechten betroffener Personen über die Hauptseite "Anfragen zu Rechten betroffener Personen" öffnen. Ein Assistent führt Sie durch den Prozess der Suche nach personenbezogenen Daten zu einer betroffenen Person und startet den Prozess der Erfüllung ihrer Anforderung.
 
-1. [Verwenden des Assistenten zum Anfordern von Rechten betroffener Personen](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) – Erstellen einer Anforderung
-1. [Definieren von Sucheinstellungen](subject-rights-requests-create.md#define-search-settings)
-1. [Verfeinern der Sucheinstellungen](subject-rights-requests-create.md#refine-your-search)
+1. [Verwenden des Assistenten zum Anfordern von Rechten betroffener Personen](subject-rights-requests-create.md#create-a-request) – Erstellen einer Anforderung
+1. [Definieren von Sucheinstellungen](subject-rights-requests-create.md#defining-search-settings)
+1. [Verfeinern der Sucheinstellungen](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>Verwalten des Datenabgleichs für Anträge betroffener Personen
 
@@ -154,10 +154,10 @@ Mit dem Datenabgleich können Organisationen Priva ermöglichen, betroffene Pers
 
 Nachdem Sie eine Anfrage zu Rechten betroffener Personen erstellt haben, verwendet Priva Ihre Eingaben zu Ihrem Thema, um in der Microsoft 365 Umgebung Ihrer Organisation nach Übereinstimmungen zu suchen. Nachdem diese Daten kompiliert wurden, können Sie die Ergebnisse überprüfen, Auswahlmöglichkeiten treffen, was eingeschlossen werden soll, und Informationen nach Bedarf bearbeiten.
 
-1. [Überprüfen der Anforderungsdetails und Überwachen des Fortschritts](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [Anzeigen und Bearbeiten von Suchabfragen](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (optional)
-1. [Überprüfen von Daten](subject-rights-requests-data-review.md#step-3-review-data)
-1. [Schließen der Anforderung](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [Überprüfen der Anforderungsdetails und Überwachen des Fortschritts](subject-rights-requests-workflow.md)
+1. [Anzeigen und Bearbeiten von Suchabfragen](subject-rights-requests-create.md#defining-search-settings)  (optional)
+1. [Überprüfen von Daten](subject-rights-requests-data-review.md)
+1. [Schließen der Anforderung](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>Anfragen zu Berichten über Rechte betroffener Personen verwalten und Anfragen erfüllen
 

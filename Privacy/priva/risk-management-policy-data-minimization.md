@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Erfahren Sie, wie Sie eine Richtlinie zur Datenminimierung in Microsoft Priva Privacy Risk Management erstellen, um die Menge nicht verwendeter personenbezogener Daten in Ihrer Organisation zu reduzieren.
-ms.openlocfilehash: c5a883de696923e4453ed28739e9bf68b618f8d1
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: Erfahren Sie, wie Sie eine Richtlinie zur Datenminimierung in Microsoft Priva Datenschutz-Risikomanagement erstellen, um die Menge nicht verwendeter personenbezogener Daten in Ihrer Organisation zu reduzieren.
+ms.openlocfilehash: 251bd0ad73c840f818c945b7f68e4557299ad406
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014476"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046619"
 ---
 # <a name="data-minimization-policies-in-privacy-risk-management"></a>Datenminimierungsrichtlinien im Datenschutzrisikomanagement
 
@@ -39,7 +39,7 @@ Die Standardrichtlinie zur Datenminimierung erkennt Inhalte, die personenbezogen
 
 Führen Sie die folgenden Schritte aus, um eine Standardrichtlinie für die Datenübertragung zu erstellen:
 
-1. Suchen Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) priva Privacy Risk Management im linken Navigationsbereich, und wählen Sie **"Richtlinien"** aus.
+1. Suchen Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) im linken Navigationsbereich nach Priva Datenschutz-Risikomanagement, und wählen Sie **"Richtlinien"** aus.
 
 2. Wählen Sie in der oberen rechten Ecke des Bildschirms die Option **"Richtlinie erstellen** " aus, in dem ein Flyoutbereich mit allen Richtlinienerstellungsoptionen angezeigt wird.
 
@@ -72,7 +72,7 @@ Die benutzerdefinierte Richtlinienoption ist ein geführter Prozess zum Erstelle
 
 Führen Sie die folgenden Schritte aus, um eine neue Datenübertragungsrichtlinie zu erstellen:
 
-1. Suchen Sie im [Microsoft 365 Compliance Center](https://compliance.microsoft.com/) priva Privacy Risk Management im linken Navigationsbereich, und wählen Sie **"Richtlinien"** aus.
+1. Suchen Sie im [Microsoft Purview-Complianceportal](https://compliance.microsoft.com/) im linken Navigationsbereich nach Priva Datenschutz-Risikomanagement, und wählen Sie **"Richtlinien"** aus.
 
 2. Wählen Sie oben rechts auf dem Bildschirm die Schaltfläche " **Richtlinie erstellen** " aus, in der ein Flyoutbereich mit allen Richtlinienerstellungsoptionen angezeigt wird.
 
@@ -95,7 +95,7 @@ Führen Sie die folgenden Schritte aus, um eine neue Datenübertragungsrichtlini
     Weitere Informationen zum [Auswählen von Speicherorten](risk-management-policies.md#choose-locations). Wenn Sie mit der Auswahl von Speicherorten fertig sind, wählen Sie **"Weiter**" aus.
 
 8. Verwenden Sie auf der Seite **"Bedingungen"** das Dropdownmenü, um auszuwählen, wie viele Tage seit der letzten Änderung eines Elements von der Richtlinie erkannt werden:
-    - 30 Tage
+    - 30 Tage
     - 60 Tage
     - 90 Tage
     - 120 Tage

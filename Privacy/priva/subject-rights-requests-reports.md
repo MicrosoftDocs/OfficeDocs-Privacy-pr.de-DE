@@ -1,5 +1,5 @@
 ---
-title: Generieren von Berichten zum Erfüllen einer Anfrage zu Rechten betroffener Personen
+title: Generieren von Berichten und Schließen einer Anforderung
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie die von Microsoft Priva erstellten Datenpakete für Anträge betroffener Personen verwalten und die Anforderung an die betroffene Person erfüllen.
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851661"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046689"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>Generieren von Berichten zum Erfüllen einer Anfrage zu Rechten betroffener Personen
+# <a name="generate-reports-and-close-a-request"></a>Generieren von Berichten und Schließen einer Anforderung
 
-Nachdem Sie Ihre Datenüberprüfung für eine Anfrage zu Rechten betroffener Personen in Microsoft Priva abgeschlossen haben, können Sie mit der Erfüllung der Anforderung fortarbeiten. Priva erstellt Berichte und sammelt die Dateien, die während des Datenüberprüfungsprozesses als **"Einschließen"** gekennzeichnet sind. Ausgewählte Dateien aus diesen Datenpaketen können an Ihre betroffene Person übermittelt werden, um deren Anforderung abzuschließen.
+**In diesem Artikel**: Verstehen der Art von Berichten, die in Anfragen zu Rechten betroffener Personen generiert werden. Erfahren Sie mehr über Aufbewahrungszeiträume für die gesammelten Daten, und finden Sie Anweisungen zum Übermitteln von Ergebnissen an die betroffene Person und zum Schließen der Anforderung.
+
+NachDem Sie Ihre Datenüberprüfung für eine Anfrage zu Rechten betroffener Personen abgeschlossen haben, besteht die nächste Stufe darin, die berichte zu generieren, die zum Erfüllen der Anforderung erforderlich sind. Priva erstellt Berichte und sammelt die Dateien, die während des Datenüberprüfungsprozesses als **"Einschließen"** gekennzeichnet sind. Ausgewählte Dateien aus diesen Datenpaketen können an Ihre betroffene Person übermittelt werden, um deren Anforderung abzuschließen.
 
 ## <a name="understanding-reports"></a>Grundlegendes zu Berichten
 
@@ -37,7 +39,7 @@ Berichte sind in zwei Abschnitte unterteilt:
    > Ein Datenpaket wird nur generiert, wenn Sie Elemente während der Datenüberprüfung als **"Einschließen** " markieren.
 
    > [!IMPORTANT]
-   > Ein Datenpaket wird nur für **Export**- und Access-Anforderungstypen generiert. Es wird kein Datenpaket für eine **Liste mit Tags für die Nachverfolgungsanforderung** generiert. Überprüfen Sie Details zu [Anforderungstypen für Rechte betroffener Personen](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard).
+   > Ein Datenpaket wird nur für **Export**- und Access-Anforderungstypen generiert. Es wird kein Datenpaket für eine **Liste mit Tags für die Nachverfolgungsanforderung** generiert. Überprüfen Sie Details zu [Anforderungstypen für Rechte betroffener Personen](subject-rights-requests-create.md#request-types).
 
 2. **Berichte zur internen Verwendung**: Diese Berichte gelten für die internen Datensätze Ihrer Organisation im Zusammenhang mit der Anforderung von Rechten betroffener Personen. Sie enthalten ein Überwachungsprotokoll und eine Liste aller Dateien, auf die Sie während der Datenüberprüfung Tags angewendet haben, um weitere Maßnahmen zu ergreifen oder nachzuverfolgen.
 
@@ -102,6 +104,12 @@ Der Zeitraum für die Datenaufbewahrung ist in Priva **Einstellungen** definiert
 4. Wählen Sie **"Speichern"** aus, um Ihre Einstellungen zu speichern.
 
 Stellen Sie sicher, dass die von Ihnen ausgewählten Aufbewahrungszeiträume den Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation entsprechen.
+
+## <a name="close-the-request"></a>Schließen der Anforderung
+
+Wenn Sie alle erforderlichen Aktionen im Zusammenhang mit der Anforderung von Rechten betroffener Personen ausgeführt haben, markieren Sie die Anforderung als geschlossen, indem Sie oben rechts auf der Seite mit den Anforderungsdetails **die Option "Anfrage schließen** " auswählen. Eine geschlossene Anforderung bedeutet, dass sie nicht mehr aktiv ist, und weist darauf hin, dass keine weiteren Arbeiten erforderlich sind, um die ursprüngliche Anforderung der betroffenen Person an Ihre Organisation zu erfüllen.
+
+Geschlossene Anforderungen können nicht erneut geöffnet werden, aber Sie können zur Anforderung zurückkehren, um Anforderungsdetails und Notizen anzuzeigen. Berichte für die Anforderung werden gemäß dem festgelegten [Aufbewahrungszeitraum](#retention-periods-for-reports-and-data) aufbewahrt.
 
 ## <a name="legal-disclaimer"></a>Rechtlicher Haftungsausschluss
 
