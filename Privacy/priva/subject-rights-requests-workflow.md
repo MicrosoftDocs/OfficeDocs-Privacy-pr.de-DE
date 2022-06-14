@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Grundlegendes zur Seite "Workflowschritte und Anforderungsdetails" in Microsoft Priva Anfragen zu Betroffenenrechten.
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046741"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060087"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>Grundlegendes zu Den Workflow- und Anforderungsdetailseiten
 
@@ -45,9 +45,15 @@ Jede Anforderung durchläuft mehrere Phasen. Einige Stufen werden automatisch au
 
 ## <a name="understanding-the-request-details-page"></a>Grundlegendes zur Seite "Anforderungsdetails"
 
-Wählen Sie im linken Navigationsbereich des Microsoft Purview Compliance-Portals **Priva Anfragen zu Betroffenenrechten** aus, um auf die von Ihrer Organisation erstellten Anforderungen zuzugreifen und deren Status anzuzeigen. Auf den Statuskarten auf der Hauptseite für Anfragen zu Rechten betroffener Personen werden die Anzahl der aktiven, geschlossenen und überfälligen Anforderungen sowie die wichtigsten Anforderungstypen angezeigt. In der Tabelle unter den Statuskarten sind alle von Ihrer Organisation erstellten Anforderungen aufgeführt, wobei die zuletzt erstellte Anforderung oben aufgeführt ist.
+Wählen Sie im linken Navigationsbereich des Microsoft Purview Compliance-Portals **Priva Anfragen zu Betroffenenrechten** aus, um auf die von Ihrer Organisation erstellten Anforderungen zuzugreifen und deren Status anzuzeigen. Die Statuskarten auf der Hauptseite "Anfragen zu Rechten betroffener Personen", die unten angezeigt werden, zeigen die Anzahl der aktiven, geschlossenen und überfälligen Anforderungen sowie die wichtigsten Anforderungstypen an. In der Tabelle unter den Statuskarten sind alle von Ihrer Organisation erstellten Anforderungen aufgeführt, wobei die zuletzt erstellte Anforderung oben aufgeführt ist.
 
-Um die Detailseite einer Anforderung zu öffnen, wählen Sie den Anforderungsnamen aus der Tabelle aus. Hier erfahren Sie mehr über die Eigenschaften der Anforderung, die Suchergebnisse und den Status der Anforderung. Diese Seite wird zu Ihrem Hub, um die gefundenen Dateien zu verwalten, Berichte und Exporte zu erstellen und zusammenzuarbeiten und die Anforderung abzuschließen.
+**Hauptseite für Anfragen zu Rechten betroffener Personen:** 
+![ Hauptseite für Anfragen zu Rechten betroffener Personen.](../media/priva-srr-overview.png)
+
+Um die Detailseite einer Anforderung zu öffnen, wählen Sie den Anforderungsnamen aus der Tabelle aus. Hier erfahren Sie mehr über die Eigenschaften der Anforderung, die Suchergebnisse und den Status der Anforderung. Die unten angezeigte Detailseite wird zu Ihrem Hub, um die gefundenen Dateien zu verwalten, Berichte und Exporte zu erstellen und die Anforderung abzuschließen.
+
+**Eine Anforderungsdetailseite:**
+![ Seite "Details zur Anforderung von Rechten betroffener Personen".](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>Registerkarte „Übersicht“
 
