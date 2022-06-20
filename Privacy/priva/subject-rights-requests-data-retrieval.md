@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Verstehen, wie Daten abgerufen werden und wie Sucheinstellungen in Microsoft Priva Anfragen zu Betroffenenrechten geändert werden.
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046732"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166664"
 ---
-# <a name="data-estimate-and-retrieval"></a>Datenschätzung und -abruf
+# <a name="data-estimate-and-retrieval"></a>Schätzung und Abruf von Daten
 
 **In diesem Artikel**: Verstehen der Datenschätzungs- und Datenabrufstufen einer Anfrage zu Rechten betroffener Personen. Erfahren Sie, wie Sie die Suchabfrage einer Anforderung anzeigen und Änderungen vornehmen, um die Suche zu verfeinern.
 
@@ -36,7 +36,7 @@ Ihre Anforderung wird automatisch in die nächste Phase des **Datenabrufs** vers
 
 Es gibt zwei Gründe, warum eine Anforderung in der **Datenschätzungsphase** angehalten wird:
 
-1. Wenn Sie eine Anforderung zum ersten Mal erstellen, können Sie auswählen, ob Sie zuerst eine Schätzung erhalten möchten. Weitere Informationen finden Sie in Schritt 5 in ["Erstellen einer Anforderung](subject-rights-requests-create.md#create-a-request) ".
+1. Beim Erstellen einer Anforderung können Sie zuerst eine Schätzung abrufen. Weitere Informationen finden Sie in Schritt 6 des [Erstellens einer benutzerdefinierten Anforderung](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) .
 
 2. Wenn die Schätzung so projiziert wird, dass eine große Anzahl von zu überprüfenden Elementen (über 10 KB Elemente) zurückgegeben wird, wird der Workflow angehalten. An diesem Punkt können Sie eine Vorschau der Ergebnisse anzeigen und entscheiden, ob [Sie Ihre Suchabfrage bearbeiten](subject-rights-requests-create.md#refining-your-search) oder die identifizierten Elemente weiterhin abrufen möchten.
 
@@ -59,7 +59,7 @@ Wenn Sie bereit sind, fortzufahren, wählen Sie oben rechts auf dem Bildschirm d
 
 ## <a name="retrieve-data"></a>Abrufen von Daten
 
-Die Datenempfangsphase ist, wenn alle Dateien, E-Mails, Chats, Bilder und anderen Inhaltselemente, die die personenbezogenen Daten der betroffenen Person enthalten, abgerufen werden. Die Elemente werden zur Überprüfung in einem Azure-BLOB-Speichercontainer zusammengestellt. Der Datenabruf kann je nach Datenvolumen einige Minuten oder erheblich länger dauern.
+Die Datenempfangsphase ist, wenn alle Dateien, E-Mails, Chats, Bilder und anderen Inhaltselemente, die die personenbezogenen Daten der betroffenen Person enthalten, abgerufen werden. Die Elemente werden zur Überprüfung in einem Azure Blob Storage Container zusammengestellt. Der Datenabruf kann je nach Datenvolumen einige Minuten oder erheblich länger dauern.
 
 Wenn diese Phase abgeschlossen ist, wird die Anforderung automatisch zur nächsten Phase der **Überprüfungsdaten** verschoben.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Erfahren Sie, wie Sie die von Microsoft Priva gesammelten Daten zu Anträgen betroffener Personen überprüfen und an der Durchführung der Anforderung zusammenarbeiten.
-ms.openlocfilehash: 0182be22efe224481625c121dc98ebe1d96a06ec
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 6120fdaa97cf79ac122f6992f9ce476fdc4c5da3
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046629"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166644"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>Überprüfen von Daten für eine Anfrage zu Rechten betroffener Personen
 
@@ -31,18 +31,46 @@ Nachdem Daten für eine Anfrage zu Rechten betroffener Personen gesammelt wurden
 
 ## <a name="tasks-for-completing-the-data-review"></a>Aufgaben zum Abschließen der Datenüberprüfung
 
-In dieser Phase sollten Ihre Mitwirkenden die Ergebnisse auf der Registerkarte **"Gesammelte Daten**" überprüfen. Ein Teams Kanal wird automatisch eingerichtet, um die Inhaltsüberprüfung durch alle Beteiligten zu erleichtern. Weitere Details finden Sie weiter unten unter ["Zusammenarbeit zur Datenüberprüfung](#collaboration-for-data-review) ". Die wesentlichen Aufgaben für den Datenüberprüfungsschritt sind unten beschrieben.
+In der **Phase "Daten überprüfen"** untersuchen Mitarbeiter die Inhaltselemente auf der Registerkarte **"Gesammelte Daten**". Ein Teams Kanal wird automatisch eingerichtet, um die Inhaltsüberprüfung durch alle Beteiligten zu erleichtern. Weitere Details finden Sie weiter unten unter ["Zusammenarbeit zur Datenüberprüfung](#collaboration-for-data-review) ". Die wesentlichen Aufgaben für den Datenüberprüfungsschritt sind unten beschrieben.
+
+#### <a name="import-additional-files"></a>Importieren zusätzlicher Dateien
+
+Möglicherweise möchten Sie zusätzliche Inhaltselemente in die Anforderung für Ihre Datenüberprüfung einbeziehen. Beispielsweise Dateien, die außerhalb der Microsoft 365 Umgebung Ihrer Organisation gespeichert sind, oder andere Elemente, die Ihrer Meinung nach relevant sind, aber nicht in die Suche eingegrenzt wurden. Sie können Dateien zusammen mit den anderen Elementen in die Registerkarte " **Gesammelte Daten** " einer einzelnen Anforderung importieren, die überprüft und bearbeitet werden soll. Importierte Dateien werden demselben Azure Blob Storage Container mit den anderen Inhaltselementen hinzugefügt, die aus Ihrer Suche abgerufen wurden.
+
+Führen Sie die folgenden Schritte aus, um Dateien zu importieren:
+
+1. Wählen Sie auf der Seite "Anforderungsdetails" in der Befehlsleiste oben auf der Seite " **Dateien importieren** " aus.
+
+2.  Auf dem Bildschirm wird ein Feld " **Dateien importieren** " angezeigt. Wählen **Sie "Dateien auswählen**" aus, und wählen Sie in Ihrer Datei-Explorer-Ansicht eine oder mehrere zu importierenden Dateien aus.
+
+3. Sie gelangen zurück zum Feld " **Dateien importieren** ", in dem die ausgewählten Dateien aufgelistet werden. Sie können **"Dateien** auswählen" erneut auswählen, um der Liste weitere Elemente hinzuzufügen. Wenn Sie eine der Dateien entfernen möchten, wählen Sie **"Löschen"** aus, wodurch alle Dateien entfernt werden, und wählen Sie die Dateien erneut aus.
+
+4. Wenn alle gewünschten Dateien im Feld **"Dateien importieren** " aufgelistet sind, wählen Sie **"Importieren**" aus. Um den Vorgang ohne Hochladen zu beenden, wählen Sie **"Import abbrechen"** aus.
+
+Wenn der Import beginnt, gelangen Sie zurück zur Registerkarte " **Gesammelte Daten** " der Anforderung. Eine Meldung über der Registerkarte gibt an, dass der Upload ausgeführt wird. Wenn ein Problem mit dem Upload vorliegt, werden Sie in der Nachricht informiert und eine Option zum Erneuten Versuchen bereitgestellt.
+
+Wenn der Import abgeschlossen ist, wird über der Registerkarte " **Gesammelte Daten** " eine Bestätigungsmeldung angezeigt.
+
+**Weitere Details zum Importieren von Dateien:**
+
+- Die Größe einzelner Dateien darf 4 MB nicht überschreiten. Im Feld " **Dateien importieren** " wird eine Warnmeldung angezeigt, wenn eine Datei zu groß zum Hochladen ist.
+
+- Es kann bis zu 20 Minuten dauern, bis die importierten Dateien auf der Registerkarte **"Gesammelte Daten** " verfügbar sind.
+
+- Wenn bereits ein Import für einen Benutzer ausgeführt wird, kann derselbe Benutzer erst nach Abschluss des vorherigen Uploadvorgangs weitere Dateien hochladen. Mehrere Benutzer können Dateien gleichzeitig auf dieselbe Anforderung hochladen. Je mehr Uploads jedoch ausgeführt werden, desto länger dauert der Abschluss. Statusmeldungen auf der Anforderung informieren, wenn ein Upload abgeschlossen ist und Dateien zur Überprüfung bereit sind.
 
 #### <a name="mark-items-as-include-or-exclude-and-add-notes"></a>Markieren von Elementen als "Einschließen" oder "Ausschließen" und Hinzufügen von Notizen
 
-Überprüfen Sie die Liste der von Ihrer Suche zurückgegebenen identifizierten Elemente. Wenn Sie beschließen, dass das Element als Teil des Abschlussberichts wieder an die betroffene Person einbezogen werden soll, wählen Sie oben in der Liste der Elemente auf der Befehlsleiste " **Einschließen"** aus. Sie können auch die blaue Schaltfläche **"Einschließen"** im Bereich "Inhaltsüberprüfung" rechts neben der Liste der Elemente auswählen. Wenn Sie **"Einschließen"** auswählen, wird ein Flyoutbereich mit einer Option zum Hinzufügen von Notizen angezeigt. Wenn Sie fertig sind, wählen Sie **"Absenden** " aus, um den Überprüfungsstatus des Elements als **"Einschließen**" zu speichern.
+Überprüfen Sie die Elemente, die auf der Registerkarte " **Gesammelte Daten** " der Anforderung aufgeführt sind.  Wenn Sie beschließen, dass das Element als Teil des Abschlussberichts wieder an die betroffene Person einbezogen werden soll, wählen Sie oben in der Liste der Elemente auf der Befehlsleiste " **Einschließen"** aus. Sie können auch die blaue Schaltfläche **"Einschließen"** im Bereich "Inhaltsüberprüfung" rechts neben der Liste der Elemente auswählen. Wenn Sie **"Einschließen"** auswählen, wird ein Flyoutbereich mit einer Option zum Hinzufügen von Notizen angezeigt. Wenn Sie fertig sind, wählen Sie **"Absenden** " aus, um den Überprüfungsstatus des Elements als **"Einschließen**" zu speichern.
 
-Wenn das Element nicht teil der Anforderung ist, wählen Sie " **Ausschließen** " auf der Befehlsleiste oder die Schaltfläche **"Ausschließen** " im Inhaltsprüfungsbereich aus. Das Ausschließen eines Elements bedeutet, dass es nicht in den [Abschlussberichten enthalten ist, die für die betroffene Person generiert werden](subject-rights-requests-reports.md).
+Wenn das Element nicht teil der Anforderung ist, können Sie " **Ausschließen** " auf der Befehlsleiste oder die Schaltfläche **"Ausschließen** " im Inhaltsprüfungsbereich auswählen. Das explizite Markieren eines Elements als **"Ausschließen"** ist häufig für interne Datensätze erforderlich.
+
+Standardmäßig werden nur Elemente, die Sie als **"Einschließen** " markieren, in die [Endgültigen Berichte einbezogen, die für die betroffene Person generiert werden](subject-rights-requests-reports.md).
 
 > [!NOTE]
 > Wenn Sie ein Element als **"Ausschließen**" markieren, müssen Sie eine Notiz als Begründung dafür hinzufügen, warum es sich nicht auf die Anforderung von Rechten betroffener Personen bezieht. Notizen dienen internen Zwecken und sind nicht in Abschlussberichten enthalten.
 
-Wenn der Inhalt als falsch positiv angezeigt wird, wählen Sie **"Keine Übereinstimmung** " aus, und wählen Sie im Flyoutbereich " **Bestätigen**" aus. Diese Aktion schließt die Datei aus Ihren Abschlussberichten aus und kennzeichnet das Element als etwas, das bei der Suche nicht erkannt werden sollte.
+Wenn der Inhalt für Ihre Suchabfrage als falsch positiv angezeigt wird, wählen Sie **"Keine Übereinstimmung** " aus, und wählen Sie im Flyoutbereich " **Bestätigen**" aus. Diese Aktion kennzeichnet das Element als etwas, das bei der Suche nicht erkannt worden sein sollte.
 
 #### <a name="apply-tags"></a>Apply tags
 
@@ -84,7 +112,7 @@ Wenn Sie weitere Mitarbeiter hinzufügen möchten, wählen **Sie "Mitarbeiter hi
 
 Um einen Teams Chat zu starten, kann jeder Mitarbeiter oben rechts auf der Detailseite der Anforderung **"Chat mit Mitarbeitern**" auswählen. Diese Aktion öffnet Teams und platziert Sie im Kanal **"Allgemein**" für die Teamwebsite Ihrer Anfrage zu Rechten betroffener Personen.
 
-Sie können das Standardverhalten beim Erstellen Teams Kanälen für Anfragen zu Rechten betroffener Personen ändern, indem Sie in der oberen rechten Ecke der Anfrage zu Rechten betroffener Personen zu **Priva Einstellungen** wechseln. Wählen Sie **Teams Zusammenarbeit** aus, und deaktivieren Sie dann das Kontrollkästchen auf der Seite, um Teams Funktionen für alle Rechte betroffener Personen zu deaktivieren.
+Sie können das Standardverhalten beim Erstellen Teams Kanälen für Anfragen zu Rechten betroffener Personen ändern, indem Sie in der oberen rechten Ecke der Anfrage zu Rechten betroffener Personen zu **Priva Einstellungen** wechseln. Wählen Sie **Teams Zusammenarbeit** aus, und deaktivieren Sie dann das Kontrollkästchen auf der Seite, um Teams Funktionen für alle Anfragen zu Rechten betroffener Personen zu deaktivieren.
 
 Der Befehl **"Freigeben"** oben rechts auf der Detailseite einer Anforderung erstellt einen freigabefähigen Link, der direkt zur Anforderung in Priva wechselt. Weisen Sie diesen Link Mitarbeitern zu, damit sie auf die Anforderung zugreifen können, der Sie sie hinzugefügt haben.
 
